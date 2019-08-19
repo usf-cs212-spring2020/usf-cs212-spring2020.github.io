@@ -1,0 +1,13 @@
+name: Software Development
+code: CS 212
+term: Fall 2019
+credits: 4
+
+github: "https://github.com/usf-cs212-spring2019"
+piazza: "https://piazza.com/usfca/fall2019/cs212/home"
+canvas: "https://usfca.instructure.com/courses/1586786"
+
+#stream: 
+
+blurb: |
+  This course gives students experience with advanced programming topics, including inheritance and polymorphism, multithreaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.

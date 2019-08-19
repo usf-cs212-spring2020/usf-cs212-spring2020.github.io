@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+
+<title>{{ site.title }}</title>
+
+<link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/all.min.css' | relative_url }}">
+</head>
+
+<!-- body -->
+<body>
+
+{% include header.html %}
+
+{% include navbar.html %}
+
+<section class="section">
+  <div class="container">
+
+    <h2 class="title is-2">{{ page.title }}</h2>
+
+    <!-- content -->
+    <div class="content">
+
+      {{ content }}
+
+    </div>
+    <!-- end content -->
+
+  </div>
+</section>
+
+{% include footer.html %}
+
+<!-- end -->
+</body>
+</html>

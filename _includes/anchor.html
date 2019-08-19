@@ -1,0 +1,5 @@
+<{{ include.level }} class="anchor {{ include.class }}" id="{{ include.text | slugify }}">
+  <a href="#{{ include.text | slugify }}"><i class="far fa-fw fa-hashtag"></i></a>
+
+  {% if include.icon %}<i class="{{ include.icon }}" style="margin-left: unset;"></i>&nbsp;{% endif %}{{ include.text }}
+</{{ include.level }}>
