@@ -104,6 +104,10 @@ strike,
   text-decoration: line-through;
 }
 
+iframe {
+  height: unset;
+}
+
 [class^="has-text-"] a {
   color: inherit;
   text-decoration: currentColor underline dotted;

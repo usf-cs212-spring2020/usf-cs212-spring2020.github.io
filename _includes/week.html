@@ -1,0 +1,54 @@
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="heading" id="week-{{ week.week }}{{ week.text | slugify }}">
+      <span class="has-text-weight-medium">
+        {%- if week.week %}
+        Week {% if week.week < 10 %}0{% endif %}{{ week.week }}
+        {%- else %}
+        {{ week.text }}
+        {%- endif %}
+      </span>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="columns">
+    {% for column in week.columns %}
+      <div class="column is-one-third {{ column.class }}">
+        <div class="heading">
+          <span class="has-text-weight-medium">
+            {{ column.start | date: "%a %m/%d"}} {{ column.label }}
+          </span>
+        </div>
+        <ul class="icons">
+          {%- for item in column.items %}
+          <li class="{{ item.type }} {% if item.bump %}bump{% endif %}">
+            {%- if item.icon %}
+              <i class="{{ item.icon.class }}"></i>
+            {%- else %}
+              <i class="far fa-question-square"></i>
+            {%- endif %}
+            {%- if item.date %}
+            {%- if item.date != column.start %}
+            <strong>{{ item.date | date: "%m/%d" }}:</strong>
+            {%- else %}
+            <Strong>Due:</strong>
+            {%- endif %}
+            {%- endif %}
+            {%- if item.link %}
+            <a href="{{ item.link }}">
+              {{ item.text }}
+            </a>
+            {%- else %}
+            {{ item.text }}
+            {% endif -%}
+          </li>
+          {% endfor -%}
+        </ul>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
