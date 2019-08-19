@@ -1,0 +1,44 @@
+title: "CS 212 Software Development"
+subtitle: "CS 212-01, CS 212-02 &bullet; Fall 2019"
+
+name: "Sophie Engle"
+timezone: "America/Los_Angeles"
+
+# https://help.github.com/en/articles/repository-metadata-on-github-pages
+repository: "usf-cs212-fall2019/usf-cs212-fall2019.github.io"
+github: [metadata]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+permalink: /guides/:title:output_ext
+
+collections:
+  general:
+    title: General Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  # eclipse:
+  #   title: Eclipse Guides
+  #   output: true
+  #   permalink: /guides/:collection/:name:output_ext
+  #
+  # sql:
+  #   title: SQL Guides
+  #   output: true
+  #   permalink: /guides/:collection/:name:output_ext
+  #
+  # homework:
+  #   title: Homework Guides
+  #   output: true
+  #   permalink: /guides/:collection/:name:output_ext
+  #
+  # projects:
+  #   title: Project Guides
+  #   output: true
+  #   permalink: /guides/:collection/:name:output_ext
