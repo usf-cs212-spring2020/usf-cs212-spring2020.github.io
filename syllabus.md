@@ -237,9 +237,9 @@ To ensure students are meeting the [learning outcomes](#{{ "Learning Outcomes" |
 
   - **Exam Pass Requirement:** Students must receive a C letter grade or higher on at least one exam (including retakes).
 
-  - **Project Pass Requirement 1:** Students must pass project 1 functionality, project 1 code review, and project 2 functionality by the project cutoff 1 deadline.
+  - **Project Pass Requirement 1:** Students must pass project 1 tests, project 1 code review, and project 2 tests by the project cutoff 1 deadline.
 
-  - **Project Pass Requirement 2:** Students must pass project 2 code review and project 3 functionality by the project cutoff 2 deadline.
+  - **Project Pass Requirement 2:** Students must pass project 2 code review and project 3 tests by the project cutoff 2 deadline.
 
 **Failure to meet 1 or more of the following requirements will result in an automatic F letter grade for this course, regardless of what your current letter grade is in Canvas.**
 {:.has-text-danger}

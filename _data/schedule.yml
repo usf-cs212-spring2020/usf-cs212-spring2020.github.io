@@ -1,0 +1,129 @@
+# icons with legend
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-atlas
+  code: &icon_code
+    label: Code
+    class: far fa-code
+  slides: &icon_slides
+    label: Slides
+    class: far fa-chalkboard-teacher
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  project: &icon_project
+    label: Project
+    class: far fa-project-diagram
+  homework: &icon_homework
+    label: Homework
+    class: far fa-file-code
+  participation: &icon_participation
+    label: Participation
+    class: far fa-user-friends
+  quiz: &icon_quiz
+    label: Quiz
+    class: far fa-edit
+  exam: &icon_exam
+    label: Exam
+    class: far fa-tasks
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons without legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  youtube: &icon_youtube
+    label: YouTube
+    class: fab fa-youtube
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+  evals: &icon_evals
+    label: Special
+    class: far fa-users-class
+
+# reusable assignments
+assignments:
+  - homework1: &homework1
+      text: TextFileStemmer
+      icon: *icon_homework
+      date: 2019-08-30
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871382
+
+  - homework2: &homework2
+      text: SimpleJSONWriter
+      icon: *icon_homework
+      date: 2019-09-06
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871385
+
+  - homework3: &homework3
+      text: ParameterParser
+      icon: *icon_homework
+      date: 2019-09-13
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871389
+
+  - homework4: &homework4
+      text: ParameterParser
+      icon: *icon_homework
+      date: 2019-09-20
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871390
+
+  - homework5: &homework5
+      text: TextFileFinder
+      icon: *icon_homework
+      date: 2019-09-27
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871396
+
+  - homework6: &homework6
+      text: LoggerSetup
+      icon: *icon_homework
+      date: 2019-10-11
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871398
+
+  - homework7: &homework7
+      text: ReadWriteLock
+      icon: *icon_homework
+      date: 2019-10-18
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871402
+
+  - homework8: &homework8
+      text: PrimeFinder
+      icon: *icon_homework
+      date: 2019-10-25
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871406
+
+  - homework9: &homework9
+      text: LinkParser
+      icon: *icon_homework
+      date: 2019-11-01
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871409
+
+  - homework10: &homework10
+      text: HTMLCleaner
+      icon: *icon_homework
+      date: 2019-11-08
+      link: https://usfca.instructure.com/courses/1586786/assignments/6871413
+
+  - project1: &project1
+      text: Project 1
+      icon: *icon_project
+      date: 2019-09-20
+
+  - project2: &project2
+      text: Project 2
+      icon: *icon_project
+      date: 2019-10-11
+
+  - project3: &project3
+      text: Project 3
+      icon: *icon_project
+      date: 2019-11-01
+
+  - project4: &project4
+      text: Project 4
+      icon: *icon_project
+      date: 2019-11-22
