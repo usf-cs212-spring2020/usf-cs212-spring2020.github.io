@@ -36,7 +36,7 @@ navbar: Syllabus
       <strong>Table of Contents</strong>
 
       <p>
-        <a href="#{{ "Basic Information" | slugify }}">Basic Information</a><br/>
+        <a href="#{{ "Course Details" | slugify }}">Basic Information</a><br/>
         <a href="#{{ "Course Requirements" | slugify }}">Course Requirements</a><br/>
         <a href="#{{ "Course Policies" | slugify }}">Course Policies</a><br/>
         <a href="#{{ "University Policies" | slugify }}">University Policies</a>
