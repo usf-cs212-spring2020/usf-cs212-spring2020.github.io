@@ -60,6 +60,16 @@ $weight-bold: 700;
 
 /* custom non-bulma styles */
 
+code,
+pre,
+tt,
+.code,
+.pre,
+.tt {
+  font-family: $family-monospace;
+  font-size: 0.9em;
+}
+
 .anchor a {
   color: inherit;
   text-decoration: inherit;
@@ -94,9 +104,11 @@ strike,
   text-decoration: line-through;
 }
 
-// [class^="has-text-"] a {
-//   color: inherit;
-// }
+[class^="has-text-"] a {
+  color: inherit;
+  text-decoration: currentColor underline dotted;
+}
+
 //
 // a:not(.button) {
 //   text-decoration: currentColor underline dotted;
