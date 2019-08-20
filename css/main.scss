@@ -105,13 +105,28 @@ strike,
   text-decoration: line-through;
 }
 
-iframe {
-  height: unset;
+pre.highlight {
+  margin-bottom: 1em;
+}
+
+li p {
+  margin-bottom: 1em;
 }
 
 [class^="has-text-"] a {
   color: inherit;
   text-decoration: currentColor underline dotted;
+}
+
+textarea.copy {
+  font-family: $family-monospace;
+  font-size: 0.9em;
+  font-weight: $weight-normal;
+
+  resize: none;
+  overflow: hidden;
+
+  margin-bottom: 1em;
 }
 
 //
@@ -122,7 +137,3 @@ iframe {
 // a:hover:not(.button) {
 //   text-decoration: currentColor underline solid;
 // }
-
-li p {
-  margin-bottom: 1em;
-}
