@@ -19,6 +19,30 @@ Visit the [{{ item.name }}]({{ item.link }}) for {{ item.info }}.
 
 Here is the upcoming course schedule, which includes links to lecture material, assigned quizzes and homework, and more:
 
+<style>
+ul.icons {
+  list-style-type: none;
+  margin-left: 1.5em;
+  margin-top: 0em;
+}
+
+ul.icons > li {
+  position: relative;
+}
+
+ul.icons > li > i {
+  width: 1.25em;
+  left: -1.5em;
+  position: absolute;
+  text-align: center;
+  line-height: inherit;
+}
+
+.content li.bump {
+  margin-top: 0.8rem;
+}
+</style>
+
 {%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
 {%- assign today = today_date | date: '%s'| abs -%}
 {%- assign beg_date = site.data.syllabus.beg_date | date: '%s' | abs -%}
