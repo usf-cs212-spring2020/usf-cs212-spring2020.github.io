@@ -44,5 +44,5 @@ pages:
 
   - name: 'Guides'
     icon: 'far fa-book'
-    link: '#'
+    link: '/guides/'
     info: 'helpful setup guides, project writeups, and exam reviews'
