@@ -25,11 +25,11 @@ collections:
     output: true
     permalink: /guides/:collection/:name:output_ext
 
-  # eclipse:
-  #   title: Eclipse Guides
-  #   output: true
-  #   permalink: /guides/:collection/:name:output_ext
-  #
+  eclipse:
+    title: Eclipse Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
   # sql:
   #   title: SQL Guides
   #   output: true

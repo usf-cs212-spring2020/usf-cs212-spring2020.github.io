@@ -1,0 +1,8 @@
+---
+title: Eclipse Guides
+navbar: Guides
+---
+
+{%- assign pages = site.collections | where: 'label', page.collection | first -%}
+{%- assign items = pages.docs | sort: 'key' -%}
+{%- include guide.html items = items %}
