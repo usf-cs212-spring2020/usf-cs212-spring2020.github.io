@@ -14,7 +14,7 @@
   <div class="column">
     <div class="columns">
     {% for column in week.columns %}
-      <div class="column is-one-third {{ column.class }}">
+      <div class="column is-one-third {{ column.class }}" style="display: flex; flex-direction: column;">
         <div class="heading">
           <span class="has-text-weight-medium">
             {{ column.start | date: "%a %m/%d"}} {{ column.label }}
@@ -22,6 +22,31 @@
         </div>
         <ul class="icons">
           {%- for item in column.items %}
+          <li class="{{ item.type }} {% if item.bump %}bump{% endif %}">
+            {%- if item.icon %}
+              <i class="{{ item.icon.class }}"></i>
+            {%- else %}
+              <i class="far fa-question-square"></i>
+            {%- endif %}
+            {%- if item.link %}
+            <a href="{{ item.link }}">
+              {{ item.text }}
+            </a>
+            {%- else %}
+            {{ item.text }}
+            {% endif -%}
+          </li>
+          {% endfor -%}
+        </ul>
+        {%- if column.dates %}
+        <div style="flex: 1;"></div>
+        <div class="heading">
+          <span class="has-text-weight-medium">
+            Dates and Deadlines
+          </span>
+        </div>
+        <ul class="icons">
+          {%- for item in column.dates %}
           <li class="{{ item.type }} {% if item.bump %}bump{% endif %}">
             {%- if item.icon %}
               <i class="{{ item.icon.class }}"></i>
@@ -45,6 +70,7 @@
           </li>
           {% endfor -%}
         </ul>
+        {% endif -%}
       </div>
     {% endfor %}
     </div>

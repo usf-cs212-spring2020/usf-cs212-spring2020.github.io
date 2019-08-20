@@ -48,6 +48,11 @@ icons_special:
 
 # reusable assignments
 assignments:
+  - mandatory: &mandatory
+      text: Attendance Mandatory
+      icon: *icon_warning
+      type: has-text-usf-terra
+
   - homework1: &homework1
       text: TextFileStemmer
       icon: *icon_homework
@@ -67,7 +72,7 @@ assignments:
       link: https://usfca.instructure.com/courses/1586786/assignments/6871389
 
   - homework4: &homework4
-      text: ParameterParser
+      text: WordIndex
       icon: *icon_homework
       date: 2019-09-20
       link: https://usfca.instructure.com/courses/1586786/assignments/6871390
@@ -135,25 +140,51 @@ weeks:
       start: 2019-08-20
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
+        - icon: *icon_slides
+          text: 'Introduction'
           type: 'has-text-grey'
+
+        - icon: *icon_website
+          text: 'Syllabus'
+          link: '/syllabus.html'
+
+        - icon: *icon_code
+          text: 'Project Euler'
+          type: 'has-text-grey'
+
+      dates:
+        - icon: *icon_quiz
+          text: 'Course Syllabus'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
+          date: 2019-08-20
 
     - label: 'Lecture'
       start: 2019-08-22
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'File IO'
+          type: 'has-text-grey'
+
+        - icon: *icon_pending
+          text: 'Exceptions'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-08-23
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *mandatory
+
+        - icon: *icon_website
+          text: 'Github Setup'
+
+        - <<: *homework1
+
+      dates:
+        - icon: *icon_date
+          text: 'Add Deadline'
+          date: 2019-08-26
 
 - week: 2
   columns:
@@ -162,24 +193,36 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Data Structures'
           type: 'has-text-grey'
+
+        - <<: *project1
+          text: Project 1 Inverted Index
+          type: has-text-usf-plum
+          bump: true
 
     - label: 'Lecture'
       start: 2019-08-29
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Iteration'
+          type: 'has-text-grey'
+
+        - icon: *icon_pending
+          text: 'Search'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-08-30
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *mandatory
+        - <<: *homework2
+        - <<: *project1
+
+      dates:
+        - <<: *homework1
 
 - week: 3
   columns:
@@ -188,7 +231,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Object Oriented Programming'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -196,16 +239,22 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Mutability'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-09-06
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *mandatory
+        - <<: *homework3
+        - <<: *project1
+
+      dates:
+        - <<: *homework2
+
+        - icon: *icon_date
+          text: 'Drop Deadline*'
 
 - week: 4
   columns:
@@ -214,7 +263,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Inheritance'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -222,16 +271,18 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Inheritance'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-09-13
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework4
+        - <<: *project1
+
+      dates:
+        - <<: *homework3
 
 - week: 5
   columns:
@@ -240,24 +291,36 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Lambda Functions'
           type: 'has-text-grey'
+
+        - <<: *project2
+          text: Project 2 Partial Search
+          type: has-text-usf-plum
+          bump: true
 
     - label: 'Lecture'
       start: 2019-09-19
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Streams'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-09-20
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework5
+        - <<: *project1
+        - <<: *project2
+
+      dates:
+        - <<: *homework4
+
+        - <<: *project1
+          text: Project 1 Tests
+          type: has-text-usf-plum
 
 - week: 6
   columns:
@@ -265,25 +328,27 @@ weeks:
       start: 2019-09-24
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - icon: *icon_exam
+          text: 'Exam 1'
+          type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Lecture'
       start: 2019-09-26
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - icon: *icon_exam
+          text: 'Exam 1 Retake'
+          type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Labs'
       start: 2019-09-27
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *project1
+          text: Project 1 (Late)
+        - <<: *project2
+      dates:
+        - <<: *homework5
 
 - week: 7
   columns:
@@ -292,7 +357,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Logging'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -300,16 +365,17 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Multithreading'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-10-04
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework6
+        - <<: *project1
+          text: Project 1 (Late)
+        - <<: *project2
 
 - week: 8
   columns:
@@ -318,24 +384,36 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Multithreading'
           type: 'has-text-grey'
+
+        - <<: *project3
+          text: Project 3 Multithreading
+          bump: true
+          type: has-text-usf-plum
 
     - label: 'Lecture'
       start: 2019-10-10
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Multithreading'
           type: 'has-text-grey'
+
 
     - label: 'Labs'
       start: 2019-10-11
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework7
+        - <<: *project2
+        - <<: *project3
+
+      dates:
+        - <<: *homework6
+        - <<: *project2
+          text: Project 2 Tests
+          type: has-text-usf-plum
 
 - week: 9
   columns:
@@ -343,8 +421,9 @@ weeks:
       start: 2019-10-15
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
+        - icon:
+            class: far fa-spa
+          text: 'Fall Break (No Class)'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -352,16 +431,21 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Multithreading'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-10-18
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework8
+        - <<: *project2
+          text: Project 2 (Late)
+        - <<: *project3
+
+      dates:
+        - <<: *homework7
+
 
 - week: 10
   columns:
@@ -370,7 +454,13 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Software Testing'
+          type: 'has-text-grey'
+
+      dates:
+        - icon:
+            class: far fa-plane-departure
+          text: 'Sophie @ IEEEVIS'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -378,16 +468,26 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Regular Expressions'
+          type: 'has-text-grey'
+
+      dates:
+        - icon:
+            class: far fa-plane-departure
+          text: 'Sophie @ IEEEVIS'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-10-25
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework9
+        - <<: *project2
+          text: Project 2 (Late)
+        - <<: *project3
+
+      dates:
+        - <<: *homework8
 
 - week: 11
   columns:
@@ -396,24 +496,44 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Sockets'
           type: 'has-text-grey'
+
+        - <<: *project4
+          text: 'Project 4 Web Crawler'
+          type: 'has-text-usf-plum'
 
     - label: 'Lecture'
       start: 2019-10-31
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Servlets'
           type: 'has-text-grey'
+
+      dates:
+        - icon: *icon_date
+          text: 'PROJECT CUTOFF 1'
+          link: '/syllabus.html#important-dates'
+          type: 'has-text-danger has-text-weight-bold'
+
 
     - label: 'Labs'
       start: 2019-11-01
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *homework10
+        - <<: *project3
+        - <<: *project4
+
+      dates:
+        - <<: *homework9
+        - <<: *project3
+          text: 'Project 3 Tests'
+          type: 'has-text-usf-plum'
+        - icon: *icon_date
+          text: 'Withdraw Deadline'
+          type: 'has-text-danger has-text-weight-bold'
 
 - week: 12
   columns:
@@ -422,7 +542,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Servlets'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -430,16 +550,19 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'Sessions'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-11-08
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *project3
+          text: 'Project 3 (Late)'
+        - <<: *project4
+
+      dates:
+        - <<: *homework10
 
 - week: 13
   columns:
@@ -448,7 +571,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'SQL'
           type: 'has-text-grey'
 
     - label: 'Lecture'
@@ -456,16 +579,16 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'SQL'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-11-15
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *project3
+          text: 'Project 3 (Late)'
+        - <<: *project4
 
 - week: 14
   columns:
@@ -473,25 +596,29 @@ weeks:
       start: 2019-11-19
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - icon: *icon_exam
+          text: 'Exam 2'
+          type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Lecture'
       start: 2019-11-21
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - icon: *icon_exam
+          text: 'Exam 2 Retake'
+          type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Labs'
       start: 2019-11-22
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
-          type: 'has-text-grey'
+        - <<: *project3
+          text: 'Project 3 (Late)'
+        - <<: *project4
+      dates:
+        - <<: *project4
+          text: 'Project 4 Tests'
+          type: 'has-text-usf-plum'
 
 - week: 15
   columns:
@@ -500,23 +627,25 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'JDBC'
           type: 'has-text-grey'
 
     - label: 'Lecture'
       start: 2019-11-28
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
+        - icon:
+            class: far fa-turkey
+          text: 'Thanksgiving Recess (No Class)'
           type: 'has-text-grey'
 
     - label: 'Labs'
       start: 2019-11-29
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
+        - icon:
+            class: far fa-turkey
+          text: 'Thanksgiving Recess (No Class)'
           type: 'has-text-grey'
 
 - week: 16
@@ -526,13 +655,24 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Pending'
+          text: 'JDBC'
           type: 'has-text-grey'
 
-    - label: 'Lecture'
-      start: 2019-12-05
+      dates:
+        - icon: *icon_date
+          text: 'PROJECT CUTOFF 2'
+          link: '/syllabus.html#important-dates'
+          type: 'has-text-danger has-text-weight-bold'
+          date: 2019-12-04
+
+        - icon: *icon_date
+          text: 'CS Night'
+          type: 'has-text-grey'
+          date: 2019-12-05
+
+    - label: 'FINALS WEEK'
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Pending'
+        - icon: *icon_project
+          text: 'Final Code Reviews'
           type: 'has-text-grey'
