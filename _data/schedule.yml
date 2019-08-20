@@ -142,7 +142,6 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Introduction'
-          type: 'has-text-grey'
 
         - icon: *icon_website
           text: 'Syllabus'
@@ -150,7 +149,7 @@ weeks:
 
         - icon: *icon_code
           text: 'Project Euler'
-          type: 'has-text-grey'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Project%20Euler'
 
       dates:
         - icon: *icon_quiz
