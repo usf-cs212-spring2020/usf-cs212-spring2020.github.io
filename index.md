@@ -51,9 +51,9 @@ ul.icons > li > i {
 {%- if today > beg_date -%}
   {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
   {%- for week in site.data.schedule.weeks limit:end_index -%}
-    {%- assign first_day = week.days | first -%}
-    {%- if first_day.date -%}
-      {%- assign as_seconds = first_day.date | date: '%s' | abs -%}
+    {%- assign first_day = week.columns | first -%}
+    {%- if first_day.start -%}
+      {%- assign as_seconds = first_day.start | date: '%s' | abs -%}
       {%- if as_seconds > today -%}
         {%- break -%}
       {%- endif -%}
