@@ -3,10 +3,6 @@ title: General Guides
 navbar: Guides
 ---
 
-Hello
-
-{% comment %}
-<!-- {%- assign pages = site.collections | where: 'label', page.collection | first -%} -->
-<!-- {%- assign items = pages.docs | sort: 'key' -%} -->
-<!-- {%- include guide.html items = items %} -->
-{% endcomment %}
+{%- assign pages = site.collections | where: 'label', page.collection | first -%}
+{%- assign items = pages.docs | sort: 'key' -%}
+{%- include guide.html items = items %}

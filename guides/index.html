@@ -1,0 +1,19 @@
+---
+title: Guides
+navbar: Guides
+layout: default
+---
+
+You can find all of the current course guides here. This is a growing list. These guides are also linked from the course schedule.
+
+{%- assign ordered = 'general' | split: ',' -%}
+{%- for name in ordered %}
+{%- assign collection = site.collections | where: 'label', name | first %}
+{%- assign items = collection.docs | sort: 'key' -%}
+
+<br/>
+
+<h3><a href="/guides/{{ collection.label }}/" class="has-text-primary">{{ collection.title }}</a></h3>
+
+{%- include guide.html items = items %}
+{% endfor -%}
