@@ -180,7 +180,7 @@ important_dates:
   # course deadlines
   - text: Exam 1
     icon: fas fa-tasks
-    date: 2019-09-04
+    date: 2019-09-24
     type: 'danger'
     info: |
       There will be an exam retake opportunity following the exam.
