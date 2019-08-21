@@ -155,7 +155,9 @@ weeks:
           text: 'CS 212-01 Lecture'
           link: 'https://usfca.zoom.us/recording/share/8XdBBqw55CndKpkmJAix-BTSmeZ4iiVSUvxFrRR6VLqwIumekTziMw'
           bump: true
-
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/ENvMeWdwTeB6D3aOBgT3pvTvts62Jx_7t17oNnKv1bSwIumekTziMw'
 
       dates:
         - icon: *icon_quiz
