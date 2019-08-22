@@ -151,6 +151,11 @@ weeks:
           text: 'Project Euler'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Project%20Euler'
 
+        - icon: *icon_quiz
+          text: 'Course Syllabus'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
+          bump: true
+
         - icon: *icon_video
           text: 'CS 212-01 Lecture'
           link: 'https://usfca.zoom.us/recording/share/8XdBBqw55CndKpkmJAix-BTSmeZ4iiVSUvxFrRR6VLqwIumekTziMw'
@@ -159,23 +164,23 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/ENvMeWdwTeB6D3aOBgT3pvTvts62Jx_7t17oNnKv1bSwIumekTziMw'
 
-      dates:
-        - icon: *icon_quiz
-          text: 'Course Syllabus'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
-          date: 2019-08-20
 
     - label: 'Lecture'
       start: 2019-08-22
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'File IO'
-          type: 'has-text-grey'
+        - icon: *icon_code
+          text: 'Files and Exceptions'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Files%20and%20Exceptions'
 
-        - icon: *icon_pending
+        - icon: *icon_slides
           text: 'Exceptions'
-          type: 'has-text-grey'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upUW5iVldFNFp4a0U'
+
+        - icon: *icon_website
+          text: 'Piazza Setup'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872089'
+          bump: true
 
     - label: 'Labs'
       start: 2019-08-23
@@ -186,12 +191,19 @@ weeks:
         - icon: *icon_website
           text: 'Github Setup'
 
-        - icon: *icon_website
-          text: 'Piazza Setup'
-
         - <<: *homework1
 
       dates:
+        - icon: *icon_quiz
+          text: 'Course Syllabus'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
+          date: 2019-08-23
+
+        - icon: *icon_website
+          text: 'Piazza Setup'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872089'
+          date: 2019-08-23
+
         - icon: *icon_date
           text: 'Add Deadline'
           date: 2019-08-26
