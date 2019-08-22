@@ -11,10 +11,12 @@
 
 <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/css/all.min.css' | relative_url }}">
+<script src="{{ 'js/clipboard.min.js' | relative_url }}"></script>
 </head>
 
 <!-- body -->
 <body>
+{% assign copy_counter = 0 %}
 
 {% include header.html %}
 
@@ -64,6 +66,10 @@
 </section>
 
 {% include footer.html %}
+
+<script>
+new ClipboardJS('.copy');
+</script>
 
 <!-- end -->
 </body>

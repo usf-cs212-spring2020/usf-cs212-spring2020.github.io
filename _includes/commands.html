@@ -1,0 +1,15 @@
+{% assign copy_counter = copy_counter | plus: 1 %}
+<div class="field has-addons commands">
+  <div class="control has-icons-left is-expanded">
+    <input class="input" type="text" id="copy-target-{{ copy_counter }}" value="{{ include.text | escape }}">
+
+    <span class="icon is-small is-left">
+      <i class="fas fa-dollar-sign"></i>
+    </span>
+  </div>
+  <div class="control">
+    <a class="button is-outlined copy" data-clipboard-target="#copy-target-{{ copy_counter }}" title="copy">
+      <i class="far fa-copy"></i>
+    </a>
+  </div>
+</div>

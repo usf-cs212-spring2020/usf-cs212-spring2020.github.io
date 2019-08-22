@@ -63,17 +63,11 @@ Once you complete this process, you should be able to clone, pull, and push your
 
 In a Terminal window on your system (Mac or Linux), change to the directory with your SSH keys. Make sure your public key is listed there. You *should* be able to use these commands:
 
-<textarea class="textarea copy" rows="2">
-cd ~/.ssh/
-ls
-</textarea>
-
+{% include commands.html text="cd ~/.ssh/; ls" %}
 
 Next, you need to let `stargate.cs.usfca.edu` know your public key is authorized. You do this by copying the contents of your public key to the `authorized_keys` file in the `.ssh` directory. You *should* be able to use these commands to do this in one step:
 
-<textarea class="textarea copy" rows="1">
-cat keyname.pub | ssh username@stargate.cs.usfca.edu "cat >> ~/.ssh/authorized_keys"
-</textarea>
+{% include commands.html text="cat keyname.pub | ssh username@stargate.cs.usfca.edu \"cat >> ~/.ssh/authorized_keys\"" %}
 
 Replace `username` with your CS username and `keyname` with the name of your public key before copy/paste. This is usually `id_rsa.pub` but the exact name depends on how you generated your keys.
 
@@ -87,10 +81,7 @@ To start, SSH in to `stargate.cs.usfca.edu` and then SSH into any CS lab compute
 
 On a CS lab computer, copy the contents of your `*.pub` key into the `authorized_keys` file on its own line. Since this is a copy between two local files, you *should* be able to use this command:
 
-<textarea class="textarea copy" rows="2">
-cd ~/.ssh/
-cat keyname.pub >> authorized_keys
-</textarea>
+{% include commands.html text="cd ~/.ssh/; cat keyname.pub >> authorized_keys" %}
 
 Replace `keyname` with the name of your public key before copy/paste.
 
