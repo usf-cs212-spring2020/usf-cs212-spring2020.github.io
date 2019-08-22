@@ -189,15 +189,22 @@ weeks:
         - <<: *mandatory
 
         - icon: *icon_website
-          text: 'Github Setup'
+          text: 'Setup Guides'
+          link: '/guides/'
 
         - <<: *homework1
 
       dates:
+        - icon: *icon_participation
+          text: 'Lab Requirements'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6876319'
+          date: 2019-08-23
+
         - icon: *icon_quiz
           text: 'Course Syllabus'
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
           date: 2019-08-23
+          bump: true
 
         - icon: *icon_website
           text: 'Piazza Setup'
@@ -207,6 +214,7 @@ weeks:
         - icon: *icon_date
           text: 'Add Deadline'
           date: 2019-08-26
+          bump: true
 
 - week: 2
   columns:
