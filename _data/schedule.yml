@@ -182,6 +182,14 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6872089'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/wfRL_KXYjH5xaba2dnrNsZJKsnjyJ1r7Gw7SrLkp9pmwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/h9HNfdQpQ2nPHt_6ArZOy-1Fm0AAE8bV7rUlmNo1BM2wIumekTziMw'
+
     - label: 'Labs'
       start: 2019-08-23
       class: ''
