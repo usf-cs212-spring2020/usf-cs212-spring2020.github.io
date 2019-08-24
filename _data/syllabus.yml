@@ -29,7 +29,7 @@ lectures:
 labs:
   - label: CS 212L-01 (CRN 42266)
     items:
-      - text: Pending
+      - text: Eve and Simon
         icon: fas fa-user
 
       - text: Fridays
@@ -44,7 +44,7 @@ labs:
 
   - label: CS 212L-02 (CRN 42293)
     items:
-      - text: Pending
+      - text: Simon and Eve
         icon: fas fa-user
 
       - text: Fridays
@@ -85,8 +85,8 @@ assistants:
       - text: Harney 411
         icon: far fa-map-marker-alt
 
-      - text: Pending
-        icon: far fa-clipboard
+      - text: Project Grading
+        icon: far fa-clipboard-list-check
 
   - label: Simon Lu
     image: /images/lu.jpg
@@ -97,8 +97,8 @@ assistants:
       - text: Harney 411
         icon: far fa-map-marker-alt
 
-      - text: Pending
-        icon: far fa-clipboard
+      - text: Homework Grading
+        icon: far fa-clipboard-list-check
 
   - label: Evelyn Matson
     image: /images/matson.jpeg
@@ -109,8 +109,8 @@ assistants:
       - text: Harney 411
         icon: far fa-map-marker-alt
 
-      - text: Pending
-        icon: far fa-clipboard
+      - text: Piazza Help
+        icon: far fa-clipboard-list-check
 
 important_dates:
   # start/end dates
