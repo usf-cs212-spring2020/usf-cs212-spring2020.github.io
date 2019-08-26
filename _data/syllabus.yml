@@ -94,7 +94,10 @@ assistants:
   - label: Simon Lu
     image: /images/lu.jpg
     items:
-      - text: Pending
+      - text: Monday, Friday 11:30am &ndash; 12:30pm
+        icon: far fa-calendar-alt
+
+      - text: Wednesday 3:00pm &ndash; 4:00pm
         icon: far fa-calendar-alt
 
       - text: Harney 411
