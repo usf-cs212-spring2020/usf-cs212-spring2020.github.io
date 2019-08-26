@@ -103,8 +103,11 @@ assistants:
   - label: Evelyn Matson
     image: /images/matson.jpeg
     items:
-      - text: Pending
+      - text: 'Wednesdays'
         icon: far fa-calendar-alt
+
+      - text: 11:45am &ndash; 12:45pm
+        icon: fas fa-clock
 
       - text: Harney 411
         icon: far fa-map-marker-alt
