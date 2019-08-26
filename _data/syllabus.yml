@@ -79,8 +79,11 @@ assistants:
   - label: Olivia Kumar
     image: /images/kumar.jpg
     items:
-      - text: Pending
+      - text: Monday, Wednesday, Friday
         icon: far fa-calendar-alt
+
+      - text: 10:30am &ndash; 11:30am
+        icon: fas fa-clock
 
       - text: Harney 411
         icon: far fa-map-marker-alt
@@ -103,7 +106,7 @@ assistants:
   - label: Evelyn Matson
     image: /images/matson.jpeg
     items:
-      - text: 'Wednesdays'
+      - text: 'Wednesday'
         icon: far fa-calendar-alt
 
       - text: 11:45am &ndash; 12:45pm
