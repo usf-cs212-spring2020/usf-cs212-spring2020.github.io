@@ -60,13 +60,13 @@ assignments:
       link: https://usfca.instructure.com/courses/1586786/assignments/6871382
 
   - homework2: &homework2
-      text: SimpleJSONWriter
+      text: SimpleJsonWriter
       icon: *icon_homework
       date: 2019-09-06
       link: https://usfca.instructure.com/courses/1586786/assignments/6871385
 
   - homework3: &homework3
-      text: ParameterParser
+      text: ArgumentParser
       icon: *icon_homework
       date: 2019-09-13
       link: https://usfca.instructure.com/courses/1586786/assignments/6871389
