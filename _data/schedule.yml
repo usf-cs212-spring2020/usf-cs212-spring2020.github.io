@@ -249,6 +249,13 @@ weeks:
           type: has-text-usf-plum
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/DjyYzVy0WMZ1o0Ywabi3dTLY3MPZWyHkEW_1gAXChs2wIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+
     - label: 'Lecture'
       start: 2019-08-29
       class: ''
