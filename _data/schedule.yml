@@ -231,9 +231,13 @@ weeks:
       start: 2019-08-27
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Data Structures'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Data Structures - Types'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+
+        - icon: *icon_slides
+          text: 'Data Structures - Framework'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
 
         - <<: *project1
           text: Project 1 Inverted Index
