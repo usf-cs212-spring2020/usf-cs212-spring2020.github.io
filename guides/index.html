@@ -8,7 +8,7 @@ You can find all of the current course guides here. This is a growing list. Thes
 
 <br/>
 
-{%- assign ordered = 'general,eclipse,homework' | split: ',' -%}
+{%- assign ordered = 'general,eclipse,homework,projects' | split: ',' -%}
 {%- for name in ordered %}
 {%- assign collection = site.collections | where: 'label', name | first %}
 {%- assign items = collection.docs | sort: 'key' -%}
