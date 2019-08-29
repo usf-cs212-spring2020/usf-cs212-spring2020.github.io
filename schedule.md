@@ -23,10 +23,6 @@ ul.icons > li > i {
   text-align: center;
   line-height: inherit;
 }
-
-.content li.bump {
-  margin-top: 0.8rem;
-}
 </style>
 
 <!-- quick navigation -->
