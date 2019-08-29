@@ -4,20 +4,24 @@ navbar: Guides
 layout: guides
 key: 0.4
 
+tags:
+  - text: 'Pending'
+    type: 'is-light'
+
 assignments:
   - text: Project 1 Code Review
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818760
+    link: https://usfca.instructure.com/courses/1586786/assignments/6871433
 
   - text: Project 2 Code Review
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818761
+    link: https://usfca.instructure.com/courses/1586786/assignments/6871437
 
   - text: Project 3 Code Review
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818762
+    link: https://usfca.instructure.com/courses/1586786/assignments/6871439
 
   - text: Final Code Review
 
 blurb: |
-  <p>Each project grade is split into two components: functionality and code review. This guide details the process for signing up for <em>code review</em> of your projects. See the other <a href="index.html">project guides</a> guides for other details.</p>
+  <p>Each project grade is split into two components: tests (functionality) and code review (design). This guide details the process for signing up for <em>code review</em> of your projects. See the other <a href="index.html">project guides</a> guides for other details.</p>
 ---
 
 We will use one-on-one code reviews with the instructor to evaluate your project design. We will be looking for the following when reviewing your code:
@@ -38,6 +42,9 @@ This list is not exhaustive, and exactly what we look for will vary by project.
 
 {% include anchor.html level="h2" text="Eligibility" %}
 
+Pending
+
+{% comment %}
 The code review process is required for each project. Only request code review if all of the following are true:
 
   1. Your latest project release is properly formatted and commented (every member and method must have Javadoc).
@@ -106,3 +113,4 @@ Otherwise, you may resubmit your project for code review as many times as it tak
     <i class="fas fa-info-circle"></i>&nbsp;You need to re-verify your project is passing the functionality tests before requesting a code review appointment!
   </div>
 </article></p>
+{% endcomment %}

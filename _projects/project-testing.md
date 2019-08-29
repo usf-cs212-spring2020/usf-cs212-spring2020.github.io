@@ -3,11 +3,15 @@ title: Project Testing
 navbar: Guides
 layout: guides
 key: 0.2
+
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
-You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests](https://github.com/usf-cs212-fall2018/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `Project#Test.java` files in the [src]({{ site.data.course.github }}/project-tests/tree/master/src) subdirectory. For example, the tests for [Project 1](project-1.html) are provided by the [Project1Test.java]({{ site.data.course.github }}/project-tests/blob/master/src/Project1Test.java) file.
+You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `Project#Test.java` files in the [src]({{ site.data.info.links.github.link }}/project-tests/tree/master/src) subdirectory. For example, the tests for [Project 1](project-1.html) are provided by the [Project1Test.java]({{ site.data.info.links.github.link }}/project-tests/blob/master/src/Project1Test.java) file.
 
-Your code must pass these tests (using the [remote testing](#testing-remotely) procedure below) both to earn credit for the functionality portion of the project grade, and before every subsequent code review required after that point. For example, you will earn a grade for [Project 1 Functionality](https://usfca.instructure.com/courses/1582958/assignments/6818588) for the first code release that passes the tests. However, to earn a grade for [Project 1 Code Review](https://usfca.instructure.com/courses/1582958/assignments/6818760), your code will need to pass the tests again before every code review until you pass the design requirements.
+Your code must pass these tests (using the [remote testing](#testing-remotely) procedure below) both to earn credit for the functionality portion of the project grade, and before every subsequent code review required after that point. For example, you will earn a grade for [Project 1 Tests](https://usfca.instructure.com/courses/1586786/assignments/6871432) for the first code release that passes the tests. However, to earn a grade for [Project 1 Code Review](https://usfca.instructure.com/courses/1586786/assignments/6871433), your code will need to pass the tests again before every code review until you pass the design requirements.
 
 Each project also includes **additional** tests on top of the previous tests. For example, the project 3 tests still require that your code passes the project 1 and project 2 tests.
 
@@ -15,23 +19,23 @@ The provided tests only examine the final output of your code---you are still re
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-exclamation-triangle"></i>&nbsp;You should place your test code in your own project repository, not the <a href="{{ site.data.course.github }}/project-tests">project-tests</a> repository. <strong>You do not have access to commit and push to the test repository!</strong>
+    <i class="fas fa-exclamation-triangle"></i>&nbsp;You should place your test code in your own project repository, not the <a href="{{ site.data.info.links.github.link }}/project-tests">project-tests</a> repository. <strong>You do not have access to commit and push to the test repository!</strong>
   </div>
 </article>
 
 {% include anchor.html level="h2" text="Run Configurations" %}
 
-It is possible to run `Driver.java` directly with your own command-line arguments using "[Run Configurations](http://help.eclipse.org/2018-12/topic/org.eclipse.jdt.doc.user/tasks/tasks-java-local-configuration.htm)" in Eclipse. This is useful for your own debugging, and testing out individual tests.
+It is possible to run `Driver.java` directly with your own command-line arguments using "[Run Configurations](http://help.eclipse.org/2019-06/topic/org.eclipse.jdt.doc.user/tasks/tasks-java-local-configuration.htm)" in Eclipse. This is useful for your own debugging, and testing out individual tests.
 
-The tricky part is getting the paths right, since the test files are not in the same project as your code. On a Mac or Linux system, assuming your project repository and the [project-tests]({{ site.data.course.github }}/project-tests) repository are in the same parent folder, you can add the following command-line arguments:
+The tricky part is getting the paths right, since the test files are not in the same project as your code. On a Mac or Linux system, assuming your project repository and the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository are in the same parent folder, you can add the following command-line arguments:
 
 ```
--path "../project-tests/text/simple/hello.txt" -index hello.json
+-path "../project-tests/Project Tests/text/simple/hello.txt" -index hello.json
 ```
 
 {% include screenshot.html image="project-eclipse-run-configuration.png" zoom="50%" %}
 
-The quotation marks are required if there is a space in the path, otherwise they can be omitted. This should generate a file `hello.json` in the Eclipse project for your project repository (not the [project-tests]({{ site.data.course.github }}/project-tests) repository). Right-click and select "Refresh" if you do not see the file at first.
+The quotation marks are required if there is a space in the path, otherwise they can be omitted. This should generate a file `hello.json` in the Eclipse project for your project repository (not the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository). Right-click and select "Refresh" if you do not see the file at first.
 
 On a Windows system, the path separators `/` should be `\` instead.
 
@@ -58,10 +62,10 @@ Message:
     Difference detected on line: 2.
 ```
 
-This gives the actual arguments passed to `Driver` by the test, the actual and expected files being compared, and where the first difference was detected. You can use the [Compare Editor](http://help.eclipse.org/2018-12/topic/org.eclipse.platform.doc.user/reference/ref-25.htm?cp=0_4_4_1_2) in Eclipse to compare the files side-by-side for debugging, or use the [Run Configurations](#run-configurations) in Eclipse to enter the same arguments manually. Just keep in mind the paths need to be updated slightly since your `Driver` class is in a different folder than the project test code. So, for the above example, the appropriate command-line arguments to enter into the `Driver` run configuration would be:
+This gives the actual arguments passed to `Driver` by the test, the actual and expected files being compared, and where the first difference was detected. You can use the [Compare Editor](http://help.eclipse.org/2019-06/topic/org.eclipse.platform.doc.user/reference/ref-25.htm?cp=0_4_4_1_2) in Eclipse to compare the files side-by-side for debugging, or use the [Run Configurations](#run-configurations) in Eclipse to enter the same arguments manually. Just keep in mind the paths need to be updated slightly since your `Driver` class is in a different folder than the project test code. So, for the above example, the appropriate command-line arguments to enter into the `Driver` run configuration would be:
 
 ```
--path ../project-tests/text/simple/hello.txt -index out/index-text-simple-hello.json
+-path "../project-tests/Project Tests/text/simple/hello.txt" -index out/index-text-simple-hello.json
 ```
 
 Then, the `index-text-simple-hello.json` will (hopefully) show up in the `out` subdirectory of your project repository.
@@ -82,9 +86,9 @@ This is a two part process: first you must create a release, and second you must
 
 2. You must choose a "tag" or the version number you are going to assign to your code at this stage. Out in the "real world" you will likely use [semantic versioning](https://semver.org/), which we will roughly mimic in class.
 
-    Specifically, you must name your release `v#.#.#` where the first `#` is the project number (1, 2, 3, or 4), the second `#` is the number of code reviews you've had, and the last `#` is the number of releases you have created since the last code review.
+    Specifically, you must name your release `v#.#.#` where the first `#` is the project number (1, 2, 3, or 4), the second `#` is the number of code reviews you've had for that project, and the last `#` is the number of releases you have created since the last code review for that project.
 
-    For example, your first release should be `v1.0.0` because it is for project 1, you have not had any code reviews yet, and you have not had any releases yet. If your code does not pass the tests remotely, then you have to fix your code and re-release your project as `v1.0.1` since you now have 1 prior release. After your first code review, the next release will be `v1.1.0`. The release `v2.3.4` means this release is for project 2, you have had 3 code reviews so far, and this is the 4th release since your last code review.
+    For example, your first release should be `v1.0.0` because it is for project 1, you have not had any code reviews yet, and you have not had any releases yet. If your code does not pass the tests remotely, then you have to fix your code and re-release your project as `v1.0.1` since you now have 1 prior release. After your first code review, the next release will be `v1.1.0`. The release `v2.3.4` means this release is for project 2, you have had 3 code reviews for project 2 so far, and this is the 4th release since your last code review of project 2.
 
     <p><article class="message is-info">
       <div class="message-body">
@@ -98,7 +102,7 @@ This is a two part process: first you must create a release, and second you must
 
     You will unselect this checkbox for the final release of the project that passes the design requirements in code review.
 
-4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases). You can see a [sample release](https://github.com/usf-cs212-spring2019/template-project/releases/tag/v1.0.0) on the template repository.
+4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases). You can see a [sample release](https://github.com/usf-cs212-fall2019/template-project/releases) on the template repository.
 
 5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers](/guides/general/using-cs-lab-computers.html) to test your project code remotely using the command:
 
@@ -106,7 +110,7 @@ This is a two part process: first you must create a release, and second you must
     /home/public/cs212/project GithubUsername v#.#.#
     ```
 
-    Replace `GithubUsername` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you are ready for project verification and code review! If not, you can view a detailed report of what went wrong in your home directory.
+    Replace `GithubUsername` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you will get functionality credit for your project. If not, re-run the test using the `-debug` flag to save the exception output and ask for help on Piazza.
 
     For example, running the command `project sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite.
 
@@ -118,7 +122,7 @@ If everything passes and you want credit for passing the functionality, follow t
 <p>This video walkthrough will illustrate this entire process on a Mac OSX system.</p>
 
 <div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/n3159AmZV2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n3159AmZV2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="height: 315px;"></iframe>
   <br/>
   <small><a href="https://youtu.be/n3159AmZV2M"><i class="fab fa-youtube"></i> https://youtu.be/n3159AmZV2M</a></small>
 </div>
