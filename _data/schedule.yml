@@ -255,6 +255,7 @@ weeks:
           bump: true
         - icon: *icon_video
           text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/nyk3N5RrjqPj-sjJPRommfJajD3H_LFKh80urIvIJ1qwIumekTziMw'
 
     - label: 'Lecture'
       start: 2019-08-29
