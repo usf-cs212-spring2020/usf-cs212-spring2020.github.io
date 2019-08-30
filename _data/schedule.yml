@@ -274,6 +274,14 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341139'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/Q09HAlfEeMYtr1feP3AaWHeAfngZHXaWspW2GXdLjHewIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
+
     - label: 'Labs'
       start: 2019-08-30
       class: ''
@@ -283,6 +291,11 @@ weeks:
         - <<: *project1
 
       dates:
+        - icon: *icon_participation
+          text: 'Lab Requirements'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6879476'
+          date: 2019-08-30
+
         - <<: *homework1
 
 - week: 3
