@@ -68,12 +68,13 @@ Several issue templates have already been provided for you. Select the "Verifica
 
   9. Verify you have followed all of the necessary steps in the "Verification" section. To check a box, change the text `[ ]` to `[x]` instead or click the checkbox after saving the issue. Do not create the issue unless you are able to check all of these boxes.
 
-
-There is an [example project verification issue](https://github.com/usf-cs212-fall2019/template-project/issues/2) in the project template repository:
+~~There is an [example project verification issue](https://github.com/usf-cs212-fall2019/template-project/issues/2) in the project template repository:~~ **SCREENSHOT PENDING UPDATE**
 
 {% include screenshot.html image="project-verification-issue.png" zoom="50%" %}
 
 If you make a mistake, please edit the issue. Do **not** delete the issue or close the issue and create a new one.
+
+All of these steps have a reason; I track the number of issues related to verification and review for each project. I use these statistics to set the schedule each semester, and to track your individual progress.
 
 {% include anchor.html level="h2" text="Functionality Grading" %}
 

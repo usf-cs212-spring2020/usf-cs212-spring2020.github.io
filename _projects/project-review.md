@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 0.4
 
-tags:
-  - text: 'Pending'
-    type: 'is-light'
-
 assignments:
   - text: Project 1 Code Review
     link: https://usfca.instructure.com/courses/1586786/assignments/6871433
@@ -27,6 +23,7 @@ blurb: |
 We will use one-on-one code reviews with the instructor to evaluate your project design. We will be looking for the following when reviewing your code:
 
   - Your code should follow proper code style and naming conventions.
+  - Your code should have no warnings.
   - Your code should be well-documented using Javadoc notation.
   - Your code should be object-oriented.
   - Your code should be encapsulated, generalized, and reusable.
@@ -42,14 +39,19 @@ This list is not exhaustive, and exactly what we look for will vary by project.
 
 {% include anchor.html level="h2" text="Eligibility" %}
 
-Pending
-
-{% comment %}
 The code review process is required for each project. Only request code review if all of the following are true:
 
-  1. Your latest project release is properly formatted and commented (every member and method must have Javadoc).
+  1. Your latest project release is properly formatted and commented (every member and method must have Javadoc) and has no warnings.
 
-  1. Your latest project release has already been [verified](project-verification.html) on Github. Do **not** request code review until you have completed this step.
+  1. Your latest project release passes the **`review`** script on the lab computers. Unlike the `project` script, this script fails if you have warnings or missing Javadoc comments. You must pass the `review` script to be eligible for code review. The usage is the same:
+
+      ```
+      /home/public/cs212/review GITHUB_USER v#.#.#
+      ```
+
+      Replace `GITHUB_USER` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed.
+
+      For example, running the command `review sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, verify there are no warnings or Javadoc issues, and run the `Project1Test.java` test suite.
 
   1. You have already passed the code review for the previous projects. For example, you may not request code review for project 3 until completing code review for project 2 and may not request verification for project 2 until completing code review for project 1.
 
@@ -61,32 +63,29 @@ If all of the above is true, follow the steps below to request project code revi
 
 To request a code review appointment, [create an issue](https://help.github.com/articles/creating-an-issue/) on your Github project repository. See the [Issues](https://guides.github.com/features/issues/) guide on Github for details.
 
-Several issue templates have already been provided for you. Select the "Project Review Request" template to get started.
+Several issue templates have already been provided for you. Select the "Review Request" template to get started.
 
-  1. Change the issue title to "Project `[RELEASE]` Review Request" where `[RELEASE]` is the release you want verified. For example, name the issue "Project v1.0.0 Review Request" to request a code review for release v1.0.0 of Project 1.
+  1. Change the issue title to "Review Request: Project `v#`" where `v#` is the release you want reviewed. For example, name the issue "Review Request: Project v1.0.0" to request a code review for release v1.0.0 of Project 1.
 
-  1. Replace `[FULLNAME]` in the issue body with your full name. For example, "Sophie Engle".
+  1. Replace `FULL_NAME` in the issue body with your full name. For example, "Sophie Engle". *This should happen automatically if you modified your issue templates.*
 
-  1. Replace `[RELEASE]` in the issue body with the release. For example, "v1.0.0".
+  1. Replace `GITHUB_USER` in the issue body with your Github username. For example, "sjengle". *This should happen automatically if you modified your issue templates.*
 
-  1. Link to the **verification issue** for the release. See the [Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/#issues-and-pull-requests) guide for details on how to link to an issue on Github.
+  1. Replace `RELEASE` in the issue body with the previous release you created. (This helps us make sure you are numbering the releases correctly.) For example, "v1.0.0" or "N/A" if this is your first release.
 
-  1. Link to the **pull request** for your previous code review, or enter "N/A" if this is your first code review.
-
-  1. Indicate the review type. If this is the first code review for this project, request a 30 minute appointment. For following code reviews, request a 15 minute appointment. To do this, change the `[ ]` text to `[x]` instead next to the correct appointment type.
+  1. Link to the **pull request** for your previous code review, or enter "N/A" if this is your first code review. See the [Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/#issues-and-pull-requests) guide for details on how to link to a pull request on Github.
 
   1. Assign the issue to our TA Olivia (`oliviakumar`). *This should happen automatically if you are using the correct issue template.*
 
   1. Label the issue with the `review` label. *This should happen automatically if you are using the correct issue template.*
 
-  7. Label the issue with the appropriate project label. For example, add the "project 1" label for project 1 code review.
+  1. Label the issue with the appropriate project label. For example, add the "project1" label for Project 1 code review.
 
-  8. Add the issue to the appropriate project milestone. The milestones should be either "Project 1", "Project 2", "Project 3", and "Project 4". You will have to [create the milestone](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/) if this is your first issue for the project.
+  1. Add the issue to the appropriate project milestone. The milestones should be either "project1", "project2", "project3", and "project4". You will have to [create the milestone](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/) if this is your first issue for the project.
 
-  9. Verify you have followed all of the necessary steps in the "Verification" section. To check a box, change the text `[ ]` to `[x]` instead. Do not create the issue unless you are able to check all of these boxes.
+  1. Verify you have followed all of the necessary steps in the "Verification" section. To check a box, change the text `[ ]` to `[x]` instead or click the checkbox after saving the issue. Do not create the issue unless you are able to check all of these boxes.
 
-
-There is an [example project code review request](https://github.com/usf-cs212-spring2019/template-project/issues/2) in the project template repository. If you make a mistake, please edit the issue. Do **not** delete the issue or close the issue and create a new one.
+There is an [example project code review request](https://github.com/usf-cs212-fall2019/template-project/issues/5) in the project template repository. If you make a mistake, please edit the issue. Do **not** delete the issue or close the issue and create a new one.
 
 {% include anchor.html level="h2" text="Code Review Grading" %}
 
@@ -110,7 +109,6 @@ Otherwise, you may resubmit your project for code review as many times as it tak
 
 <p><article class="message is-info">
   <div class="message-body">
-    <i class="fas fa-info-circle"></i>&nbsp;You need to re-verify your project is passing the functionality tests before requesting a code review appointment!
+    <i class="fas fa-info-circle"></i>&nbsp;You need to re-verify your project is passing the functionality tests before requesting a new code review appointment!
   </div>
 </article></p>
-{% endcomment %}

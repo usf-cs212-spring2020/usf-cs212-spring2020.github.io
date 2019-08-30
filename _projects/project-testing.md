@@ -30,7 +30,7 @@ It is possible to run `Driver.java` directly with your own command-line argument
 The tricky part is getting the paths right, since the test files are not in the same project as your code. On a Mac or Linux system, assuming your project repository and the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository are in the same parent folder, you can add the following command-line arguments:
 
 ```
--path "../project-tests/Project Tests/text/simple/hello.txt" -index hello.json
+-path "../../project-tests/Project Tests/text/simple/hello.txt" -index hello.json
 ```
 
 {% include screenshot.html image="project-eclipse-run-configuration.png" zoom="50%" %}
@@ -65,7 +65,7 @@ Message:
 This gives the actual arguments passed to `Driver` by the test, the actual and expected files being compared, and where the first difference was detected. You can use the [Compare Editor](http://help.eclipse.org/2019-06/topic/org.eclipse.platform.doc.user/reference/ref-25.htm?cp=0_4_4_1_2) in Eclipse to compare the files side-by-side for debugging, or use the [Run Configurations](#run-configurations) in Eclipse to enter the same arguments manually. Just keep in mind the paths need to be updated slightly since your `Driver` class is in a different folder than the project test code. So, for the above example, the appropriate command-line arguments to enter into the `Driver` run configuration would be:
 
 ```
--path "../project-tests/Project Tests/text/simple/hello.txt" -index out/index-text-simple-hello.json
+-path "../../project-tests/Project Tests/text/simple/hello.txt" -index out/index-text-simple-hello.json
 ```
 
 Then, the `index-text-simple-hello.json` will (hopefully) show up in the `out` subdirectory of your project repository.
@@ -107,10 +107,10 @@ This is a two part process: first you must create a release, and second you must
 5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers](/guides/general/using-cs-lab-computers.html) to test your project code remotely using the command:
 
     ```
-    /home/public/cs212/project GithubUsername v#.#.#
+    /home/public/cs212/project GITHUB_USER v#.#.#
     ```
 
-    Replace `GithubUsername` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you will get functionality credit for your project. If not, re-run the test using the `-debug` flag to save the exception output and ask for help on Piazza.
+    Replace `GITHUB_USER` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you will get functionality credit for your project. If not, re-run the test using the `-debug` flag to save the exception output and ask for help on Piazza.
 
     For example, running the command `project sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite.
 
