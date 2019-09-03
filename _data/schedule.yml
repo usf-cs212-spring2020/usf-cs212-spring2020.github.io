@@ -316,6 +316,26 @@ weeks:
           text: 'Mutability'
           type: 'has-text-grey'
 
+        - icon: *icon_quiz
+          text: 'OOP: Instances'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Members'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Mutability 1'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Mutability 2'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
+          date: 2019-09-12
+
       dates:
         - icon: *icon_quiz
           text: 'Data Structures'
@@ -353,6 +373,27 @@ weeks:
         - icon: *icon_pending
           text: 'Inheritance'
           type: 'has-text-grey'
+
+      dates:
+        - icon: *icon_quiz
+          text: 'OOP: Instances'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Members'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Mutability 1'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
+          date: 2019-09-12
+
+        - icon: *icon_quiz
+          text: 'OOP: Mutability 2'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
+          date: 2019-09-12
 
     - label: 'Labs'
       start: 2019-09-13
