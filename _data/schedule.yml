@@ -304,22 +304,27 @@ weeks:
       start: 2019-09-03
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_slides
+          text: 'OOP Terminology'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+
+        - icon: *icon_code
           text: 'Object Oriented Programming'
-          type: 'has-text-grey'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
 
     - label: 'Lecture'
       start: 2019-09-05
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Mutability'
-          type: 'has-text-grey'
+        - icon: *icon_code
+          text: 'Object Oriented Programming'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
 
         - icon: *icon_quiz
           text: 'OOP: Instances'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
           date: 2019-09-12
+          bump: true
 
         - icon: *icon_quiz
           text: 'OOP: Members'
