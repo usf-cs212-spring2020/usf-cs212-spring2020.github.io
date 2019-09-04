@@ -312,6 +312,14 @@ weeks:
           text: 'Object Oriented Programming'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/8Pg9gRf3bqNqSF6mW90QEdwCQg4vWh_8aLja7KemHnCwIumekTziMw?startTime=1567539916000'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/M5mQ-yztAY7DU_BF9Gw7OcHnrHCPEPeqVECs9zanLWKwIumekTziMw?startTime=1567553654000'
+
     - label: 'Lecture'
       start: 2019-09-05
       class: ''
