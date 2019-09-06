@@ -349,6 +349,14 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
           date: 2019-09-12
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/E7Bvh2EcdIqVRz81pS8pqqEFBeJT1at6EXe9uLwfx9ywIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/j5LdOUaS8vwCCglZj_DTbbkoVesLwsDaXaT9LPB67V8'
+
       dates:
         - icon: *icon_quiz
           text: 'Data Structures'
