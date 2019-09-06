@@ -3,11 +3,6 @@ title: Project Setup
 navbar: Guides
 layout: guides
 key: 0.1
-
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 ---
 
 Below is a quick summary of the one-time setup needed for the project:

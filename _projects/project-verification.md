@@ -5,8 +5,8 @@ layout: guides
 key: 0.3
 
 tags:
-  - text: 'Pending'
-    type: 'is-light'
+  - text: 'New'
+    type: 'is-primary'
 
 assignments:
   - text: Project 1 Tests
