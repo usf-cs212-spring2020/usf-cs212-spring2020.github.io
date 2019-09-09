@@ -407,6 +407,11 @@ weeks:
           text: 'Casting'
           link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
 
+        - icon: *icon_code
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Inheritance'
+          bump: true
+          text: 'Inheritance'
+
         - icon: *icon_quiz
           text: 'Quiz: Final Keyword'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341175'
@@ -427,6 +432,11 @@ weeks:
         - icon: *icon_slides
           text: 'Generics'
           link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+
+        - icon: *icon_code
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Inheritance'
+          bump: true
+          text: 'Inheritance'
 
         - icon: *icon_quiz
           text: 'Quiz: Inheritance Terminology'
