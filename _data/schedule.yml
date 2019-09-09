@@ -359,7 +359,7 @@ weeks:
 
       dates:
         - icon: *icon_quiz
-          text: 'Quiz: Data Structures'
+          text: 'Data Structures'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341139'
           date: 2019-09-05
 
@@ -439,22 +439,22 @@ weeks:
 
       dates:
         - icon: *icon_quiz
-          text: 'Quiz: Instances'
+          text: 'Instances'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
           date: 2019-09-12
 
         - icon: *icon_quiz
-          text: 'Quiz: Members'
+          text: 'Members'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
           date: 2019-09-12
 
         - icon: *icon_quiz
-          text: 'Quiz: Mutability 1'
+          text: 'Mutability 1'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
           date: 2019-09-12
 
         - icon: *icon_quiz
-          text: 'Quiz: Mutability 2'
+          text: 'Mutability 2'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
           date: 2019-09-12
 
@@ -485,12 +485,12 @@ weeks:
 
       dates:
         - icon: *icon_quiz
-          text: 'Quiz: Final Keyword'
+          text: 'Final Keyword'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341175'
           date: 2019-09-17
 
         - icon: *icon_quiz
-          text: 'Quiz: Collections Revisited'
+          text: 'Collections Revisited'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
           date: 2019-09-17
 
@@ -504,12 +504,12 @@ weeks:
 
       dates:
         - icon: *icon_quiz
-          text: 'Quiz: Inheritance Terminology'
+          text: 'Inheritance Terminology'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341138'
           date: 2019-09-19
 
         - icon: *icon_quiz
-          text: 'Quiz: Casting'
+          text: 'Casting'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341129'
           date: 2019-09-19
 
