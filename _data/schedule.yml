@@ -383,17 +383,41 @@ weeks:
       start: 2019-09-10
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_slides
           text: 'Inheritance'
-          type: 'has-text-grey'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+
+        - icon: *icon_slides
+          text: 'Abstract and Interface'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+
+        - icon: *icon_slides
+          text: 'Object Class'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+
+        - icon: *icon_slides
+          text: 'Final Keyword'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+
+        - icon: *icon_slides
+          text: 'Collections Revisited'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+
+        - icon: *icon_slides
+          text: 'Casting'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
 
     - label: 'Lecture'
       start: 2019-09-12
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Inheritance'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Nested Classes'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
+
+        - icon: *icon_slides
+          text: 'Generics'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
 
       dates:
         - icon: *icon_quiz
