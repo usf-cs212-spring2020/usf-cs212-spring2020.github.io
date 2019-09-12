@@ -421,6 +421,14 @@ weeks:
           text: 'Quiz: Collections Revisited'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/fJS-HkSdYLF6Y_rSFdR03nvYyRW8IpxNuzkNFK_7QJ-wIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/KXhBzynylQ1gGxERHrHitn-xzV3XUlELnyuVbhQ0cmqwIumekTziMw'
+
     - label: 'Lecture'
       start: 2019-09-12
       class: ''
