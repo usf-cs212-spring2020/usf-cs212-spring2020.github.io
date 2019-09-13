@@ -455,6 +455,14 @@ weeks:
           text: 'Quiz: Casting'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341129'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/1szgSDWZfxNzjO3Ov6Nun5PLHgfFJNZre6_FgmxPqwewIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/i74YNn9EIbbdyYD-ZBMzKSHHxkaOrnXtJf9axhKNE2mwIumekTziMw'
+
       dates:
         - icon: *icon_quiz
           text: 'Instances'
