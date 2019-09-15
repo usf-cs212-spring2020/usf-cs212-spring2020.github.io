@@ -500,9 +500,18 @@ weeks:
       start: 2019-09-17
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Lambda Functions'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Java Features'
+          link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+
+        - icon: *icon_slides
+          text: 'Lambda Expressions'
+          link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+
+        - icon: *icon_quiz
+          text: 'Quiz: Java Features'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
+          bump: true
 
         - <<: *project2
           text: Project 2 Partial Search
@@ -550,9 +559,16 @@ weeks:
       dates:
         - <<: *homework4
 
+        - icon: *icon_quiz
+          text: 'Quiz: Java Features'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
+          date: 2019-09-20
+          bump: true
+
         - <<: *project1
           text: Project 1 Tests
           type: has-text-usf-plum
+          bump: true
 
 - week: 6
   columns:
