@@ -508,6 +508,10 @@ weeks:
           text: 'Lambda Expressions'
           link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
 
+        - icon: *icon_code
+          text: 'Lambda Expressions'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Lambda%20Expressions'
+
         - icon: *icon_quiz
           text: 'Quiz: Java Features'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
