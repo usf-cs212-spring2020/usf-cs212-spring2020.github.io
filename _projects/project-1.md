@@ -169,23 +169,23 @@ The locations and their word count should be output as a JSON object with the pa
 The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments. Consider the following example:
 
 ```
-java Driver -path ../project-tests/text/simple/hello.txt
-            -index index-simple-hello.json
+java Driver -path "../../project-tests/Project Tests/text/simple/hello.txt"
+            -index index-text-simple-hello.json
 ```
 
-The above arguments indicate that `Driver` should build an inverted index from the single `hello.txt` file in the `text/simple` subdirectory of the current working directory's *parent* directory `project-tests`, and output the inverted index as JSON to the `index-simple-hello.json` file in the current working directory.
+The above arguments indicate that `Driver` should build an inverted index from the single `hello.txt` file in the `text/simple` subdirectory of the Project Test's directory, and output the inverted index as JSON to the `index-simple-hello.json` file in the current working directory.
 
 ```
-java Driver -path ../project-tests/text/simple -index
+java Driver -path "../../project-tests/Project Tests/text/simple/" -index
 ```
 
-The above arguments indicate that `Driver` should build an inverted index from all of the text files found in the `text/simple` subdirectory of the current working directory's *parent* directory, and output the inverted index as JSON to the default path `index.json` in the current working directory.
+The above arguments indicate that `Driver` should build an inverted index from all of the text files found in the `text/simple` subdirectory of the Project Test's directory, and output the inverted index as JSON to the default path `index.json` in the current working directory.
 
 ```
-java Driver -path ../project-tests/text/simple
+java Driver -path "../../project-tests/Project Tests/text/simple/"
 ```
 
-The above arguments indicate that `Driver` should build an inverted index from all of the HTML files found in the `text/simple` subdirectory of the current working directory's *parent* directory, but it should **NOT** produce an output file. It must still build the inverted index however! (This will be useful in the future when we add the ability to search.)
+The above arguments indicate that `Driver` should build an inverted index from all of the HTML files found in the `text/simple` subdirectory of the Project Test's directory, but it should **NOT** produce an output file. It must still build the inverted index however! (This will be useful in the future when we add the ability to search.)
 
 {% include anchor.html level="h2" text="Hints" %}
 
