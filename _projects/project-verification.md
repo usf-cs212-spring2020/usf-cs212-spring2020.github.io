@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 0.3
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 assignments:
   - text: Project 1 Tests
     link: https://usfca.instructure.com/courses/1582958/assignments/6818588

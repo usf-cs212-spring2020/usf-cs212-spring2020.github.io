@@ -3,10 +3,6 @@ title: Project Testing
 navbar: Guides
 layout: guides
 key: 0.2
-
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `Project#Test.java` files in the [src]({{ site.data.info.links.github.link }}/project-tests/tree/master/src) subdirectory. For example, the tests for [Project 1](project-1.html) are provided by the [Project1Test.java]({{ site.data.info.links.github.link }}/project-tests/blob/master/src/Project1Test.java) file.

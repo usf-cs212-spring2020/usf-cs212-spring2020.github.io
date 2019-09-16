@@ -123,6 +123,7 @@ assignments:
       text: Project 2
       icon: *icon_project
       date: 2019-10-11
+      link: '/guides/projects/project-2.html'
 
   - project3: &project3
       text: Project 3

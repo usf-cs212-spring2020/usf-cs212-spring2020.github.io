@@ -4,6 +4,10 @@ navbar: Guides
 layout: guides
 key: 1.2
 
+tags:
+  - text: 'New'
+    type: 'is-primary'
+
 assignments:
   - text: 'Project 2 Functionality'
     link: https://usfca.instructure.com/courses/1582958/assignments/6818757
@@ -85,12 +89,11 @@ Then, when sorting the search results, compare the results as follows:
 
   2. **Count:** If two search results have the same score, then compare by the raw count so results with higher count appear first (i.e. sort in descending order by total matches) instead.
 
-  3. **Location:** If two search results have the same score and count, then compare by the location instead (i.e. sort alphabetically by path).
+  3. **Location:** If two search results have the same score and count, then compare by the location (case-insensitive) instead (i.e. sort alphabetically ignoring case by path).
 
-You can use [Double.compare(...)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Double.html#compare(double,double)), [Integer.compare(...)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Integer.html#compare(int,int)), and [String.compareTo(...)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)) for these comparisons and the built-in sort methods in Java.
+You can use [Double.compare(...)](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/Double.html#compare(double,double)), [Integer.compare(...)](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/Integer.html#compare(int,int)), and [String.compareToIgnoreCase(...)](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/String.html#compareToIgnoreCase(java.lang.String)) for these comparisons and the built-in sort methods in Java.
 
-See the [partial search results](https://github.com/usf-cs212-spring2019/project-tests/blob/master/expected/results-partial/results-partial-simple.json) for [`ant perf`](https://github.com/usf-cs212-spring2019/project-tests/blob/master/expected/results-partial/results-partial-simple.json#L2-L13) for an example of results sorted by score, the results for [`lori`](https://github.com/usf-cs212-spring2019/project-tests/blob/master/expected/results-partial/results-partial-simple.json#L42-L58) for an example of results with the same score and thus sorted by count, and finally the results for [`capybara hidden`](https://github.com/usf-cs212-spring2019/project-tests/blob/master/expected/results-partial/results-partial-simple.json#L14-L25) for an example of results with the same score and same count and thus sorted alphabetically by location.
-
+See the [partial search results](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json) for [`ant perf`](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L2-L13) for an example of results sorted by score, the results for [`lori`](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L42-L58) for an example of results with the same score and thus sorted by count, and finally the results for [`capybara hidden`](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L14-L25) for an example of results with the same score and same count and thus sorted alphabetically by location.
 
 {% include anchor.html level="h2" text="Input" %}
 
@@ -112,7 +115,7 @@ The output of your inverted index and locations should be the same from the [pre
 
 The search results should be output as a JSON array of JSON objects, where each object represents a single line from the original query file (e.g. one search). The query objects should have two keys, `queries` and `results` such that:
 
-  - The key `queries` should have a quoted text value that is the parsed and sorted query words [joined together](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#join(java.lang.CharSequence,java.lang.Iterable)) by a space. For example, if the parsed query words are `[capybara, hidden, observ]` then the text output should be `"capybara hidden observ"`.
+  - The key `queries` should have a quoted text value that is the parsed and sorted query words [joined together](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/String.html#join(java.lang.CharSequence,java.lang.Iterable)) by a space. For example, if the parsed query words are `[capybara, hidden, observ]` then the text output should be `"capybara hidden observ"`.
 
   - The key `results` should be an array of nested JSON objects, one per search result. Each individual search result should have, in order, these keys:
 
@@ -137,29 +140,29 @@ System.out.println(formatted);
 The use of tabs, newline characters, and spaces are the same as before for "pretty" JSON output. Here is an example output *snippet* of a single search query with a single search result:
 
 ```javascript
-	"observ perfor": [
-		{
-			"where": "text/simple/words.tExT",
-			"count": 13,
-			"score": 0.54166667
-		}
-	],
+  "observ perfor": [
+    {
+      "where": "text/simple/words.tExT",
+      "count": 13,
+      "score": 0.54166667
+    }
+  ],
 ```
 
-You can also find this output in the [`expected/results-exact/results-exact-simple-words.json`](https://github.com/usf-cs212-spring2019/project-tests/blob/master/expected/results-exact/results-exact-simple-words.json#L6-L12) file in the `project-tests` repository. See the other expected output files for more examples.
+You can also find this output in the [`expected/search-exact/search-exact-simple.json`](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/expected/search-exact/search-exact-simple.json) file in the `project-tests` repository. See the other expected output files for more examples.
 
 {% include anchor.html level="h2" text="Examples" %}
 
 The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments. Consider the following example:
 
 ```
-java Driver -path ../project-tests/text/simple/words.tExT
-            -query ../project-tests/query/words.txt
-            -results results-exact-simple-words.json
+java Driver -path "../../project-tests/Project Tests/text/simple/"
+            -query "../../project-tests/Project Tests/query/simple.txt"
+            -results search-exact-simple.json
             -exact
 ```
 
-This is functionally equivalent to the [Project2Test](https://github.com/usf-cs212-spring2019/project-tests/blob/master/src/Project2Test.java) &raquo; [Project2SearchTest/SearchOutputTest](https://github.com/usf-cs212-spring2019/project-tests/blob/master/src/SearchOutputTest.java) &raquo; [ExactSearchTest](https://github.com/usf-cs212-spring2019/project-tests/blob/master/src/SearchOutputTest.java#L48) &raquo; [testSimpleFiles](https://github.com/usf-cs212-spring2019/project-tests/blob/master/src/SearchOutputTest.java#L50-L54) &raquo; [SimpleWords](https://github.com/usf-cs212-spring2019/project-tests/blob/master/src/SearchTestCases.java#L11) test. It will create the inverted index from the `text/simple/words.tExT` input text file, perform an **exact** search of the queries in the `query/words.txt` query input file, and output the search results to `results-exact-simple-words.json`.
+This is functionally equivalent to the [Project2Test](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/src/Project2Test.java#L58-L65) &raquo; [Project2SearchTest/SearchOutputTest](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java) &raquo; [ExactSearchTest](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L54) &raquo; [testSimpleDirectory](https://github.com/usf-cs212-fall2019/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L62-L71) test. It will create the inverted index from the `text/simple/` input subdirectory, perform an **exact** search of the queries in the `query/simple.txt` query input file, and output the search results to `search-exact-simple.json`.
 
 {% include anchor.html level="h2" text="Hints" %}
 
@@ -167,13 +170,13 @@ It is important to develop the project iteratively. One possible breakdown of ta
 
   - Add the ability to parse query files. Compare your parsed queries to those in the expected output files. For example, the line `performer performers` should become `perform` after being parsed, cleaned, stemmed, sorted, and discarding duplicates.
 
-  - Create a class that stores a single search result and implements the [Comparable](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Comparable.html) interface. You will need data members for each of the sort criteria, including the location, total word count of the location, and number of times the query occurs at that location.
+  - Create a class that stores a single search result and implements the [Comparable](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/Comparable.html) interface. You will need data members for each of the sort criteria, including the location, total word count of the location, and number of times the query occurs at that location.
 
   - Add an exact search method to your inverted index data structure that takes already parsed words from a single line of the query file, and returns a sorted list of search results. Output the results to the console for debugging.
 
       <p><article class="message is-warning">
         <div class="message-body">
-          <i class="fas fa-exclamation-triangle"></i>&nbsp;Use lists and <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collections.html#sort(java.util.List)">Collections.sort(List)</a> to sort search results, not a <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/TreeSet.html">TreeSet</a> data structure. Custom mutable objects do not behave well when used in sets or as keys in maps.
+          <i class="fas fa-exclamation-triangle"></i>&nbsp;Use lists and <a href="https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/Collections.html#sort(java.util.List)">Collections.sort(List)</a> to sort search results, not a <a href="https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/TreeSet.html">TreeSet</a> data structure. Custom mutable objects do not behave well when used in sets or as keys in maps.
         </div>
       </article></p>
 
