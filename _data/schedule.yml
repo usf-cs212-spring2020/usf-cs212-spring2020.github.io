@@ -538,9 +538,27 @@ weeks:
       start: 2019-09-19
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Streams'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Streams - Introduction'
+          link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
+
+        - icon: *icon_slides
+          text: 'Streams - Pipelines'
+          link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
+
+        - icon: *icon_code
+          text: 'Stream Pipelines'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Stream%20Pipelines'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Lambda Expressions'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341133'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Streams'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
 
       dates:
         - icon: *icon_quiz
@@ -569,6 +587,16 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
           date: 2019-09-20
           bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Lambda Expressions'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341133'
+          date: 2019-09-20
+
+        - icon: *icon_quiz
+          text: 'Quiz: Streams'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
+          date: 2019-09-20
 
         - <<: *project1
           text: Project 1 Tests
