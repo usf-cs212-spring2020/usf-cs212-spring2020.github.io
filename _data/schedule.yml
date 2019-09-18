@@ -523,6 +523,14 @@ weeks:
           type: has-text-usf-plum
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/1mm8P0JRGas-RyQhNEcjiwFZRrMjYLMgoiH38LJ_KPiwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/f-eF9pHBN-N5A9TdOltjMKmzVM7F21q04ZNrqrc735uwIumekTziMw'
+
       dates:
         - icon: *icon_quiz
           text: 'Final Keyword'
