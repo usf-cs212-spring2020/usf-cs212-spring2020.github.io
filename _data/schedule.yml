@@ -583,6 +583,10 @@ weeks:
       start: 2019-09-20
       class: ''
       items:
+        - icon: *icon_website
+          text: 'Exam 1 Review **'
+          link: '/guides/exam-1.html'
+
         - <<: *homework5
         - <<: *project1
         - <<: *project2
