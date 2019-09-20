@@ -368,7 +368,7 @@ The following are some example topics that you may want to make sure you underst
 
 - You should understand the difference between a **relative path** and **absolute path**.
 
-- You should understand how to **read and write to files** line-by-line and traverse directories using the Java 10 NIO package and the `Path`, `Paths`, `Files`, `BufferedReader`, `BufferedWriter`, and `DirectoryStream` classes.
+- You should understand how to **read and write to files** line-by-line and traverse directories using the Java "new IO" package and the `Path`, `Paths`, `Files`, `BufferedReader`, `BufferedWriter`, and `DirectoryStream` classes.
 
 - You should understand inheritance-related terms such as **superclass**, **subclass**, **direct**, and **indirect**, as well as keywords such as `this` and `super`.
 
