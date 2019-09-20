@@ -568,6 +568,14 @@ weeks:
           text: 'Quiz: Streams'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/sI3aAxbBN91FXCIGUTb8HR0B1DnMLkqAcdBjHRI2h8WwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/pwR5VzdzSVr3b3RNx81xrgUv14G9359jbCS7jmTtAaqwIumekTziMw'
+
       dates:
         - icon: *icon_quiz
           text: 'Inheritance Terminology'

@@ -194,7 +194,10 @@ weeks:
       link: 'https://usfca.zoom.us/recording/share/i74YNn9EIbbdyYD-ZBMzKSHHxkaOrnXtJf9axhKNE2mwIumekTziMw'
     - text: 'Tue 4:45p'
       link: 'https://usfca.zoom.us/recording/share/f-eF9pHBN-N5A9TdOltjMKmzVM7F21q04ZNrqrc735uwIumekTziMw'
-
+    - text: 'Thu 12:46p'
+      link: 'https://usfca.zoom.us/recording/share/sI3aAxbBN91FXCIGUTb8HR0B1DnMLkqAcdBjHRI2h8WwIumekTziMw'
+    - text: 'Thu 4:45p'
+      link: 'https://usfca.zoom.us/recording/share/pwR5VzdzSVr3b3RNx81xrgUv14G9359jbCS7jmTtAaqwIumekTziMw'
 ---
 
 ## Exam Format
