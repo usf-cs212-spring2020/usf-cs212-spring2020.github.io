@@ -659,9 +659,17 @@ weeks:
       start: 2019-10-01
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_slides
+          text: 'Assertions'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+
+        - icon: *icon_slides
           text: 'Logging'
-          type: 'has-text-grey'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+
+        - icon: *icon_code
+          text: 'Debugging'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Debugging'
 
     - label: 'Lecture'
       start: 2019-10-03
