@@ -684,9 +684,21 @@ weeks:
       start: 2019-10-03
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Multithreading'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Multithreading - Introduction'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg'
+
+        - icon: *icon_slides
+          text: 'Multithreading - Synchronization'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+
+        - icon: *icon_slides
+          text: 'Multithreading - Liveness'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
+
+        - icon: *icon_code
+          text: 'Multithreading Basics'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Basics'
 
     - label: 'Labs'
       start: 2019-10-04
