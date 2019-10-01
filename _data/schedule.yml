@@ -671,6 +671,10 @@ weeks:
           text: 'Debugging'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Debugging'
 
+        - icon: *icon_quiz
+          text: 'Quiz: Logging'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
+
     - label: 'Lecture'
       start: 2019-10-03
       class: ''
@@ -703,6 +707,12 @@ weeks:
           bump: true
           type: has-text-usf-plum
 
+      dates:
+        - icon: *icon_quiz
+          text: 'Logging'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
+          date: 2019-10-08
+          
     - label: 'Lecture'
       start: 2019-10-10
       class: ''
