@@ -672,6 +672,11 @@ weeks:
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Debugging'
 
         - icon: *icon_quiz
+          text: 'Quiz: Assert Statements'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342608'
+          bump: true
+
+        - icon: *icon_quiz
           text: 'Quiz: Logging'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
 
@@ -709,10 +714,15 @@ weeks:
 
       dates:
         - icon: *icon_quiz
+          text: 'Assert Statements'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342608'
+          date: 2019-10-08
+
+        - icon: *icon_quiz
           text: 'Logging'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
           date: 2019-10-08
-          
+
     - label: 'Lecture'
       start: 2019-10-10
       class: ''
