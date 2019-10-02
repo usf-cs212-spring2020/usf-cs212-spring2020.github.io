@@ -680,6 +680,13 @@ weeks:
           text: 'Quiz: Logging'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/AuN7oRhCIc6M2C6JTUQkKZ-XZxsgyGpnTYTsfDgVXiuwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'https://usfca.zoom.us/recording/share/R2aCCtmo9Y-Zm7jyxfCHhtDPUqEMg5LlLXob1VyeOViwIumekTziMw'
+
     - label: 'Lecture'
       start: 2019-10-03
       class: ''
