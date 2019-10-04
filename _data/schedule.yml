@@ -685,7 +685,8 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/AuN7oRhCIc6M2C6JTUQkKZ-XZxsgyGpnTYTsfDgVXiuwIumekTziMw'
           bump: true
         - icon: *icon_video
-          text: 'https://usfca.zoom.us/recording/share/R2aCCtmo9Y-Zm7jyxfCHhtDPUqEMg5LlLXob1VyeOViwIumekTziMw'
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/R2aCCtmo9Y-Zm7jyxfCHhtDPUqEMg5LlLXob1VyeOViwIumekTziMw'
 
     - label: 'Lecture'
       start: 2019-10-03
@@ -706,6 +707,14 @@ weeks:
         - icon: *icon_code
           text: 'Multithreading Basics'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Basics'
+
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/Ft33qt6yWnRZ-eigjDGcayrRk3dhaF87H94gGcj7d3OwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/ZzsgsZhZpq4mYzPYhvTGKBGzhvorcBumZJYtud6x4lywIumekTziMw'
 
     - label: 'Labs'
       start: 2019-10-04
