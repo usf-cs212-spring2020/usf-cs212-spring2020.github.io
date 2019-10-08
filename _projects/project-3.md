@@ -4,11 +4,15 @@ navbar: Guides
 layout: guides
 key: 1.3
 
+tags:
+  - text: 'New'
+    type: 'is-primary'
+
 assignments:
   - text: 'Project 3 Functionality'
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818758
+    link: 'https://usfca.instructure.com/courses/1586786/assignments/6871438'
   - text: 'Project 3 Code Review'
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818762
+    link: 'https://usfca.instructure.com/courses/1586786/assignments/6871439'
 ---
 
 For this project, you will extend your [previous project](project-2.html) to support multithreading. In addition to meeting the previous project requirements, your code must make a thread-safe inverted index, and use a work queue to build and search an inverted index using multiple threads.
@@ -43,7 +47,7 @@ The functionality of your project will be evaluated with various JUnit tests. Pl
 
 Your main method must be placed in a class named `Driver`. The `Driver` class should accept the following **additional** command-line arguments:
 
-  - `-threads num` threads where `-threads` indicates the next argument `num` is the number of threads to use. If `num` is missing or an invalid number of threads are provided, please default to 5 threads.
+  - `-threads num` threads where `-threads` indicates the next argument `num` is the number of worker threads to use. If `num` is missing or an invalid number of threads are provided, please default to 5 threads.
 
     If the `-threads` flag is not provided, then assume your project should be single-threaded and should execute *exactly* as previous projects.
 
@@ -79,7 +83,7 @@ It is important to develop the project iteratively. One possible breakdown of ta
 
 - Modify how you search your index to use multithreading and a work queue. Make sure you still pass the unit tests.
 
-- Once you are sure this version works, convert your inverted index to use a custom read/write lock class. Make sure you still pass the unit tests.
+- Once you are sure this version works, convert your inverted index to use a custom read/write lock class *instead* of the `synchronized` keyword (don't use both). Make sure you still pass the unit tests.
 
 - ~~Start worrying about efficiency. Make sure you are not under or over synchronizing, and that your multithreaded code is faster on average than your single-threaded code.~~ **Do not worry about efficiency until after your first code review.**
 
