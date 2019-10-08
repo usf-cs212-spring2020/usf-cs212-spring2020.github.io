@@ -732,9 +732,9 @@ weeks:
       start: 2019-10-08
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Multithreading'
-          type: 'has-text-grey'
+        - icon: *icon_code
+          text: 'Synchronization'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Synchronization'
 
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
@@ -761,10 +761,26 @@ weeks:
       start: 2019-10-10
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Multithreading'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Custom Locks'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
 
+        - icon: *icon_slides
+          text: 'Volatile Keyword'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+
+        - icon: *icon_slides
+          text: 'Work Queues'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+
+        - icon: *icon_code
+          text: 'Work Queues'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Synchronization'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
+          bump: true
 
     - label: 'Labs'
       start: 2019-10-11
@@ -814,6 +830,12 @@ weeks:
         - icon: *icon_pending
           text: 'Multithreading'
           type: 'has-text-grey'
+
+      dates:
+        - icon: *icon_quiz
+          text: 'Synchronization'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
+          date: 2019-10-17
 
     - label: 'Labs'
       start: 2019-10-18
