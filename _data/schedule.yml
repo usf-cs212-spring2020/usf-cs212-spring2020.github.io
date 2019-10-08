@@ -818,7 +818,7 @@ weeks:
           date: 2019-10-15
 
         - icon: *icon_quiz
-          text: 'Quiz: Thread Basics'
+          text: 'Thread Basics'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
           bump: true
           date: 2019-10-15
@@ -857,7 +857,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'Software Testing'
+          text: 'Web Basics'
           type: 'has-text-grey'
 
       dates:
@@ -1030,7 +1030,7 @@ weeks:
       class: ''
       items:
         - icon: *icon_pending
-          text: 'JDBC'
+          text: 'Software Testing'
           type: 'has-text-grey'
 
     - label: 'NO CLASS'
