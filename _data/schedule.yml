@@ -784,6 +784,7 @@ weeks:
         - icon: *icon_code
           text: 'Work Queues'
           bump: true
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Work%20Queues'
 
         - icon: *icon_quiz
           text: 'Quiz: Synchronization'
@@ -835,9 +836,9 @@ weeks:
       start: 2019-10-17
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Multithreading'
-          type: 'has-text-grey'
+        - icon: *icon_code
+          text: 'Work Queues'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Work%20Queues'
 
       dates:
         - icon: *icon_quiz
