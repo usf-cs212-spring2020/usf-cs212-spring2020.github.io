@@ -746,6 +746,14 @@ weeks:
           bump: true
           type: has-text-usf-plum
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/bndfeTS3gteoGDqjxw0X9wL30VEZgWGTaA1ONbpdbvKwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/1WTMoyXOp5KVMWQS5j9636Hv-0r0IDcF2NEBgBxYiLGwIumekTziMw'
+
       dates:
         - icon: *icon_quiz
           text: 'Assert Statements'
