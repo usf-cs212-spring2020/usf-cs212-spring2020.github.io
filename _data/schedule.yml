@@ -791,6 +791,14 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
+
     - label: 'Labs'
       start: 2019-10-11
       class: ''
