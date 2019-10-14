@@ -53,7 +53,7 @@ The code review process is required for each project. Only request code review i
 
       For example, running the command `review sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, verify there are no warnings or Javadoc issues, and run the `Project1Test.java` test suite.
 
-  1. You have already passed the code review for the previous projects. For example, you may not request code review for project 3 until completing code review for project 2 and may not request verification for project 2 until completing code review for project 1.
+  1. You have already passed the code review for the previous projects. For example, you may not request code review for project 3 until completing code review for project 2 and may not request code review for project 2 until completing code review for project 1.
 
   1. You are not already signed up for an upcoming code review appointment.
 
