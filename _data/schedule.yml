@@ -857,6 +857,14 @@ weeks:
           link: 'https://www.youtube.com/watch?v=KxjB6p3XNu4&list=PLm6V-0HXZmF1gz79T_7SaqTRzcWKAV7CQ'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/kjo29grUuVCyh3h6SoTpduFRrUCeMKGfJQWkwePQ8KmwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/Ya7hrUkRH1iGRLAPFesR5HQ6IBdQB4r4qD1pwu5NLeY'
+
       dates:
         - icon: *icon_quiz
           text: 'Synchronization'
