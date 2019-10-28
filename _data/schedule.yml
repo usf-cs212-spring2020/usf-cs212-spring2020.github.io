@@ -1012,17 +1012,26 @@ weeks:
       start: 2019-10-29
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_code
           text: 'Sockets'
-          type: 'has-text-grey'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sockets'
 
     - label: 'Lecture'
       start: 2019-10-31
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_slides
+          text: 'Dynamic Webpages'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+
+        - icon: *icon_slides
           text: 'Servlets'
-          type: 'has-text-grey'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+
+        - icon: *icon_code
+          text: 'Servlets'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Servlets'
+          bump: true
 
       dates:
         - icon: *icon_date
@@ -1037,7 +1046,6 @@ weeks:
       items:
         - <<: *homework10
         - <<: *project3
-        - <<: *project4
 
       dates:
         - <<: *homework9
@@ -1051,9 +1059,13 @@ weeks:
       start: 2019-11-05
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_code
           text: 'Servlets'
-          type: 'has-text-grey'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Servlets'
+
+        - icon: *icon_quiz
+          text: 'Quiz: Jetty'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
 
         - <<: *project4
           text: 'Project 4 Web Crawler'
@@ -1063,9 +1075,9 @@ weeks:
       start: 2019-11-07
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_code
           text: 'Sessions'
-          type: 'has-text-grey'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sessions'
 
     - label: 'Labs'
       start: 2019-11-08
@@ -1090,6 +1102,12 @@ weeks:
         - icon: *icon_pending
           text: 'SQL'
           type: 'has-text-grey'
+
+      dates:
+        - icon: *icon_quiz
+          text: 'Jetty'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
+          date: 2019-11-12
 
     - label: 'Lecture'
       start: 2019-11-14
