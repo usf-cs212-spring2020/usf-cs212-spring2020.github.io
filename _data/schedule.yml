@@ -128,13 +128,13 @@ assignments:
   - project3: &project3
       text: Project 3
       icon: *icon_project
-      date: 2019-11-01
+      date: 2019-11-08
       link: '/guides/projects/project-3.html'
 
   - project4: &project4
       text: Project 4
       icon: *icon_project
-      date: 2019-11-22
+      date: 2019-11-29
 
 weeks:
 - week: 1
@@ -1016,10 +1016,6 @@ weeks:
           text: 'Sockets'
           type: 'has-text-grey'
 
-        - <<: *project4
-          text: 'Project 4 Web Crawler'
-          type: 'has-text-usf-plum'
-
     - label: 'Lecture'
       start: 2019-10-31
       class: ''
@@ -1045,9 +1041,6 @@ weeks:
 
       dates:
         - <<: *homework9
-        - <<: *project3
-          text: 'Project 3 Tests'
-          type: 'has-text-usf-plum'
         - icon: *icon_date
           text: 'Withdraw Deadline'
           type: 'has-text-danger has-text-weight-bold'
@@ -1062,6 +1055,10 @@ weeks:
           text: 'Servlets'
           type: 'has-text-grey'
 
+        - <<: *project4
+          text: 'Project 4 Web Crawler'
+          type: 'has-text-usf-plum'
+
     - label: 'Lecture'
       start: 2019-11-07
       class: ''
@@ -1075,11 +1072,14 @@ weeks:
       class: ''
       items:
         - <<: *project3
-          text: 'Project 3 (Late)'
+          text: 'Project 3'
         - <<: *project4
 
       dates:
         - <<: *homework10
+        - <<: *project3
+          text: 'Project 3 (Extended)'
+          type: 'has-text-usf-plum'
 
 - week: 13
   columns:
@@ -1132,10 +1132,8 @@ weeks:
         - <<: *project3
           text: 'Project 3 (Late)'
         - <<: *project4
-      dates:
-        - <<: *project4
-          text: 'Project 4 Tests'
-          type: 'has-text-usf-plum'
+      # dates:
+
 
 - week: 15
   columns:
@@ -1164,6 +1162,11 @@ weeks:
             class: far fa-turkey
           text: 'Thanksgiving Recess (No Class)'
           type: 'has-text-grey'
+
+      dates:
+        - <<: *project4
+          text: 'Project 4 (Extended)'
+          type: 'has-text-usf-plum'
 
 - week: 16
   columns:

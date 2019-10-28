@@ -4,6 +4,10 @@ navbar: Guides
 layout: guides
 key: 0.3
 
+tags:
+  - text: 'Updated'
+    type: 'is-success'
+
 assignments:
   - text: Project 1 Tests
     link: https://usfca.instructure.com/courses/1582958/assignments/6818588
@@ -83,8 +87,10 @@ The functionality deadline schedule is below (assume all deadlines are at 11:59p
 |:---------:|:----------:|:--------------:|:--------------:|:--------------:|:----------:|
 | Project 1 | &le; 09/20 | 09/21 -- 09/27 | 09/28 -- 10/04 | 10/05 -- 10/11 | &gt; 10/31 |
 | Project 2 | &le; 10/11 | 10/12 -- 10/18 | 10/19 -- 10/25 | 10/26 -- 10/31 | &gt; 10/31 |
-| Project 3 | &le; 11/01 | 11/02 -- 11/08 | 11/09 -- 11/15 | 11/10 -- 11/22 | &gt; 12/05 |
-| Project 4 | &le; 11/22 | 11/23 -- 11/29 | 11/30 -- 12/05 | 12/01 -- 12/05 |            |
+| Project 3 | ~~&le; 11/01~~ | ~~11/02 -- 11/08~~ | ~~11/09 -- 11/15~~ | ~~11/10 -- 11/22~~ | ~~&gt; 12/05~~ |
+| (Extended) | &le; 11/08 | 11/09 -- 11/15 | 11/16 -- 11/22 | 11/23 -- 11/29 | &gt; 12/05 |
+| Project 4 | ~~&le; 11/22~~ | ~~11/23 -- 11/29~~ | ~~11/30 -- 12/05~~ | ~~12/01 -- 12/05~~ |            |
+| (Extended) | &le; 11/29 | 11/30 -- 12/05 | &gt; 12/05 |     |            |
 
 Keep in mind the [project pass requirements](/syllabus.html#pass-requirements) for projects 1 and 2. All of your grades default to 0% if you do not pass the functionality of projects 1 and 2 by the project cutoff deadline on Thursday, October 31, 2019. You must also pass the functionality of project 3 by the last day of the semester (before finals) on Thursday, December 5, 2019.
 
