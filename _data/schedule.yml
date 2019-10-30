@@ -1016,6 +1016,15 @@ weeks:
           text: 'Sockets'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sockets'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/it_CgjsYeB2wa9TMs4rpCWGKlly7ypQHDjcg3zEKJ6KwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
+
+
     - label: 'Lecture'
       start: 2019-10-31
       class: ''
