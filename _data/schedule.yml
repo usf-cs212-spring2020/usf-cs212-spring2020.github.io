@@ -1024,7 +1024,6 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
 
-
     - label: 'Lecture'
       start: 2019-10-31
       class: ''
@@ -1041,6 +1040,14 @@ weeks:
           text: 'Servlets'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Servlets'
           bump: true
+
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/yQjQ67H_-I8f5I0vo_Q5sISzTYso7FqddYIJts_rDjqwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/GA8n8cB_90Ms10rlKvODiTCxv12OP2C6IFHr4Kc9vc-wIumekTziMw'
 
       dates:
         - icon: *icon_date
