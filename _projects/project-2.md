@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 1.2
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 assignments:
   - text: 'Project 2 Functionality'
     link: https://usfca.instructure.com/courses/1582958/assignments/6818757
