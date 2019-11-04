@@ -6,7 +6,7 @@ key: 1.41
 
 assignments:
   - text: 'Project 4 Web Crawler'
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818758
+    link: 'https://usfca.instructure.com/courses/1586786/assignments/6871440'
 
 ---
 
@@ -36,7 +36,7 @@ In addition to the above, the core functionality of your project must also satis
 
       You may NOT use the URL class to download the HTML, but you may use this class to parse and clean URLs (see the Relative URLs and Unique URLs sections below).
 
-      See the [HtmlFetcher](https://github.com/usf-cs212-spring2019/template-htmlcleaner) homework for a starting point.
+      See the [HtmlFetcher](https://github.com/usf-cs212-fall2019/template-htmlcleaner) class from the homework for a starting point.
 
   - Convert all processed URLs to a consistent absolute form (remove fragments, convert relative URLs to absolute URLs, etc.) and do not process the same URL more than once. For example, if you already processed <https://www.cs.usfca.edu/~cs212/guten/1400-h/1400-h.htm> and encounter <https://www.cs.usfca.edu/~cs212/guten/1400-h/1400-h.htm#link2HCH0020>, you should not re-process this URL and it should not count towards the total.
 
@@ -46,7 +46,7 @@ In addition to the above, the core functionality of your project must also satis
 
     - Each worker thread should be responsible for parsing a single link.
 
-    - Remove any HTML elements that should not be considered for parsing links, including the `head`, `style`, `script`, `noscript`, and `svg` elements.
+    - Remove any HTML block elements that should not be considered for parsing links, including the `head`, `style`, `script`, `noscript`, and `svg` elements. (This functionality is not built into your homework assignments.)
 
     - Parse all of the URLs remaining on the page, and add to the queue of URLs to process as appropriate. (You must do this before you remove the other HTML tags.)
 
@@ -54,7 +54,7 @@ In addition to the above, the core functionality of your project must also satis
 
     - Clean, parse, and stem the resulting text to populate the inverted index in the same way plain text files were handled in previous projects.
 
-    See the [HtmlCleaner](https://github.com/usf-cs212-spring2019/template-htmlcleaner) homework for a starting point.
+    See the [LinkParser](https://github.com/usf-cs212-fall2019/template-linkparser) and [HtmlCleaner](https://github.com/usf-cs212-fall2019/template-htmlcleaner) homework assignments for a starting point.
 
   - You may *NOT* use any of the classes in the `java.util.concurrent` package.
 
@@ -92,7 +92,7 @@ You must pass 100% of the tests in the `Project4Test.java` group of JUnit tests.
 
 It is important to develop the project iteratively. One possible breakdown of tasks are:
 
-  - Use the relevant homework and lecture code, including the [HtmlCleaner](https://github.com/usf-cs212-spring2019/template-htmlcleaner) homework and the [servlet examples](https://github.com/usf-cs212-spring2019/lectures/tree/master/Servlets) from lecture.
+  - Use the relevant homework and lecture code, including the [LinkParser](https://github.com/usf-cs212-fall2019/template-linkparser) and [HtmlCleaner](https://github.com/usf-cs212-fall2019/template-htmlcleaner) homework assignments from lecture.
 
   - Outside of the relevant homework and lecture classes, there is likely only one new class (a web crawler class) required for this project. However, you must be careful to properly multithread and synchronize in this class!
 

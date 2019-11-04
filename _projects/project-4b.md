@@ -6,13 +6,12 @@ key: 1.42
 
 assignments:
   - text: 'Project 4 Search Engine'
-    link: https://usfca.instructure.com/courses/1582958/assignments/6818762
+    link: 'https://usfca.instructure.com/courses/1586786/assignments/6871441'
 ---
 
 For this project, you will extend your [previous project](project-3.html) to create a fully functional search engine. This project is split into two main components: (1) a [multithreaded web crawler](project-4a.html) using a work queue to build the index from a seed URL, and (2) a [search engine web interface](project-4b.html) using [embedded Jetty](https://www.eclipse.org/jetty/) and servlets to search that index.
 
 **This writeup is for the search engine functionality only.** See the general [Project 4 Writeup](project-4.html) for more details.
-
 
 {% include anchor.html level="h2" text="Functionality" %}
 
