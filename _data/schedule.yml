@@ -1248,4 +1248,4 @@ weeks:
       items:
         - icon: *icon_project
           text: 'Final Code Reviews'
-          type: 'has-text-grey'
+          link: 'https://usf-cs212-fall2019.github.io/guides/projects/final-code-review.html '
