@@ -135,6 +135,7 @@ assignments:
       text: Project 4
       icon: *icon_project
       date: 2019-11-29
+      link: '/guides/projects/project-4.html'
 
 weeks:
 - week: 1
@@ -1199,7 +1200,7 @@ weeks:
 
       dates:
         - <<: *project4
-          text: 'Project 4 (Extended)'
+          text: 'Project 4 Web Crawler (Extended)'
           type: 'has-text-usf-plum'
 
 - week: 16
