@@ -1138,8 +1138,13 @@ weeks:
       start: 2019-11-15
       class: ''
       items:
+        - icon: *icon_website
+          text: 'Exam 2 Review **'
+          link: '/guides/exam-2.html'
+
         - <<: *project3
           text: 'Project 3 (Late)'
+          bump: true
         - <<: *project4
 
 - week: 14
