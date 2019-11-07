@@ -113,6 +113,12 @@ assignments:
       date: 2019-11-08
       link: https://usfca.instructure.com/courses/1586786/assignments/6871413
 
+  - homework11: &homework11
+      text: HeaderServer
+      icon: *icon_homework
+      date: 2019-11-22
+      link: https://usfca.instructure.com/courses/1586786/assignments/6890971
+
   - project1: &project1
       text: Project 1
       icon: *icon_project
@@ -1100,6 +1106,8 @@ weeks:
       start: 2019-11-08
       class: ''
       items:
+        - <<: *homework11
+
         - <<: *project3
           text: 'Project 3'
         - <<: *project4
@@ -1169,11 +1177,13 @@ weeks:
       start: 2019-11-22
       class: ''
       items:
+        - <<: *homework11
+
         - <<: *project3
           text: 'Project 3 (Late)'
         - <<: *project4
-      # dates:
-
+      dates:
+        - <<: *homework11
 
 - week: 15
   columns:
