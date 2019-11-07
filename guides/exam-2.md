@@ -31,11 +31,11 @@ weeks:
     quizzes:
     - text: 'Assert Statements'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2342608'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343344'
 
     - text: 'Logging'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343345'
 
     videos:
     - text: 'Tue 12:45p'
@@ -70,10 +70,10 @@ weeks:
     quizzes:
     - text: 'Thread Basics'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343343'
     - text: 'Synchronization'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343341'
 
     videos:
     - text: 'Tue 12:45p'
@@ -102,7 +102,7 @@ weeks:
     quizzes:
     - text: 'Work Queues'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341160'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343339'
 
     videos:
     - text: 'Thu 12:45p'
@@ -129,15 +129,15 @@ weeks:
     quizzes:
     - text: 'Web Basics'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341161'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343338'
 
     - text: 'HTTP'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341145'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343340'
 
     - text: 'Regex Basics'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341132'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343337'
 
   - week: 11
     topics:
@@ -177,7 +177,7 @@ weeks:
     quizzes:
     - text: 'Jetty'
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
-      practice: '#'
+      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343342'
 
 ---
 
