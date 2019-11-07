@@ -179,6 +179,11 @@ weeks:
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
       practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343342'
 
+    videos:
+    - text: 'Tue 12:45p'
+      link: 'https://usfca.zoom.us/recording/share/Q3K6NAaK_0hDHi0oLUe_rKZq3HLEoRx3jne3pHmE7DewIumekTziMw'
+    - text: 'Tue 4:45p'
+      link: 'https://usfca.zoom.us/recording/share/d6XH5hNZcvzTZE8H6Zc3a95dVlqenA6gCIZHZO_VSSewIumekTziMw'    
 ---
 
 ## Exam Format
