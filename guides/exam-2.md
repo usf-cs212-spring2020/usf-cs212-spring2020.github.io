@@ -179,6 +179,10 @@ weeks:
       original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
       practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2343342'
 
+    homework:
+    - name: 'HeaderServer'
+      link: 'https://github.com/usf-cs212-fall2019/template-headerserver'
+
     videos:
     - text: 'Tue 12:45p'
       link: 'https://usfca.zoom.us/recording/share/Q3K6NAaK_0hDHi0oLUe_rKZq3HLEoRx3jne3pHmE7DewIumekTziMw'
