@@ -1110,6 +1110,14 @@ weeks:
           text: 'Sessions'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sessions'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/r4qdKABN7LcMLgfvgqwOMuX6f-Q2LK-Ehmxbm2SsJ_awIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/pg7Pb56bKZF5KkcBKIxJDS6FsmL-HMQYamO4C5xLcTGwIumekTziMw'
+
     - label: 'Labs'
       start: 2019-11-08
       class: ''
