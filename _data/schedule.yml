@@ -1132,9 +1132,15 @@ weeks:
       start: 2019-11-12
       class: ''
       items:
+        - icon: *icon_website
+          text: 'Database Accounts'
+          link: 'https://usfca.instructure.com/courses/1586786/pages/database-accounts'
+          type: 'has-text-success has-text-weight-bold'
+
         - icon: *icon_pending
           text: 'SQL'
           type: 'has-text-grey'
+          bump: true
 
       dates:
         - icon: *icon_quiz
