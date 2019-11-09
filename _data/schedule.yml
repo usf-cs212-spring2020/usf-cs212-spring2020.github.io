@@ -1145,9 +1145,18 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/pages/database-accounts'
           type: 'has-text-success has-text-weight-bold'
 
-        - icon: *icon_pending
-          text: 'SQL'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Relational Databases'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
+          bump: true
+
+        - icon: *icon_slides
+          text: 'Structured Query Language (SQL)'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
+
+        - icon: *icon_website
+          text: 'SQL Introduction'
+          link: '/guides/sql/'
           bump: true
 
       dates:
@@ -1160,9 +1169,18 @@ weeks:
       start: 2019-11-14
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'SQL'
-          type: 'has-text-grey'
+        - icon: *icon_website
+          text: 'SQL Demonstration'
+          link: '/guides/sql/'
+
+        - icon: *icon_quiz
+          text: 'Quiz: Joins'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343372'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Grouping'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
 
     - label: 'Labs'
       start: 2019-11-15
@@ -1176,6 +1194,17 @@ weeks:
           text: 'Project 3 (Late)'
           bump: true
         - <<: *project4
+
+      dates:
+        - icon: *icon_quiz
+          text: 'Quiz: Joins'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343372'
+          date: 2019-11-15
+
+        - icon: *icon_quiz
+          text: 'Quiz: Grouping'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
+          date: 2019-11-15
 
 - week: 14
   columns:
