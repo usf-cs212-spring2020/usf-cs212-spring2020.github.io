@@ -1159,6 +1159,14 @@ weeks:
           link: '/guides/sql/'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/V-gSWFBhK8qCRt_ZMxMMghACe3bu_m0iIylJ_sVHeCSwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/GqfD2iiGIApru7BtmZ_72Ep0Jlayyjn9Bus9LNKGUVCwIumekTziMw'
+
       dates:
         - icon: *icon_quiz
           text: 'Jetty'
