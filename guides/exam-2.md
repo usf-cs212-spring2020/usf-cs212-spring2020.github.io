@@ -1,5 +1,5 @@
 ---
-title: Exam 1 Review
+title: Exam 2 Review
 navbar: Guides
 layout: default
 
@@ -198,7 +198,7 @@ weeks:
     topics:
     - name: 'SQL'
       link: '/guides/sql'
-      
+
     slides:
     - name: 'Relational Databases'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
