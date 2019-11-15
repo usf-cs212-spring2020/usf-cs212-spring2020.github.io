@@ -330,23 +330,23 @@ ORDER BY name;
 We can also use aggregate functions in combination with `GROUP BY` to do some interesting things:
 
 ```sql
-SELECT name, description,
+SELECT name,
 count(number) AS 'phone numbers'
 FROM demo_users
 NATURAL LEFT OUTER JOIN demo_phones
-GROUP BY name;
+GROUP BY userid;
 ```
 
 ```sql
-+-------+-------------+---------------+
-| name  | description | phone numbers |
-+-------+-------------+---------------+
-| Alice | Home        |             1 |
-| Billy | Home        |             1 |
-| Cathy | Work        |             2 |
-| David | Cell        |             1 |
-| Emily | NULL        |             0 |
-+-------+-------------+---------------+
++-------+---------------+
+| name  | phone numbers |
++-------+---------------+
+| Alice |             1 |
+| Billy |             1 |
+| Cathy |             2 |
+| David |             1 |
+| Emily |             0 |
++-------+---------------+
 ```
 
 This is especially useful for calculating averages, maximums, etc.
