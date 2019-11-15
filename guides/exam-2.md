@@ -248,7 +248,7 @@ You can also access the following documentation:
 
   - Jetty 9.x Documentation, specifically the [Jetty API](https://www.eclipse.org/jetty/javadoc/current/) and the [Jetty Definitive Reference](https://www.eclipse.org/jetty/documentation/current/) that includes the [Embedding Jetty](https://www.eclipse.org/jetty/documentation/current/advanced-embedding.html) guide and [Jetty Architecture](https://www.eclipse.org/jetty/documentation/current/architecture.html).
 
-  - MySQL 5.5 Documentation, specifically the [MySQL 5.5 Reference Manual](https://dev.mysql.com/doc/refman/5.5/en/) that includes the [SQL Statement Syntax](https://dev.mysql.com/doc/refman/5.5/en/sql-syntax.html), [SQL Functions and Operators](https://dev.mysql.com/doc/refman/5.5/en/functions.html) (including aggregate functions), and [SQL Data Types](https://dev.mysql.com/doc/refman/5.5/en/data-types.html).
+  - MySQL 5.5 Documentation, specifically the [MySQL 5.5 Reference Manual](https://dev.mysql.com/doc/refman/5.5/en/) that includes pages on [SQL Statements](https://dev.mysql.com/doc/refman/5.5/en/sql-statements.html), [SQL Functions and Operators](https://dev.mysql.com/doc/refman/5.5/en/functions.html) (including [aggregate functions](https://dev.mysql.com/doc/refman/5.5/en/group-by-functions.html)), and [SQL Data Types](https://dev.mysql.com/doc/refman/5.5/en/data-types.html).
 
 The exam is otherwise <span class="fa-stack fa-fw"><i class="far fa-book-open fa-stack-1x"></i><i class="far fa-ban fa-stack-2x has-text-danger"></i></span> **closed-book closed-note**. You may not reference any other websites other than Canvas and the approved websites above, e.g. you may not look at the class website, Github, StackOverflow, or Google. You may not open any other program other than the the browser, e.g. you may not open Eclipse or run Java. You may not reference your cell phone or tablet during the exam (even if you take a bathroom break). You may not look at the monitors of your fellow classmates.
 
@@ -412,15 +412,15 @@ The following are some example topics that you may want to make sure you underst
 
 - You should understand the benefits of **relational databases**.
 
-- You should understand how to create and use statements in the [Data Definition Language (DDL)](https://dev.mysql.com/doc/refman/5.5/en/sql-syntax-data-definition.html) of SQL. This includes the `CREATE`, `ALTER`, and `DROP` statements.
+- You should understand how to create and use statements in the [Data Definition Language (DDL)](https://dev.mysql.com/doc/refman/5.5/en/sql-data-definition-statements.html) of SQL. This includes the `CREATE`, `ALTER`, and `DROP` statements.
 
 - You should understand how to create and use different [types of columns](https://dev.mysql.com/doc/refman/5.5/en/data-types.html) in SQL. This includes the `INTEGER`, `TINYINT`, `SMALLINT`, `BIGINT`, `NUMERIC`, `FLOAT`, `DOUBLE`, `CHAR`, `VARCHAR`, `ENUM`, `DATE`, `DATETIME`, and `TIMESTAMP` types.
 
 - You should understand how to use the `PRIMARY KEY`, [`FOREIGN KEY`](https://dev.mysql.com/doc/refman/5.5/en/create-table-foreign-keys.html), `UNIQUE`, `DEFAULT`, `NOT NULL`, and `AUTO_INCREMENT` keywords when [creating columns and tables](https://dev.mysql.com/doc/refman/5.5/en/create-table.html) in SQL.
 
-- You should understand how to create and use statements in the [Data Manipulation Language (DML)](https://dev.mysql.com/doc/refman/5.5/en/sql-syntax-data-manipulation.html) of SQL. This includes the `SELECT`, `INSERT`, `UPDATE`, and `DELETE` statements.
+- You should understand how to create and use statements in the [Data Manipulation Language (DML)](https://dev.mysql.com/doc/refman/5.5/en/sql-data-manipulation-statements.html) of SQL. This includes the `SELECT`, `INSERT`, `UPDATE`, and `DELETE` statements.
 
-- You should understand how to use different types of [`JOIN` statements](https://dev.mysql.com/doc/refman/5.5/en/join.html) to combine results from multiple related tables in SQL. This includes `INNER JOIN`, `NATURAL JOIN`, `LEFT OUTER JOIN`, `RIGHT OUTER JOIN`, `NATURAL LEFT OUTER JOIN`, and `NATURAL RIGHT OUTER JOIN`.
+- You should understand how to use different types of [`JOIN` clauses](https://dev.mysql.com/doc/refman/5.5/en/join.html) to combine results from multiple related tables in SQL. This includes `INNER JOIN`, `NATURAL JOIN`, `LEFT OUTER JOIN`, `RIGHT OUTER JOIN`, `NATURAL LEFT OUTER JOIN`, and `NATURAL RIGHT OUTER JOIN`.
 
 - You should understand how to sort results using the `ORDER BY` clause in a [`SELECT` statement](https://dev.mysql.com/doc/refman/5.5/en/select.html).
 
@@ -428,7 +428,7 @@ The following are some example topics that you may want to make sure you underst
 
 - You should understand how to combine columns using the [`CONCAT()` function](https://dev.mysql.com/doc/refman/5.5/en/string-functions.html#function_concat) and give columns aliases using the `AS` clause in a [`SELECT` statement](https://dev.mysql.com/doc/refman/5.5/en/select.html).
 
-- You should understand how to combine rows using the `GROUP BY` clause (and [aggregate functions](https://dev.mysql.com/doc/refman/5.5/en/group-by-functions-and-modifiers.html)) in [`SELECT` statement](https://dev.mysql.com/doc/refman/5.5/en/sql-syntax.html#select).
+- You should understand how to combine rows using the `GROUP BY` clause (and [aggregate functions](https://dev.mysql.com/doc/refman/5.5/en/group-by-functions-and-modifiers.html)) in [`SELECT` statement](https://dev.mysql.com/doc/refman/5.5/en/select.html).
 
 - You should understand how to use [aggregate functions](https://dev.mysql.com/doc/refman/5.5/en/group-by-functions.html) like `GROUP_CONCAT()`, `COUNT()`, `AVG()`, and `SUM()` in a [`SELECT` statement](https://dev.mysql.com/doc/refman/5.5/en/select.html).
 
