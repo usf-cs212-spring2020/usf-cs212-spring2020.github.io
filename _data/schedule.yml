@@ -1190,6 +1190,15 @@ weeks:
           text: 'Quiz: Grouping'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/E8XYZD6-Spa-ofxdZE-4uJRJYZTw4h8OBCl1PKz9tjWwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/-5_QBRB5-c2cMVySuh4b9FgqgN5U2jC6LDsnoKSxt1CwIumekTziMw'
+
+
     - label: 'Labs'
       start: 2019-11-15
       class: ''
