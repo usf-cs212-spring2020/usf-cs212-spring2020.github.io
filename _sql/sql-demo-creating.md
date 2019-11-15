@@ -28,13 +28,13 @@ One way we can do this is by creating three tables: one for professors, one mapp
 
 ### Create Professor Table
 
-We will create a `contact_names` table with 1 row per professor that stores:
+We will create a `faculty_names` table with 1 row per professor that stores:
 
   - The USF username (named `usfid`), which must be unique, may not be null, and can be used as the primary key for this table and the foreign key for other tables.
 
   - The `first`, `middle`, and `last` names in separate columns. Only the `middle` name may be null. None of these columns need to be unique. (For example, more than one person has the first name `David` in the department.)
 
-**Exercise:** See if you can create a `contact_names` table that will match the following:
+**Exercise:** See if you can create a `faculty_names` table that will match the following:
 
 | Field  | Type        | Null | Key | Default | Extra |
 |--------|-------------|------|-----|---------|-------|
@@ -47,7 +47,7 @@ We will create a `contact_names` table with 1 row per professor that stores:
 <summary>See Answer.</summary>
 
 {% highlight sql %}
-CREATE TABLE contact_names (
+CREATE TABLE faculty_names (
 usfid   CHAR(10)    NOT NULL PRIMARY KEY,
 first   VARCHAR(20) NOT NULL,
 middle  VARCHAR(20),
@@ -60,7 +60,7 @@ last    VARCHAR(20) NOT NULL
 Once you have the table created, you can insert values as follows:
 
 ```sql
-INSERT INTO contact_names
+INSERT INTO faculty_names
 (usfid, first, middle, last)
 VALUES
 ('apjoshi',         'Alark',   NULL,      'Joshi'   ),
@@ -81,13 +81,13 @@ VALUES
 
 ### Create the Twitter Table
 
-We will create a `contact_twitter` table that tracks Twitter accounts for professors that stores:
+We will create a `faculty_twitter` table that tracks Twitter accounts for professors that stores:
 
   - The Twitter account (named `twitterid`) which must not be null, must be unique, and may be used as the primary key for this table.
 
-  - The ID for the professor this Twitter account belongs to, which must not be null. This should reference the `usfid` primary key in the `contact_names` table.
+  - The ID for the professor this Twitter account belongs to, which must not be null. This should reference the `usfid` primary key in the `faculty_names` table.
 
-**Exercise:** See if you can create a `contact_twitter` table that will match the following:
+**Exercise:** See if you can create a `faculty_twitter` table that will match the following:
 
 | Field     | Type     | Null | Key | Default | Extra |
 |-----------|----------|------|-----|---------|-------|
@@ -98,11 +98,11 @@ We will create a `contact_twitter` table that tracks Twitter accounts for profes
 <summary>See Answer.</summary>
 
 {% highlight sql %}
-CREATE TABLE contact_twitter (
+CREATE TABLE faculty_twitter (
 twitterid   CHAR(15) NOT NULL PRIMARY KEY,
 usfid       CHAR(10) NOT NULL,
 FOREIGN KEY (usfid)
-REFERENCES  contact_names (usfid)
+REFERENCES  faculty_names (usfid)
 );
 {% endhighlight %}
 
@@ -111,7 +111,7 @@ REFERENCES  contact_names (usfid)
 Once you have the table created, you can insert values as follows:
 
 ```sql
-INSERT INTO contact_twitter
+INSERT INTO faculty_twitter
 (usfid, twitterid)
 VALUES
 ('benson',    'gregorydbenson'),
@@ -126,26 +126,26 @@ VALUES
 
 ### Create the Courses Table
 
-We will create a `contact_courses` table that tracks the undergraduate courses that professors have taught recently. Since courses will not be unique in the same way as Twitter accounts or USF usernames, we need a separate primary key:
+We will create a `faculty_courses` table that tracks the undergraduate courses that professors have taught recently. Since courses will not be unique in the same way as Twitter accounts or USF usernames, we need a separate primary key:
 
   - The course ID (named `courseid`) which must not be null, must be unique, and is an auto-incremented primary key.
 
-  - The ID for the professor that taught this course, which must not be null. This should reference the `usfid` primary key in the `contact_names` table.
+  - The ID for the professor that taught this course, which must not be null. This should reference the `usfid` primary key in the `faculty_names` table.
 
   - The course number (named `course`) to identify the course taught by this professor (e.g. `CS 212`).
 
-**Exercise:** See if you can create a `contact_courses` table that will match the following:
+**Exercise:** See if you can create a `faculty_courses` table that will match the following:
 
 <details>
 <summary>See Answer.</summary>
 
 {% highlight sql %}
-CREATE TABLE contact_courses (
+CREATE TABLE faculty_courses (
 courseid INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
 usfid    CHAR(10) NOT NULL,
 course   CHAR(10) NOT NULL,
 FOREIGN KEY (usfid)
-REFERENCES  contact_names (usfid)
+REFERENCES  faculty_names (usfid)
 );
 {% endhighlight %}
 
@@ -154,7 +154,7 @@ REFERENCES  contact_names (usfid)
 Once you have the table created, you can insert values as follows:
 
 ```sql
-INSERT INTO contact_courses
+INSERT INTO faculty_courses
 (usfid, course)
 VALUES
 ('apjoshi',   'CS 360'),
