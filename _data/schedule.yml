@@ -1269,8 +1269,12 @@ weeks:
 
         - icon: *icon_slides
           text: 'Testing - Unit Testing'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'          
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
 
+        - icon: *icon_code
+          text: 'Unit Testing'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Unit%20Testing'
+          bump: true
 
     - label: 'NO CLASS'
       start: 2019-11-28
