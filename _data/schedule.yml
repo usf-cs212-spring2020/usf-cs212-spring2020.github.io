@@ -1259,9 +1259,18 @@ weeks:
       start: 2019-11-26
       class: ''
       items:
-        - icon: *icon_pending
-          text: 'Software Testing'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Testing - Motivation'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+
+        - icon: *icon_slides
+          text: 'Testing - Basics'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+
+        - icon: *icon_slides
+          text: 'Testing - Unit Testing'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'          
+
 
     - label: 'NO CLASS'
       start: 2019-11-28
