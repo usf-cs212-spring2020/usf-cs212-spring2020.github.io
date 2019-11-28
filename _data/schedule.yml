@@ -1276,6 +1276,14 @@ weeks:
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Unit%20Testing'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/OBbIa2ZMDQvLSalxHPckF0ycKSZRS-Ttt9DMumRADMawIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/sNCXnIgF2xjGlOyS_IklOb9-cOZg-BpWeSF4Yz4OuQuwIumekTziMw'
+
     - label: 'NO CLASS'
       start: 2019-11-28
       class: ''
