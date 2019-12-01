@@ -1375,7 +1375,6 @@ weeks:
           text: 'Course Survey (Informal)'
           link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
           type: 'has-text-weight-bold'
-          bump: true
 
         - icon: *icon_website
           text: 'Course Evaluations (BLUE)'
