@@ -1317,6 +1317,17 @@ weeks:
           text: 'JDBC'
           type: 'has-text-grey'
 
+        - icon: *icon_website
+          text: 'Course Survey (Informal)'
+          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
+          type: 'has-text-weight-bold'
+          bump: true
+
+        - icon: *icon_website
+          text: 'Course Evaluations (BLUE)'
+          link: 'https://usfca.instructure.com/'
+          type: 'has-text-weight-bold'
+
       dates:
         - icon: *icon_date
           text: 'PROJECT CUTOFF 2'
@@ -1354,3 +1365,15 @@ weeks:
         - icon: *icon_project
           text: 'Final Code Reviews'
           link: 'https://usf-cs212-fall2019.github.io/guides/projects/final-code-review.html '
+
+      dates:
+        - icon: *icon_website
+          text: 'Course Survey (Informal)'
+          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
+          type: 'has-text-weight-bold'
+          bump: true
+
+        - icon: *icon_website
+          text: 'Course Evaluations (BLUE)'
+          link: 'https://usfca.instructure.com/'
+          type: 'has-text-weight-bold'
