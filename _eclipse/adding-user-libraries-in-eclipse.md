@@ -23,11 +23,7 @@ It is important that you name your user libraries the same as the instructor. Ot
 | [Apache Commons Lang3](http://commons.apache.org/proper/commons-lang/) | `commons-lang3` | [Link](http://commons.apache.org/proper/commons-lang/download_lang.cgi) | Download the latest `commons-lang-3.x.jar` file (listed under "Binaries"). |
 | [Apache Commons Text](http://commons.apache.org/proper/commons-text/) | `commons-text` | [Link](http://commons.apache.org/proper/commons-text/download_text.cgi) | Download the latest `commons-text-1.x.jar` file (listed under "Binaries"). Requires `commons-lang3` to work. |
 | [Eclipse Jetty](https://www.eclipse.org/jetty/) | `jetty` | [Link](https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/) | Look for the latest `jetty-all-9.x.x-uber.jar` JAR file. The directory is sorted lexicographically not numerically (e.g. by text not number), so version numbers like `9.4.22` will appear before version numbers like `4.4.3` even though it is a later version. |
-
-{% comment %}
-
 | [MariaDB JDBC Driver](https://downloads.mariadb.org/connector-java/) | `jdbc`| [Link](https://downloads.mariadb.org/connector-java/) | Download the latest `mariadb-java-client-2.x.x.jar` file. |
-{% endcomment %}
 
 Replace the `x` version numbers with the latest available versions.
 

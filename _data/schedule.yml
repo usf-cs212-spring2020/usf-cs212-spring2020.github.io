@@ -1313,9 +1313,13 @@ weeks:
       start: 2019-12-03
       class: ''
       items:
-        - icon: *icon_pending
+        - icon: *icon_slides
           text: 'JDBC'
-          type: 'has-text-grey'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
+
+        - icon: *icon_code
+          text: 'Jetty and JDBC'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Jetty%20and%20JDBC'
 
         - icon: *icon_website
           text: 'Course Survey (Informal)'
