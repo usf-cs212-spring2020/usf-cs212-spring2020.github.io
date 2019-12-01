@@ -43,26 +43,7 @@ ul.icons > li > i {
 }
 </style>
 
-{%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
-{%- assign today = today_date | date: '%s'| abs -%}
-{%- assign beg_date = site.data.syllabus.beg_date | date: '%s' | abs -%}
-{%- assign beg_index = 0 -%}
-
-{%- if today > beg_date -%}
-  {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
-  {%- for week in site.data.schedule.weeks limit:end_index -%}
-    {%- assign first_day = week.columns | first -%}
-    {%- if first_day.start -%}
-      {%- assign as_seconds = first_day.start | date: '%s' | abs -%}
-      {%- if as_seconds > today -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endif -%}
-    {%- assign beg_index = forloop.index0 -%}
-  {%- endfor -%}
-{%- endif -%}
-
-{% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
+{% for week in site.data.schedule.weeks offset:14 limit:2 %}
 {% include week.html week = week %}
 {% endfor %}
 
