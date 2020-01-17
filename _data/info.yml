@@ -1,6 +1,6 @@
 name: Software Development
 code: CS 212
-term: Fall 2019
+term: Spring 2020
 credits: 4
 
 blurb: |
@@ -10,7 +10,7 @@ links:
   github:
     name: 'Github'
     icon: 'fab fa-github-alt'
-    link: 'https://github.com/usf-cs212-fall2019'
+    link: 'https://github.com/usf-cs212-spring2020'
     info: 'lecture code, homework templates, and project tests'
 
   piazza:
