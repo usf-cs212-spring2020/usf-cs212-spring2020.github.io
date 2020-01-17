@@ -146,8 +146,8 @@ assignments:
 weeks:
 - week: 1
   columns:
-    - label: 'Lecture'
-      start: 2019-08-20
+    - label: 'Lecture (Morning)'
+      start: 2020-01-24
       class: ''
       items:
         - icon: *icon_slides
@@ -175,8 +175,8 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/ENvMeWdwTeB6D3aOBgT3pvTvts62Jx_7t17oNnKv1bSwIumekTziMw'
 
 
-    - label: 'Lecture'
-      start: 2019-08-22
+    - label: 'Lecture (Afternoon)'
+      start: 2020-01-24
       class: ''
       items:
         - icon: *icon_code
@@ -201,7 +201,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/h9HNfdQpQ2nPHt_6ArZOy-1Fm0AAE8bV7rUlmNo1BM2wIumekTziMw'
 
     - label: 'Labs'
-      start: 2019-08-23
+      start: 2020-01-24
       class: ''
       items:
         - <<: *mandatory
@@ -236,8 +236,8 @@ weeks:
 
 - week: 2
   columns:
-    - label: 'Lecture'
-      start: 2019-08-27
+    - label: 'Lecture (Morning)'
+      start: 2020-01-31
       class: ''
       items:
         - icon: *icon_slides
@@ -266,8 +266,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/nyk3N5RrjqPj-sjJPRommfJajD3H_LFKh80urIvIJ1qwIumekTziMw'
 
-    - label: 'Lecture'
-      start: 2019-08-29
+    - label: 'Lecture (Afternoon)'
+      start: 2020-01-31
       class: ''
       items:
         - icon: *icon_code
@@ -292,7 +292,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
 
     - label: 'Labs'
-      start: 2019-08-30
+      start: 2020-01-31
       class: ''
       items:
         - <<: *mandatory
@@ -309,8 +309,8 @@ weeks:
 
 - week: 3
   columns:
-    - label: 'Lecture'
-      start: 2019-09-03
+    - label: 'Lecture (Morning)'
+      start: 2020-02-07
       class: ''
       items:
         - icon: *icon_slides
@@ -329,8 +329,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/M5mQ-yztAY7DU_BF9Gw7OcHnrHCPEPeqVECs9zanLWKwIumekTziMw?startTime=1567553654000'
 
-    - label: 'Lecture'
-      start: 2019-09-05
+    - label: 'Lecture (Afternoon)'
+      start: 2020-02-07
       class: ''
       items:
         - icon: *icon_code
@@ -373,7 +373,7 @@ weeks:
           date: 2019-09-05
 
     - label: 'Labs'
-      start: 2019-09-06
+      start: 2020-02-07
       class: ''
       items:
         - <<: *mandatory
@@ -388,8 +388,8 @@ weeks:
 
 - week: 4
   columns:
-    - label: 'Lecture'
-      start: 2019-09-10
+    - label: 'Lecture (Morning)'
+      start: 2020-02-14
       class: ''
       items:
         - icon: *icon_slides
@@ -438,8 +438,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/KXhBzynylQ1gGxERHrHitn-xzV3XUlELnyuVbhQ0cmqwIumekTziMw'
 
-    - label: 'Lecture'
-      start: 2019-09-12
+    - label: 'Lecture (Afternoon)'
+      start: 2020-02-14
       class: ''
       items:
         - icon: *icon_slides
@@ -494,7 +494,7 @@ weeks:
           date: 2019-09-12
 
     - label: 'Labs'
-      start: 2019-09-13
+      start: 2020-02-14
       class: ''
       items:
         - <<: *homework4
@@ -505,8 +505,8 @@ weeks:
 
 - week: 5
   columns:
-    - label: 'Lecture'
-      start: 2019-09-17
+    - label: 'Lecture (Morning)'
+      start: 2020-02-21
       class: ''
       items:
         - icon: *icon_slides
@@ -550,8 +550,8 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
           date: 2019-09-17
 
-    - label: 'Lecture'
-      start: 2019-09-19
+    - label: 'Lecture (Afternoon)'
+      start: 2020-02-21
       class: ''
       items:
         - icon: *icon_slides
@@ -596,7 +596,7 @@ weeks:
           date: 2019-09-19
 
     - label: 'Labs'
-      start: 2019-09-20
+      start: 2020-02-21
       class: ''
       items:
         - icon: *icon_website
@@ -633,8 +633,8 @@ weeks:
 
 - week: 6
   columns:
-    - label: 'Lecture'
-      start: 2019-09-24
+    - label: 'Lecture (Morning)'
+      start: 2020-02-28
       class: ''
       items:
         - icon: *icon_exam
@@ -642,8 +642,8 @@ weeks:
           type: 'has-text-danger has-text-weight-bold'
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6883259'
 
-    - label: 'Lecture'
-      start: 2019-09-26
+    - label: 'Lecture (Afternoon)'
+      start: 2020-02-28
       class: ''
       items:
         - icon: *icon_exam
@@ -652,7 +652,7 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6884069'
 
     - label: 'Labs'
-      start: 2019-09-27
+      start: 2020-02-28
       class: ''
       items:
         - <<: *project1
@@ -663,8 +663,8 @@ weeks:
 
 - week: 7
   columns:
-    - label: 'Lecture'
-      start: 2019-10-01
+    - label: 'Lecture (Morning)'
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_slides
@@ -696,8 +696,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/R2aCCtmo9Y-Zm7jyxfCHhtDPUqEMg5LlLXob1VyeOViwIumekTziMw'
 
-    - label: 'Lecture'
-      start: 2019-10-03
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_slides
@@ -725,7 +725,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/ZzsgsZhZpq4mYzPYhvTGKBGzhvorcBumZJYtud6x4lywIumekTziMw'
 
     - label: 'Labs'
-      start: 2019-10-04
+      start: 2020-03-06
       class: ''
       items:
         - <<: *homework6
@@ -735,8 +735,8 @@ weeks:
 
 - week: 8
   columns:
-    - label: 'Lecture'
-      start: 2019-10-08
+    - label: 'Lecture (Morning)'
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_code
@@ -772,8 +772,8 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
           date: 2019-10-08
 
-    - label: 'Lecture'
-      start: 2019-10-10
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_slides
@@ -807,7 +807,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
 
     - label: 'Labs'
-      start: 2019-10-11
+      start: 2020-03-06
       class: ''
       items:
         - <<: *homework7
@@ -822,8 +822,8 @@ weeks:
 
 - week: 9
   columns:
-    - label: 'NO CLASS'
-      start: 2019-10-15
+    - label: 'Lecture (Morning)'
+      start: 2020-03-13
       class: ''
       items:
         - icon:
@@ -847,8 +847,8 @@ weeks:
           bump: true
           date: 2019-10-15
 
-    - label: 'Lecture'
-      start: 2019-10-17
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-13
       class: ''
       items:
         - icon: *icon_code
@@ -879,7 +879,7 @@ weeks:
           date: 2019-10-17
 
     - label: 'Labs'
-      start: 2019-10-18
+      start: 2020-03-13
       class: ''
       items:
         - <<: *homework8
@@ -893,8 +893,8 @@ weeks:
 
 - week: 10
   columns:
-    - label: 'Lecture'
-      start: 2019-10-22
+    - label: 'Lecture (Morning)'
+      start: 2020-03-20
       class: ''
       items:
         - icon: *icon_warning
@@ -926,8 +926,8 @@ weeks:
           text: 'Sophie @ IEEEVIS'
           type: 'has-text-grey'
 
-    - label: 'Lecture'
-      start: 2019-10-24
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-20
       class: ''
       items:
         - icon: *icon_warning
@@ -969,7 +969,7 @@ weeks:
           bump: true
 
     - label: 'Labs'
-      start: 2019-10-25
+      start: 2020-03-20
       class: ''
       items:
         - <<: *homework9
@@ -1015,8 +1015,8 @@ weeks:
 
 - week: 11
   columns:
-    - label: 'Lecture'
-      start: 2019-10-29
+    - label: 'Lecture (Morning)'
+      start: 2020-03-27
       class: ''
       items:
         - icon: *icon_code
@@ -1031,8 +1031,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
 
-    - label: 'Lecture'
-      start: 2019-10-31
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-27
       class: ''
       items:
         - icon: *icon_slides
@@ -1064,7 +1064,7 @@ weeks:
 
 
     - label: 'Labs'
-      start: 2019-11-01
+      start: 2020-03-27
       class: ''
       items:
         - <<: *homework10
@@ -1078,8 +1078,8 @@ weeks:
 
 - week: 12
   columns:
-    - label: 'Lecture'
-      start: 2019-11-05
+    - label: 'Lecture (Morning)'
+      start: 2020-03-27
       class: ''
       items:
         - icon: *icon_code
@@ -1102,8 +1102,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/d6XH5hNZcvzTZE8H6Zc3a95dVlqenA6gCIZHZO_VSSewIumekTziMw'
 
-    - label: 'Lecture'
-      start: 2019-11-07
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-27
       class: ''
       items:
         - icon: *icon_code
@@ -1119,7 +1119,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/pg7Pb56bKZF5KkcBKIxJDS6FsmL-HMQYamO4C5xLcTGwIumekTziMw'
 
     - label: 'Labs'
-      start: 2019-11-08
+      start: 2020-03-27
       class: ''
       items:
         - <<: *homework11
@@ -1136,8 +1136,8 @@ weeks:
 
 - week: 13
   columns:
-    - label: 'Lecture'
-      start: 2019-11-12
+    - label: 'Lecture (Morning)'
+      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_website
@@ -1173,8 +1173,8 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
           date: 2019-11-12
 
-    - label: 'Lecture'
-      start: 2019-11-14
+    - label: 'Lecture (Afternoon)'
+      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_website
@@ -1200,7 +1200,7 @@ weeks:
 
 
     - label: 'Labs'
-      start: 2019-11-15
+      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_website
@@ -1225,16 +1225,16 @@ weeks:
 
 - week: 14
   columns:
-    - label: 'Lecture'
-      start: 2019-11-19
+    - label: 'Lecture (Morning)'
+      start: 2020-04-10
       class: ''
       items:
         - icon: *icon_exam
           text: 'Exam 2'
           type: 'has-text-danger has-text-weight-bold'
 
-    - label: 'Lecture'
-      start: 2019-11-21
+    - label: 'Lecture (Afternoon)'
+      start: 2020-04-10
       class: ''
       items:
         - icon: *icon_exam
@@ -1242,7 +1242,7 @@ weeks:
           type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Labs'
-      start: 2019-11-22
+      start: 2020-04-10
       class: ''
       items:
         - <<: *homework11
@@ -1255,8 +1255,8 @@ weeks:
 
 - week: 15
   columns:
-    - label: 'Lecture'
-      start: 2019-11-26
+    - label: 'Lecture (Morning)'
+      start: 2020-04-10
       class: ''
       items:
         - icon: *icon_slides
@@ -1284,8 +1284,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/sNCXnIgF2xjGlOyS_IklOb9-cOZg-BpWeSF4Yz4OuQuwIumekTziMw'
 
-    - label: 'NO CLASS'
-      start: 2019-11-28
+    - label: 'Lecture (Afternoon)'
+      start: 2020-04-10
       class: ''
       items:
         - icon:
@@ -1293,8 +1293,8 @@ weeks:
           text: 'Thanksgiving Recess (No Class)'
           type: 'has-text-grey'
 
-    - label: 'NO CLASS'
-      start: 2019-11-29
+    - label: 'Lab'
+      start: 2020-04-10
       class: ''
       items:
         - icon:
@@ -1309,8 +1309,8 @@ weeks:
 
 - week: 16
   columns:
-    - label: 'Lecture'
-      start: 2019-12-03
+    - label: 'Lecture (Morning)'
+      start: 2020-04-17
       class: ''
       items:
         - icon: *icon_slides
@@ -1339,8 +1339,8 @@ weeks:
           type: 'has-text-danger has-text-weight-bold'
           date: 2019-12-04
 
-    - label: 'NO CLASS'
-      start: 2019-12-05
+    - label: 'Lecture (Afternoon)'
+      start: 2020-04-17
       class: ''
       items:
         - icon: *icon_date
