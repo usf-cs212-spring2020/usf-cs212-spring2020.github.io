@@ -51,4 +51,4 @@ ul.icons > li > i {
 
 Here is the combined calendar for this course, which includes the latest office hours schedule, upcoming deadlines, and more:
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y3MudXNmY2EuZWR1XzNnaDZiMmkybDM0cnNoNm1iY29zOHFyYXBnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y3MudXNmY2EuZWR1X200cGZ1Z2l2ZXM5ODI0c3ZtcWk5NHZ1Y2hrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=c3NnNGRvcXRpb2RmcWVlZW5pYjBnaDZucWhxaXJoNXNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23B39DDB&amp;color=%239E69AF&amp;color=%238E24AA&amp;title=CS%20212%20Fall%202019&amp;showPrint=0&amp;showCalendars=0&amp;showNav=1&amp;mode=WEEK" style="border-width:0; height: 600px;" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=classroom115443357717310890518%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
