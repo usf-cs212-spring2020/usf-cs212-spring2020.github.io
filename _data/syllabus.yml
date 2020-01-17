@@ -34,19 +34,19 @@ instructor:
   - label: Raymond Cheng
     image: /images/ryscheng.png
     items:
-      - text: Tuesdays, Thursdays
+      - text: Fridays
         icon: fas fa-calendar-alt
 
-      - text: 2:45pm &ndash; 4:15pm
+      - text: 1:30pm &ndash; 2:30pm
         icon: fas fa-clock
 
-      - text: Harney Science 412B
+      - text: Cowell Hall 414
         icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/cowell
 
-      - text: sjengle.cs.usfca.edu
+      - text: raymondcheng.net
         icon: fas fa-globe
-        link: https://sjengle.cs.usfca.edu
+        link: https://raymondcheng.net
 
 assistants:
   - label: Olivia Kumar
@@ -61,72 +61,42 @@ assistants:
       - text: Harney 411
         icon: far fa-map-marker-alt
 
-      - text: Project Grading
-        icon: far fa-clipboard-list-check
-
-  - label: Simon Lu
-    image: /images/lu.jpg
-    items:
-      - text: Monday, Friday 11:30am &ndash; 12:30pm
-        icon: far fa-calendar-alt
-
-      - text: Wednesday 3:00pm &ndash; 4:00pm
-        icon: far fa-calendar-alt
-
-      - text: Harney 411
-        icon: far fa-map-marker-alt
-
-      - text: Homework Grading
-        icon: far fa-clipboard-list-check
-
-  - label: Evelyn Matson
-    image: /images/matson.jpeg
-    items:
-      - text: 'Wednesday'
-        icon: far fa-calendar-alt
-
-      - text: 11:45am &ndash; 12:45pm
-        icon: fas fa-clock
-
-      - text: Harney 411
-        icon: far fa-map-marker-alt
-
-      - text: Piazza Help
+      - text: Project/Homework Grading
         icon: far fa-clipboard-list-check
 
 important_dates:
   # start/end dates
   - text: Lectures Begin
     icon: fas fa-chalkboard-teacher
-    date: 2019-08-20
+    date: 2020-01-24
 
   - text: Lectures End
     icon: fas fa-chalkboard-teacher
-    date: 2019-12-03
+    date: 2020-05-08
 
   - text: Labs Begin
     icon: fas fa-laptop
-    date: 2019-08-23
+    date: 2020-01-24
 
   - text: Finals Begin
     icon: fas fa-list
-    date: 2019-12-06
+    date: 2020-05-08
 
   # registration deadlines
   - text: Add Deadline
     icon: fas fa-calendar-plus
-    date: 2019-08-26
+    date: 2020-01-27
 
   - text: Drop Deadline
     icon: fas fa-calendar-minus
-    link: https://myusf.usfca.edu/registration/fall-registration-calendar
-    date: 2019-09-06
+    link: https://myusf.usfca.edu/registration/spring-registration-calendar
+    date: 2020-02-07
     info: |
       This is the last day students can drop the class with 100% refund and avoid a W on their transcript.
 
   - text: Withdraw Deadline
     icon: fas fa-calendar-minus
-    link: https://myusf.usfca.edu/registration/fall-registration-calendar
+    link: https://myusf.usfca.edu/registration/spring-registration-calendar
     date: 2019-11-01
     type: 'danger'
     info: |
@@ -134,28 +104,21 @@ important_dates:
 
   - text: Grade Deadline
     icon: fas fa-calendar-alt
-    date: 2020-01-02
+    date: 2020-05-21
     info: |
       This is the day all final grades must be submitted. Any missing grades will default to an F letter grade.
 
   # holidays
-  - text: Labor Day Holiday
+  - text: Spring Break
     icon: fas fa-umbrella-beach
-    date: 2019-09-02
+    date: 2020-03-09
+    stop: 2020-03-13
     info: |
       Lectures, labs, office hours, and code reviews will be canceled during this holiday.
 
-  - text: Fall Break
+  - text: Easter Holiday
     icon: fas fa-umbrella-beach
-    date: 2019-10-14
-    stop: 2019-10-15
-    info: |
-      Lectures, labs, office hours, and code reviews will be canceled during this holiday.
-
-  - text: Thanksgiving Recess
-    icon: fas fa-turkey
-    date: 2019-11-28
-    stop: 2019-11-29
+    date: 2020-04-10
     info: |
       Lectures, labs, office hours, and code reviews will be canceled during this holiday.
 
