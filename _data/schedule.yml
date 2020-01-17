@@ -853,31 +853,6 @@ weeks:
       start: 2020-03-27
       class: ''
       items:
-        - icon:
-            class: far fa-spa
-          text: 'Fall Break (No Class)'
-          type: 'has-text-grey'
-      dates:
-        - icon: *icon_participation
-          text: 'CS Event 1'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872078'
-          date: 2019-10-15
-
-        - icon: *icon_participation
-          text: 'Piazza Participation 1'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872087'
-          date: 2019-10-15
-
-        - icon: *icon_quiz
-          text: 'Thread Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
-          bump: true
-          date: 2019-10-15
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-03-27
-      class: ''
-      items:
         - icon: *icon_code
           text: 'Work Queues'
           link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Work%20Queues'
@@ -904,24 +879,25 @@ weeks:
           text: 'Synchronization'
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
           date: 2019-10-17
+          
+        - icon: *icon_participation
+          text: 'CS Event 1'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872078'
+          date: 2019-10-15
 
-    - label: 'Labs'
+        - icon: *icon_participation
+          text: 'Piazza Participation 1'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872087'
+          date: 2019-10-15
+
+        - icon: *icon_quiz
+          text: 'Thread Basics'
+          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
+          bump: true
+          date: 2019-10-15
+
+    - label: 'Lecture (Afternoon)'
       start: 2020-03-27
-      class: ''
-      items:
-        - <<: *homework8
-        - <<: *project2
-          text: Project 2 (Late)
-        - <<: *project3
-
-      dates:
-        - <<: *homework7
-
-
-- week: 11
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_warning
@@ -952,8 +928,23 @@ weeks:
             class: far fa-plane-departure
           text: 'Sophie @ IEEEVIS'
           type: 'has-text-grey'
+      
+    - label: 'Labs'
+      start: 2020-03-27
+      class: ''
+      items:
+        - <<: *homework8
+        - <<: *project2
+          text: Project 2 (Late)
+        - <<: *project3
 
-    - label: 'Lecture (Afternoon)'
+      dates:
+        - <<: *homework7
+
+
+- week: 11
+  columns:
+    - label: 'Lecture (Morning)'
       start: 2020-04-03
       class: ''
       items:
@@ -994,6 +985,22 @@ weeks:
           text: 'Sophie @ IEEEVIS'
           type: 'has-text-grey'
           bump: true
+
+    - label: 'Lecture (Afternoon)'
+      start: 2020-04-03
+      class: ''
+      items:
+        - icon: *icon_code
+          text: 'Sockets'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sockets'
+
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/it_CgjsYeB2wa9TMs4rpCWGKlly7ypQHDjcg3zEKJ6KwIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
 
     - label: 'Labs'
       start: 2020-04-03
@@ -1072,22 +1079,6 @@ weeks:
       start: 2020-04-17
       class: ''
       items:
-        - icon: *icon_code
-          text: 'Sockets'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sockets'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/it_CgjsYeB2wa9TMs4rpCWGKlly7ypQHDjcg3zEKJ6KwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-04-17
-      class: ''
-      items:
         - icon: *icon_slides
           text: 'Dynamic Webpages'
           link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
@@ -1114,25 +1105,9 @@ weeks:
           text: 'PROJECT CUTOFF 1'
           link: '/syllabus.html#important-dates'
           type: 'has-text-danger has-text-weight-bold'
-
-
-    - label: 'Labs'
+      
+    - label: 'Lecture (Afternoon)'
       start: 2020-04-17
-      class: ''
-      items:
-        - <<: *homework10
-        - <<: *project3
-
-      dates:
-        - <<: *homework9
-        - icon: *icon_date
-          text: 'Withdraw Deadline'
-          type: 'has-text-danger has-text-weight-bold'
-
-- week: 14
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-04-24
       class: ''
       items:
         - icon: *icon_code
@@ -1155,7 +1130,22 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/d6XH5hNZcvzTZE8H6Zc3a95dVlqenA6gCIZHZO_VSSewIumekTziMw'
 
-    - label: 'Lecture (Afternoon)'
+    - label: 'Labs'
+      start: 2020-04-17
+      class: ''
+      items:
+        - <<: *homework10
+        - <<: *project3
+
+      dates:
+        - <<: *homework9
+        - icon: *icon_date
+          text: 'Withdraw Deadline'
+          type: 'has-text-danger has-text-weight-bold'
+
+- week: 14
+  columns:
+    - label: 'Lecture (Morning)'
       start: 2020-04-24
       class: ''
       items:
@@ -1171,26 +1161,8 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/pg7Pb56bKZF5KkcBKIxJDS6FsmL-HMQYamO4C5xLcTGwIumekTziMw'
 
-    - label: 'Labs'
+    - label: 'Lecture (Afternoon)'
       start: 2020-04-24
-      class: ''
-      items:
-        - <<: *homework11
-
-        - <<: *project3
-          text: 'Project 3'
-        - <<: *project4
-
-      dates:
-        - <<: *homework10
-        - <<: *project3
-          text: 'Project 3 (Extended)'
-          type: 'has-text-usf-plum'
-
-- week: 15
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-05-01
       class: ''
       items:
         - icon: *icon_website
@@ -1226,7 +1198,25 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
           date: 2019-11-12
 
-    - label: 'Lecture (Afternoon)'
+    - label: 'Labs'
+      start: 2020-04-24
+      class: ''
+      items:
+        - <<: *homework11
+
+        - <<: *project3
+          text: 'Project 3'
+        - <<: *project4
+
+      dates:
+        - <<: *homework10
+        - <<: *project3
+          text: 'Project 3 (Extended)'
+          type: 'has-text-usf-plum'
+
+- week: 15
+  columns:
+    - label: 'Lecture (Morning)'
       start: 2020-05-01
       class: ''
       items:
@@ -1251,6 +1241,53 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/recording/share/-5_QBRB5-c2cMVySuh4b9FgqgN5U2jC6LDsnoKSxt1CwIumekTziMw'
 
+    - label: 'Lecture (Afternoon)'
+      start: 2020-05-01
+      class: ''
+      items:
+        - icon: *icon_slides
+          text: 'Testing - Motivation'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+
+        - icon: *icon_slides
+          text: 'Testing - Basics'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+
+        - icon: *icon_slides
+          text: 'Testing - Unit Testing'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
+
+        - icon: *icon_code
+          text: 'Unit Testing'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Unit%20Testing'
+          bump: true
+
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/OBbIa2ZMDQvLSalxHPckF0ycKSZRS-Ttt9DMumRADMawIumekTziMw'
+          bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/sNCXnIgF2xjGlOyS_IklOb9-cOZg-BpWeSF4Yz4OuQuwIumekTziMw'
+        
+        - icon: *icon_slides
+          text: 'JDBC'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
+
+        - icon: *icon_code
+          text: 'Jetty and JDBC'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Jetty%20and%20JDBC'
+
+        - icon: *icon_website
+          text: 'Course Survey (Informal)'
+          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
+          type: 'has-text-weight-bold'
+          bump: true
+
+        - icon: *icon_website
+          text: 'Course Evaluations (BLUE)'
+          link: 'https://usfca.instructure.com/'
+          type: 'has-text-weight-bold'
 
     - label: 'Labs'
       start: 2020-05-01
@@ -1285,106 +1322,6 @@ weeks:
         - icon: *icon_exam
           text: 'Exam 2'
           type: 'has-text-danger has-text-weight-bold'
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-05-08
-      class: ''
-      items:
-        - icon: *icon_exam
-          text: 'Exam 2 Retake'
-          type: 'has-text-danger has-text-weight-bold'
-
-    - label: 'Labs'
-      start: 2020-05-08
-      class: ''
-      items:
-        - <<: *homework11
-
-        - <<: *project3
-          text: 'Project 3 (Late)'
-        - <<: *project4
-      dates:
-        - <<: *homework11
-
-- week: 100
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-04-10
-      class: ''
-      items:
-        - icon: *icon_slides
-          text: 'Testing - Motivation'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
-
-        - icon: *icon_slides
-          text: 'Testing - Basics'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
-
-        - icon: *icon_slides
-          text: 'Testing - Unit Testing'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
-
-        - icon: *icon_code
-          text: 'Unit Testing'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Unit%20Testing'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/OBbIa2ZMDQvLSalxHPckF0ycKSZRS-Ttt9DMumRADMawIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/sNCXnIgF2xjGlOyS_IklOb9-cOZg-BpWeSF4Yz4OuQuwIumekTziMw'
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-04-10
-      class: ''
-      items:
-        - icon:
-            class: far fa-turkey
-          text: 'Thanksgiving Recess (No Class)'
-          type: 'has-text-grey'
-
-    - label: 'Lab'
-      start: 2020-04-10
-      class: ''
-      items:
-        - icon:
-            class: far fa-turkey
-          text: 'Thanksgiving Recess (No Class)'
-          type: 'has-text-grey'
-
-      dates:
-        - <<: *project4
-          text: 'Project 4 Web Crawler (Extended)'
-          type: 'has-text-usf-plum'
-
-- week: 101
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-04-17
-      class: ''
-      items:
-        - icon: *icon_slides
-          text: 'JDBC'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
-
-        - icon: *icon_code
-          text: 'Jetty and JDBC'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Jetty%20and%20JDBC'
-
-        - icon: *icon_website
-          text: 'Course Survey (Informal)'
-          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
-          type: 'has-text-weight-bold'
-          bump: true
-
-        - icon: *icon_website
-          text: 'Course Evaluations (BLUE)'
-          link: 'https://usfca.instructure.com/'
-          type: 'has-text-weight-bold'
-
       dates:
         - icon: *icon_date
           text: 'PROJECT CUTOFF 2'
@@ -1393,18 +1330,13 @@ weeks:
           date: 2019-12-04
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-04-17
+      start: 2020-05-08
       class: ''
       items:
-        - icon: *icon_date
-          text: 'End of Semester (No Class)'
-          type: 'has-text-grey'
-
-        - icon: *icon_date
-          text: 'CS Night (Optional)'
-          date: 2019-12-05
-          bump: true
-
+        - icon: *icon_exam
+          text: 'Exam 2 Retake'
+          type: 'has-text-danger has-text-weight-bold'
+      
       dates:
         - icon: *icon_participation
           text: 'CS Event 2'
@@ -1416,14 +1348,24 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6872088'
           date: 2019-12-05
 
-    - label: 'FINALS WEEK'
+    - label: 'Labs'
+      start: 2020-05-08
       class: ''
       items:
+        - <<: *homework11
+
+        - <<: *project3
+          text: 'Project 3 (Late)'
+        - <<: *project4
         - icon: *icon_project
           text: 'Final Code Reviews'
           link: 'https://usf-cs212-fall2019.github.io/guides/projects/final-code-review.html '
-
       dates:
+        - <<: *homework11
+        - <<: *project4
+          text: 'Project 4 Web Crawler (Extended)'
+          type: 'has-text-usf-plum'
+          
         - icon: *icon_website
           text: 'Course Survey (Informal)'
           link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
@@ -1433,3 +1375,6 @@ weeks:
           text: 'Course Evaluations (BLUE)'
           link: 'https://usfca.instructure.com/'
           type: 'has-text-weight-bold'
+
+
+
