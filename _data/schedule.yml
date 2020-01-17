@@ -56,37 +56,37 @@ assignments:
   - homework1: &homework1
       text: TextFileStemmer
       icon: *icon_homework
-      date: 2019-08-30
+      date: 2020-01-31
       link: https://usfca.instructure.com/courses/1586786/assignments/6871382
 
   - homework2: &homework2
       text: SimpleJsonWriter
       icon: *icon_homework
-      date: 2019-09-06
+      date: 2020-02-07
       link: https://usfca.instructure.com/courses/1586786/assignments/6871385
 
   - homework3: &homework3
       text: ArgumentParser
       icon: *icon_homework
-      date: 2019-09-13
+      date: 2020-02-14
       link: https://usfca.instructure.com/courses/1586786/assignments/6871389
 
   - homework4: &homework4
       text: WordIndex
       icon: *icon_homework
-      date: 2019-09-20
+      date: 2020-02-21
       link: https://usfca.instructure.com/courses/1586786/assignments/6871390
 
   - homework5: &homework5
       text: TextFileFinder
       icon: *icon_homework
-      date: 2019-09-27
+      date: 2020-02-28
       link: https://usfca.instructure.com/courses/1586786/assignments/6871396
 
   - homework6: &homework6
       text: LoggerSetup
       icon: *icon_homework
-      date: 2019-10-11
+      date: 2020-03-06
       link: https://usfca.instructure.com/courses/1586786/assignments/6871398
 
   - homework7: &homework7
@@ -735,8 +735,19 @@ weeks:
 
 - week: 8
   columns:
+    - label: "No Class"
+      start: 2020-03-13
+      class: ''
+      items:
+        - icon:
+            class: far fa-spa
+          text: 'Spring Break (No Class)'
+          type: 'has-text-grey'
+
+- week: 9
+  columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-06
+      start: 2020-03-20
       class: ''
       items:
         - icon: *icon_code
@@ -773,7 +784,7 @@ weeks:
           date: 2019-10-08
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-06
+      start: 2020-03-20
       class: ''
       items:
         - icon: *icon_slides
@@ -807,7 +818,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
 
     - label: 'Labs'
-      start: 2020-03-06
+      start: 2020-03-20
       class: ''
       items:
         - <<: *homework7
@@ -820,10 +831,10 @@ weeks:
           text: Project 2 Tests
           type: has-text-usf-plum
 
-- week: 9
+- week: 10
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-13
+      start: 2020-03-27
       class: ''
       items:
         - icon:
@@ -848,7 +859,7 @@ weeks:
           date: 2019-10-15
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-13
+      start: 2020-03-27
       class: ''
       items:
         - icon: *icon_code
@@ -879,7 +890,7 @@ weeks:
           date: 2019-10-17
 
     - label: 'Labs'
-      start: 2020-03-13
+      start: 2020-03-27
       class: ''
       items:
         - <<: *homework8
@@ -891,10 +902,10 @@ weeks:
         - <<: *homework7
 
 
-- week: 10
+- week: 11
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-20
+      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_warning
@@ -927,7 +938,7 @@ weeks:
           type: 'has-text-grey'
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-20
+      start: 2020-04-03
       class: ''
       items:
         - icon: *icon_warning
@@ -969,7 +980,7 @@ weeks:
           bump: true
 
     - label: 'Labs'
-      start: 2020-03-20
+      start: 2020-04-03
       class: ''
       items:
         - <<: *homework9
@@ -1012,11 +1023,22 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826692'
           date: 2019-10-25
 
+- week: 12
+  columns:
+    - label: "No Class"
+      start: 2020-04-10
+      class: ''
+      items:
+        - icon:
+            class: far fa-spa
+          text: 'Easter Holiday (No Class)'
+          type: 'has-text-grey'
 
-- week: 11
+
+- week: 13
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-27
+      start: 2020-04-17
       class: ''
       items:
         - icon: *icon_code
@@ -1032,7 +1054,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-27
+      start: 2020-04-17
       class: ''
       items:
         - icon: *icon_slides
@@ -1064,7 +1086,7 @@ weeks:
 
 
     - label: 'Labs'
-      start: 2020-03-27
+      start: 2020-04-17
       class: ''
       items:
         - <<: *homework10
@@ -1076,10 +1098,10 @@ weeks:
           text: 'Withdraw Deadline'
           type: 'has-text-danger has-text-weight-bold'
 
-- week: 12
+- week: 14
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-27
+      start: 2020-04-24
       class: ''
       items:
         - icon: *icon_code
@@ -1103,7 +1125,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/d6XH5hNZcvzTZE8H6Zc3a95dVlqenA6gCIZHZO_VSSewIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-27
+      start: 2020-04-24
       class: ''
       items:
         - icon: *icon_code
@@ -1119,7 +1141,7 @@ weeks:
           link: 'https://usfca.zoom.us/recording/share/pg7Pb56bKZF5KkcBKIxJDS6FsmL-HMQYamO4C5xLcTGwIumekTziMw'
 
     - label: 'Labs'
-      start: 2020-03-27
+      start: 2020-04-24
       class: ''
       items:
         - <<: *homework11
@@ -1134,10 +1156,10 @@ weeks:
           text: 'Project 3 (Extended)'
           type: 'has-text-usf-plum'
 
-- week: 13
+- week: 15
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-04-03
+      start: 2020-05-01
       class: ''
       items:
         - icon: *icon_website
@@ -1174,7 +1196,7 @@ weeks:
           date: 2019-11-12
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-04-03
+      start: 2020-05-01
       class: ''
       items:
         - icon: *icon_website
@@ -1200,7 +1222,7 @@ weeks:
 
 
     - label: 'Labs'
-      start: 2020-04-03
+      start: 2020-05-01
       class: ''
       items:
         - icon: *icon_website
@@ -1223,10 +1245,10 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
           date: 2019-11-15
 
-- week: 14
+- week: 16
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-04-10
+      start: 2020-05-08
       class: ''
       items:
         - icon: *icon_exam
@@ -1234,7 +1256,7 @@ weeks:
           type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-04-10
+      start: 2020-05-08
       class: ''
       items:
         - icon: *icon_exam
@@ -1242,7 +1264,7 @@ weeks:
           type: 'has-text-danger has-text-weight-bold'
 
     - label: 'Labs'
-      start: 2020-04-10
+      start: 2020-05-08
       class: ''
       items:
         - <<: *homework11
@@ -1253,7 +1275,7 @@ weeks:
       dates:
         - <<: *homework11
 
-- week: 15
+- week: 100
   columns:
     - label: 'Lecture (Morning)'
       start: 2020-04-10
@@ -1307,7 +1329,7 @@ weeks:
           text: 'Project 4 Web Crawler (Extended)'
           type: 'has-text-usf-plum'
 
-- week: 16
+- week: 101
   columns:
     - label: 'Lecture (Morning)'
       start: 2020-04-17
