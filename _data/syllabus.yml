@@ -1,65 +1,38 @@
-beg_date: 2019-08-20
-end_date: 2019-12-04
+beg_date: 2020-01-24
+end_date: 2020-05-08
 
 lectures:
   - label: CS 212-01 (CRN 41255)
     items:
-      - text: Tuesdays, Thursdays
+      - text: Fridays
         icon: fas fa-calendar-alt
 
-      - text: 12:45pm &ndash; 2:30pm
+      - text: 11:45pm &ndash; 1:30pm, 2:30pm &ndash; 4:15pm
         icon: fas fa-clock
 
-      - text: Lo Schiavo Science G12
+      - text: Cowell Hall 414
         icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
-
-  - label: CS 212-02 (CRN 41256)
-    items:
-      - text: Tuesdays, Thursdays
-        icon: fas fa-calendar-alt
-
-      - text: 4:35pm &ndash; 6:20pm
-        icon: fas fa-clock
-
-      - text: Lo Schiavo Science G12
-        icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/cowell
 
 labs:
   - label: CS 212L-01 (CRN 42266)
     items:
-      - text: Eve and Simon
+      - text: Ray and Olivia
         icon: fas fa-user
 
       - text: Fridays
         icon: fas fa-calendar-alt
 
-      - text: 1:00pm &ndash; 2:05pm
+      - text: 1:30pm &ndash; 2:30pm
         icon: fas fa-clock
 
-      - text: Lo Schiavo Science 307
+      - text: Cowell Hall 414
         icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
-
-  - label: CS 212L-02 (CRN 42293)
-    items:
-      - text: Simon and Eve
-        icon: fas fa-user
-
-      - text: Fridays
-        icon: fas fa-calendar-alt
-
-      - text: 2:15pm &ndash; 3:20pm
-        icon: fas fa-clock
-
-      - text: Lo Schiavo Science 307
-        icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/cowell
 
 instructor:
-  - label: Sophie Engle
-    image: /images/engle.png
+  - label: Raymond Cheng
+    image: /images/ryscheng.png
     items:
       - text: Tuesdays, Thursdays
         icon: fas fa-calendar-alt
