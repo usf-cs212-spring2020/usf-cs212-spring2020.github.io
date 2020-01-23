@@ -16,19 +16,19 @@ links:
   piazza:
     name: 'Piazza'
     icon: 'far fa-comments'
-    link: 'https://piazza.com/usfca/fall2019/cs212/home'
+    link: 'https://piazza.com/usfca/spring2020/cs212-02/home'
     info: 'course announcements, upcoming events, lecture Q&amp;A, homework help, and general discussion'
 
   canvas:
     name: 'Canvas'
     icon: 'far fa-school'
-    link: 'https://usfca.instructure.com/courses/1586786'
+    link: 'https://usfca.instructure.com/courses/1591964/'
     info: 'grades and assignment deadlines'
 
   stream:
     name: 'Zoom'
     icon: 'far fa-video'
-    link: 'https://usfca.zoom.us/j/648500177'
+    link: 'https://usfca.zoom.us/j/646808857'
     info: 'password-protected livestreams of lecture'
 
 pages:
