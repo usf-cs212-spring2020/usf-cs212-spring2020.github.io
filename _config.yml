@@ -1,11 +1,11 @@
 title: "CS 212 Software Development"
-subtitle: "CS 212-01, CS 212-02 &bullet; Fall 2019"
+subtitle: "CS 212-02 &bullet; Spring 2020"
 
-name: "Sophie Engle"
+name: "Raymond Cheng"
 timezone: "America/Los_Angeles"
 
 # https://help.github.com/en/articles/repository-metadata-on-github-pages
-repository: "usf-cs212-fall2019/usf-cs212-fall2019.github.io"
+repository: "usf-cs212-spring2020/usf-cs212-spring2020.github.io"
 github: [metadata]
 
 include: ["favicon.ico"]

@@ -2,7 +2,7 @@ beg_date: 2020-01-24
 end_date: 2020-05-08
 
 lectures:
-  - label: CS 212-01 (CRN 41255)
+  - label: CS 212-02 (CRN 22739)
     items:
       - text: Fridays
         icon: fas fa-calendar-alt
@@ -15,7 +15,7 @@ lectures:
         link: https://www.usfca.edu/campus-buildings-services/main-campus/cowell
 
 labs:
-  - label: CS 212L-01 (CRN 42266)
+  - label: CS 212L-01 (CRN 22740)
     items:
       - text: Ray and Olivia
         icon: fas fa-user
@@ -37,12 +37,12 @@ instructor:
       - text: Fridays
         icon: fas fa-calendar-alt
 
-      - text: 1:30pm &ndash; 2:30pm
+      - text: 10:00am &ndash; 11:00pm
         icon: fas fa-clock
 
-      - text: Cowell Hall 414
+      - text: Harney Science Center 414
         icon: fas fa-map-marker-alt
-        link: https://www.usfca.edu/campus-buildings-services/main-campus/cowell
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
       - text: raymondcheng.net
         icon: fas fa-globe
@@ -55,10 +55,10 @@ assistants:
       - text: Monday, Wednesday, Friday
         icon: far fa-calendar-alt
 
-      - text: 10:30am &ndash; 11:30am
+      - text: TBD
         icon: fas fa-clock
 
-      - text: Harney 411
+      - text: TBD
         icon: far fa-map-marker-alt
 
       - text: Project/Homework Grading
@@ -97,7 +97,7 @@ important_dates:
   - text: Withdraw Deadline
     icon: fas fa-calendar-minus
     link: https://myusf.usfca.edu/registration/spring-registration-calendar
-    date: 2019-11-01
+    date: 2020-04-06
     type: 'danger'
     info: |
       This is the last day students can withdraw and receive a W on their transcript.
@@ -125,21 +125,19 @@ important_dates:
   # course deadlines
   - text: Exam 1
     icon: fas fa-tasks
-    date: 2019-09-24
+    date: 2020-03-06
     type: 'danger'
     info: |
-      There will be an exam retake opportunity following the exam.
 
   - text: Exam 2
     icon: fas fa-tasks
-    date: 2019-11-19
+    date: 2020-05-01
     type: 'danger'
     info: |
-      There will be an exam retake opportunity following the exam.
 
   - text: Project Cutoff 1
     icon: fas fa-flag
-    date: 2019-10-31
+    date: 2020-04-03
     link: '#pass-requirements'
     type: 'danger'
     info: |
@@ -147,7 +145,7 @@ important_dates:
 
   - text: Project Cutoff 2
     icon: fas fa-flag
-    date: 2019-12-05
+    date: 2020-05-08
     link: '#pass-requirements'
     type: 'danger'
     info: |
