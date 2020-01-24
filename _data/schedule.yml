@@ -368,11 +368,6 @@ weeks:
     - label: 'Labs'
       start: 2020-03-06
       class: ''
-      items:
-        - <<: *homework6
-        - <<: *project1
-          text: Project 1 (Late)
-        - <<: *project2
 
 - week: 8
   columns:
@@ -477,7 +472,7 @@ weeks:
       items:
         - icon:
             class: far fa-spa
-          text: 'Spring Break (No Class)'
+          text: 'Easter Holiday (No Class)'
           type: 'has-text-grey'
     - label: "No Class"
       start: 2020-04-10
@@ -485,7 +480,7 @@ weeks:
       items:
         - icon:
             class: far fa-spa
-          text: 'Spring Break (No Class)'
+          text: 'Easter Holiday (No Class)'
           type: 'has-text-grey'
 
 - week: 13
