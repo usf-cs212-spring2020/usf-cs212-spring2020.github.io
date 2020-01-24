@@ -57,7 +57,7 @@ assignments:
       text: ArgumentParser
       icon: *icon_homework
       date: 2020-01-31
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871382
+      link: https://usfca.instructure.com/courses/1591964/assignments/6918388
 
   - homework2: &homework2
       text: SimpleJsonWriter
@@ -210,10 +210,13 @@ weeks:
         - <<: *homework1
 
       dates:
+        - icon: *icon_participation
+          text: 'Lab Requirements'
+          link: 'https://usfca.instructure.com/courses/1591964/assignments/6918362'
+
         - icon: *icon_quiz
           text: 'Quiz: Course Syllabus'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346783'
-          date: 2020-01-24
           bump: true
 
         - icon: *icon_date
@@ -245,15 +248,9 @@ weeks:
         - <<: *mandatory
 
       dates:
-        - icon: *icon_participation
-          text: 'Lab Requirements'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6879476'
-          date: 2020-01-31
-
         - icon: *icon_website
           text: 'Piazza Setup'
           link: 'https://usfca.instructure.com/courses/1591964/assignments/6917847'
-          date: 2020-01-31
 
         - <<: *homework1
 
