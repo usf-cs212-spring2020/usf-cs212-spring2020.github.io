@@ -228,63 +228,21 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Data Structures - Types'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
-
-        - icon: *icon_slides
-          text: 'Data Structures - Framework'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
-
-        - icon: *icon_code
           text: 'Data Structures'
-          link: 'https://github.com/usf-cs212-fall2019/lectures'
           bump: true
-
-        - <<: *project1
-          text: Project 1 Inverted Index
-          type: has-text-usf-plum
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/DjyYzVy0WMZ1o0Ywabi3dTLY3MPZWyHkEW_1gAXChs2wIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/nyk3N5RrjqPj-sjJPRommfJajD3H_LFKh80urIvIJ1qwIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-01-31
       class: ''
       items:
-        - icon: *icon_code
-          text: 'Iteration'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/blob/master/Data%20Structures/src/IterationDemo.java'
-
-        - icon: *icon_code
-          text: 'Search'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/blob/master/Data%20Structures/src/FindDemo.java'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Data Structures'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341139'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Q09HAlfEeMYtr1feP3AaWHeAfngZHXaWspW2GXdLjHewIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
+        - icon: *icon_slides
+          text: 'Iteration and Search'
 
     - label: 'Labs'
       start: 2020-01-31
       class: ''
       items:
         - <<: *mandatory
-        - <<: *homework2
-        - <<: *project1
 
       dates:
         - icon: *icon_participation
@@ -306,77 +264,26 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'OOP Terminology'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
-
-        - icon: *icon_code
           text: 'Object Oriented Programming'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/8Pg9gRf3bqNqSF6mW90QEdwCQg4vWh_8aLja7KemHnCwIumekTziMw?startTime=1567539916000'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/M5mQ-yztAY7DU_BF9Gw7OcHnrHCPEPeqVECs9zanLWKwIumekTziMw?startTime=1567553654000'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-07
       class: ''
       items:
-        - icon: *icon_code
-          text: 'Object Oriented Programming'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Instances'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
-          date: 2019-09-12
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Members'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
-          date: 2019-09-12
-
-        - icon: *icon_quiz
-          text: 'Quiz: Mutability 1'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
-          date: 2019-09-12
-
-        - icon: *icon_quiz
-          text: 'Quiz: Mutability 2'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
-          date: 2019-09-12
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/E7Bvh2EcdIqVRz81pS8pqqEFBeJT1at6EXe9uLwfx9ywIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/j5LdOUaS8vwCCglZj_DTbbkoVesLwsDaXaT9LPB67V8'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Data Structures'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341139'
-          date: 2019-09-05
+        - icon: *icon_slides
+          text: 'Mutability'
 
     - label: 'Labs'
       start: 2020-02-07
       class: ''
       items:
         - <<: *mandatory
-        - <<: *homework3
-        - <<: *project1
 
       dates:
-        - <<: *homework2
-
         - icon: *icon_date
           text: 'Drop Deadline*'
+          date: 2020-02-07
+          bump: true
 
 - week: 4
   columns:
@@ -386,49 +293,6 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Inheritance'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
-
-        - icon: *icon_slides
-          text: 'Abstract and Interface'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
-
-        - icon: *icon_slides
-          text: 'Object Class'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
-
-        - icon: *icon_slides
-          text: 'Final Keyword'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
-
-        - icon: *icon_slides
-          text: 'Collections Revisited'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
-
-        - icon: *icon_slides
-          text: 'Casting'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
-
-        - icon: *icon_code
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Inheritance'
-          bump: true
-          text: 'Inheritance'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Final Keyword'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341175'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Collections Revisited'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/fJS-HkSdYLF6Y_rSFdR03nvYyRW8IpxNuzkNFK_7QJ-wIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/KXhBzynylQ1gGxERHrHitn-xzV3XUlELnyuVbhQ0cmqwIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-14
@@ -436,64 +300,10 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Nested Classes'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
-
-        - icon: *icon_slides
-          text: 'Generics'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
-
-        - icon: *icon_code
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Inheritance'
-          bump: true
-          text: 'Inheritance'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Inheritance Terminology'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341138'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Casting'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341129'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/1szgSDWZfxNzjO3Ov6Nun5PLHgfFJNZre6_FgmxPqwewIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/i74YNn9EIbbdyYD-ZBMzKSHHxkaOrnXtJf9axhKNE2mwIumekTziMw'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Instances'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
-          date: 2019-09-12
-
-        - icon: *icon_quiz
-          text: 'Members'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
-          date: 2019-09-12
-
-        - icon: *icon_quiz
-          text: 'Mutability 1'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
-          date: 2019-09-12
-
-        - icon: *icon_quiz
-          text: 'Mutability 2'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
-          date: 2019-09-12
 
     - label: 'Labs'
       start: 2020-02-14
       class: ''
-      items:
-        - <<: *homework4
-        - <<: *project1
-
-      dates:
-        - <<: *homework3
 
 - week: 5
   columns:
@@ -502,126 +312,18 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Java Features'
-          link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
-
-        - icon: *icon_slides
           text: 'Lambda Expressions'
-          link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
-
-        - icon: *icon_code
-          text: 'Lambda Expressions'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Lambda%20Expressions'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Java Features'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
-          bump: true
-
-        - <<: *project2
-          text: Project 2 Partial Search
-          type: has-text-usf-plum
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/1mm8P0JRGas-RyQhNEcjiwFZRrMjYLMgoiH38LJ_KPiwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/f-eF9pHBN-N5A9TdOltjMKmzVM7F21q04ZNrqrc735uwIumekTziMw'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Final Keyword'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341175'
-          date: 2019-09-17
-
-        - icon: *icon_quiz
-          text: 'Collections Revisited'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
-          date: 2019-09-17
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-21
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Streams - Introduction'
-          link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
-
-        - icon: *icon_slides
-          text: 'Streams - Pipelines'
-          link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
-
-        - icon: *icon_code
-          text: 'Stream Pipelines'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Stream%20Pipelines'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Lambda Expressions'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341133'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Streams'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/sI3aAxbBN91FXCIGUTb8HR0B1DnMLkqAcdBjHRI2h8WwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/pwR5VzdzSVr3b3RNx81xrgUv14G9359jbCS7jmTtAaqwIumekTziMw'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Inheritance Terminology'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341138'
-          date: 2019-09-19
-
-        - icon: *icon_quiz
-          text: 'Casting'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341129'
-          date: 2019-09-19
+          text: 'Streams'
 
     - label: 'Labs'
       start: 2020-02-21
       class: ''
-      items:
-        - icon: *icon_website
-          text: 'Exam 1 Review **'
-          link: '/guides/exam-1.html'
-
-        - <<: *homework5
-        - <<: *project1
-        - <<: *project2
-
-      dates:
-        - <<: *homework4
-
-        - icon: *icon_quiz
-          text: 'Quiz: Java Features'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
-          date: 2019-09-20
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Lambda Expressions'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341133'
-          date: 2019-09-20
-
-        - icon: *icon_quiz
-          text: 'Quiz: Streams'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
-          date: 2019-09-20
-
-        - <<: *project1
-          text: Project 1 Tests
-          type: has-text-usf-plum
-          bump: true
 
 - week: 6
   columns:
@@ -639,19 +341,13 @@ weeks:
       class: ''
       items:
         - icon: *icon_exam
-          text: 'Exam 1 Retake'
+          text: 'Exam 1'
           type: 'has-text-danger has-text-weight-bold'
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6884069'
 
     - label: 'Labs'
       start: 2020-02-28
       class: ''
-      items:
-        - <<: *project1
-          text: Project 1 (Late)
-        - <<: *project2
-      dates:
-        - <<: *homework5
 
 - week: 7
   columns:
@@ -660,61 +356,14 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Assertions'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
-
-        - icon: *icon_slides
           text: 'Logging'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
-
-        - icon: *icon_code
-          text: 'Debugging'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Debugging'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Assert Statements'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342608'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Logging'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/AuN7oRhCIc6M2C6JTUQkKZ-XZxsgyGpnTYTsfDgVXiuwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/R2aCCtmo9Y-Zm7jyxfCHhtDPUqEMg5LlLXob1VyeOViwIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-06
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Multithreading - Introduction'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg'
-
-        - icon: *icon_slides
-          text: 'Multithreading - Synchronization'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
-
-        - icon: *icon_slides
-          text: 'Multithreading - Liveness'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
-
-        - icon: *icon_code
-          text: 'Multithreading Basics'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Basics'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Ft33qt6yWnRZ-eigjDGcayrRk3dhaF87H94gGcj7d3OwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/ZzsgsZhZpq4mYzPYhvTGKBGzhvorcBumZJYtud6x4lywIumekTziMw'
+          text: 'Multithreading'
 
     - label: 'Labs'
       start: 2020-03-06
@@ -758,86 +407,19 @@ weeks:
       start: 2020-03-20
       class: ''
       items:
-        - icon: *icon_code
-          text: 'Synchronization'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Synchronization'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Thread Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
-          bump: true
-
-        - <<: *project3
-          text: Project 3 Multithreading
-          bump: true
-          type: has-text-usf-plum
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/bndfeTS3gteoGDqjxw0X9wL30VEZgWGTaA1ONbpdbvKwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/1WTMoyXOp5KVMWQS5j9636Hv-0r0IDcF2NEBgBxYiLGwIumekTziMw'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Assert Statements'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2342608'
-          date: 2019-10-08
-
-        - icon: *icon_quiz
-          text: 'Logging'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341141'
-          date: 2019-10-08
+        - icon: *icon_slides
+          text: 'Multithreading'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-20
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Custom Locks'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
-
-        - icon: *icon_slides
-          text: 'Volatile Keyword'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
-
-        - icon: *icon_slides
-          text: 'Work Queues'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
-
-        - icon: *icon_code
-          text: 'Work Queues'
-          bump: true
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Work%20Queues'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Synchronization'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Lhc9uGGmzX8fp8ur0vsdE4bUb4WG6VoifOBRKqijQB2wIumekTziMw'
+          text: 'Multithreading'
 
     - label: 'Labs'
       start: 2020-03-20
       class: ''
-      items:
-        - <<: *homework7
-        - <<: *project2
-        - <<: *project3
-
-      dates:
-        - <<: *homework6
-        - <<: *project2
-          text: Project 2 Tests
-          type: has-text-usf-plum
 
 - week: 10
   columns:
@@ -845,94 +427,19 @@ weeks:
       start: 2020-03-27
       class: ''
       items:
-        - icon: *icon_code
-          text: 'Work Queues'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Multithreading%20Work%20Queues'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Work Queues'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341160'
-
-        - icon: *icon_youtube
-          text: 'Directory Size Calculator (45:28)'
-          link: 'https://www.youtube.com/watch?v=KxjB6p3XNu4&list=PLm6V-0HXZmF1gz79T_7SaqTRzcWKAV7CQ'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/kjo29grUuVCyh3h6SoTpduFRrUCeMKGfJQWkwePQ8KmwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Ya7hrUkRH1iGRLAPFesR5HQ6IBdQB4r4qD1pwu5NLeY'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Synchronization'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341158'
-          date: 2019-10-17
-          
-        - icon: *icon_participation
-          text: 'CS Event 1'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872078'
-          date: 2019-10-15
-
-        - icon: *icon_participation
-          text: 'Piazza Participation 1'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872087'
-          date: 2019-10-15
-
-        - icon: *icon_quiz
-          text: 'Thread Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341135'
-          bump: true
-          date: 2019-10-15
+        - icon: *icon_slides
+          text: 'Multithreading'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-27
       class: ''
       items:
-        - icon: *icon_warning
-          type: 'has-text-danger'
-          text: 'Assignments Due FRIDAY!'
-
-        - icon: *icon_youtube
-          text: 'Web Basics (43:42)'
-          link: 'https://www.youtube.com/watch?v=ajv8lkb0gxA&list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Web Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341161'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: HTTP'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341145'
-
-        - icon: *icon_participation
-          text: 'Alumni Interview: Anaelia Ovalle (22:29)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826691'
-          bump: true
-
-      dates:
-        - icon:
-            class: far fa-plane-departure
-          text: 'Sophie @ IEEEVIS'
-          type: 'has-text-grey'
+        - icon: *icon_slides
+          text: 'Multithreading'
       
     - label: 'Labs'
       start: 2020-03-27
       class: ''
-      items:
-        - <<: *homework8
-        - <<: *project2
-          text: Project 2 (Late)
-        - <<: *project3
-
-      dates:
-        - <<: *homework7
-
 
 - week: 11
   columns:
@@ -940,103 +447,19 @@ weeks:
       start: 2020-04-03
       class: ''
       items:
-        - icon: *icon_warning
-          type: 'has-text-danger'
-          text: 'Assignments Due FRIDAY!'
-
         - icon: *icon_youtube
-          text: 'Regular Expressions (43:59)'
-          link: 'https://www.youtube.com/watch?v=-wgTnQjqwWA&list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
-          bump: true
-
-        - icon: *icon_code
           text: 'Regular Expressions'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Regular%20Expressions'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Regex Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341132'
-
-        - icon: *icon_participation
-          text: 'Alumni Interview: Helen Chen (17:03)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826693'
-          bump: true
-
-        - icon: *icon_participation
-          text: 'Alumni Interview: Courtni Wong (10:20)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826692'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Work Queues'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341160'
-          date: 2019-10-24
-
-        - icon:
-            class: far fa-plane-departure
-          text: 'Sophie @ IEEEVIS'
-          type: 'has-text-grey'
-          bump: true
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-03
       class: ''
       items:
-        - icon: *icon_code
+        - icon: *icon_slides
           text: 'Sockets'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sockets'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/it_CgjsYeB2wa9TMs4rpCWGKlly7ypQHDjcg3zEKJ6KwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/nldxnvBZnNVXaYx8QioDq0RYj4tNoNv7e4bF4T3AKZ2wIumekTziMw'
 
     - label: 'Labs'
       start: 2020-04-03
       class: ''
-      items:
-        - <<: *homework9
-        - <<: *project2
-          text: Project 2 (Late)
-        - <<: *project3
-
-      dates:
-        - <<: *homework8
-
-        - icon: *icon_quiz
-          text: 'Web Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341161'
-          date: 2019-10-25
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'HTTP'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341145'
-          date: 2019-10-25
-
-        - icon: *icon_quiz
-          text: 'Regex Basics'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341132'
-          date: 2019-10-25
-
-        - icon: *icon_participation
-          text: 'Anaelia Ovalle (22:29)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826691'
-          date: 2019-10-25
-          bump: true
-
-        - icon: *icon_participation
-          text: 'Helen Chen (17:03)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826693'
-          date: 2019-10-25
-
-        - icon: *icon_participation
-          text: 'Courtni Wong (10:20)'
-          link: 'https://usfca.instructure.com/courses/1586786/discussion_topics/7826692'
-          date: 2019-10-25
 
 - week: 12
   columns:
@@ -1072,68 +495,18 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Dynamic Webpages'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
-
-        - icon: *icon_slides
           text: 'Servlets'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
 
-        - icon: *icon_code
-          text: 'Servlets'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Servlets'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/yQjQ67H_-I8f5I0vo_Q5sISzTYso7FqddYIJts_rDjqwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/GA8n8cB_90Ms10rlKvODiTCxv12OP2C6IFHr4Kc9vc-wIumekTziMw'
-
-      dates:
-        - icon: *icon_date
-          text: 'PROJECT CUTOFF 1'
-          link: '/syllabus.html#important-dates'
-          type: 'has-text-danger has-text-weight-bold'
-      
     - label: 'Lecture (Afternoon)'
       start: 2020-04-17
       class: ''
       items:
-        - icon: *icon_code
+        - icon: *icon_slides
           text: 'Servlets'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Servlets'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Jetty'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
-
-        - <<: *project4
-          text: 'Project 4 Web Crawler'
-          type: 'has-text-usf-plum'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/Q3K6NAaK_0hDHi0oLUe_rKZq3HLEoRx3jne3pHmE7DewIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/d6XH5hNZcvzTZE8H6Zc3a95dVlqenA6gCIZHZO_VSSewIumekTziMw'
 
     - label: 'Labs'
       start: 2020-04-17
       class: ''
-      items:
-        - <<: *homework10
-        - <<: *project3
-
-      dates:
-        - <<: *homework9
-        - icon: *icon_date
-          text: 'Withdraw Deadline'
-          type: 'has-text-danger has-text-weight-bold'
 
 - week: 14
   columns:
@@ -1141,70 +514,19 @@ weeks:
       start: 2020-04-24
       class: ''
       items:
-        - icon: *icon_code
+        - icon: *icon_slides
           text: 'Sessions'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Sessions'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/r4qdKABN7LcMLgfvgqwOMuX6f-Q2LK-Ehmxbm2SsJ_awIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/pg7Pb56bKZF5KkcBKIxJDS6FsmL-HMQYamO4C5xLcTGwIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-24
       class: ''
       items:
-        - icon: *icon_website
-          text: 'Database Accounts'
-          link: 'https://usfca.instructure.com/courses/1586786/pages/database-accounts'
-          type: 'has-text-success has-text-weight-bold'
-
         - icon: *icon_slides
           text: 'Relational Databases'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
-          bump: true
-
-        - icon: *icon_slides
-          text: 'Structured Query Language (SQL)'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
-
-        - icon: *icon_website
-          text: 'SQL Introduction'
-          link: '/guides/sql/'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/V-gSWFBhK8qCRt_ZMxMMghACe3bu_m0iIylJ_sVHeCSwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/GqfD2iiGIApru7BtmZ_72Ep0Jlayyjn9Bus9LNKGUVCwIumekTziMw'
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Jetty'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2341137'
-          date: 2019-11-12
 
     - label: 'Labs'
       start: 2020-04-24
       class: ''
-      items:
-        - <<: *homework11
-
-        - <<: *project3
-          text: 'Project 3'
-        - <<: *project4
-
-      dates:
-        - <<: *homework10
-        - <<: *project3
-          text: 'Project 3 (Extended)'
-          type: 'has-text-usf-plum'
 
 - week: 15
   columns:
@@ -1212,98 +534,20 @@ weeks:
       start: 2020-05-01
       class: ''
       items:
-        - icon: *icon_website
-          text: 'SQL Demonstration'
+        - icon: *icon_slides
+          text: 'SQL'
           link: '/guides/sql/'
-
-        - icon: *icon_quiz
-          text: 'Quiz: Joins'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343372'
-          bump: true
-
-        - icon: *icon_quiz
-          text: 'Quiz: Grouping'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/E8XYZD6-Spa-ofxdZE-4uJRJYZTw4h8OBCl1PKz9tjWwIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/-5_QBRB5-c2cMVySuh4b9FgqgN5U2jC6LDsnoKSxt1CwIumekTziMw'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-05-01
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Testing - Motivation'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
-
-        - icon: *icon_slides
-          text: 'Testing - Basics'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
-
-        - icon: *icon_slides
-          text: 'Testing - Unit Testing'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
-
-        - icon: *icon_code
-          text: 'Unit Testing'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Unit%20Testing'
-          bump: true
-
-        - icon: *icon_video
-          text: 'CS 212-01 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/OBbIa2ZMDQvLSalxHPckF0ycKSZRS-Ttt9DMumRADMawIumekTziMw'
-          bump: true
-        - icon: *icon_video
-          text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/recording/share/sNCXnIgF2xjGlOyS_IklOb9-cOZg-BpWeSF4Yz4OuQuwIumekTziMw'
-        
-        - icon: *icon_slides
-          text: 'JDBC'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
-
-        - icon: *icon_code
-          text: 'Jetty and JDBC'
-          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Jetty%20and%20JDBC'
-
-        - icon: *icon_website
-          text: 'Course Survey (Informal)'
-          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
-          type: 'has-text-weight-bold'
-          bump: true
-
-        - icon: *icon_website
-          text: 'Course Evaluations (BLUE)'
-          link: 'https://usfca.instructure.com/'
-          type: 'has-text-weight-bold'
+          text: 'Testing'
 
     - label: 'Labs'
       start: 2020-05-01
       class: ''
-      items:
-        - icon: *icon_website
-          text: 'Exam 2 Review **'
-          link: '/guides/exam-2.html'
-
-        - <<: *project3
-          text: 'Project 3 (Late)'
-          bump: true
-        - <<: *project4
-
-      dates:
-        - icon: *icon_quiz
-          text: 'Quiz: Joins'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343372'
-          date: 2019-11-15
-
-        - icon: *icon_quiz
-          text: 'Quiz: Grouping'
-          link: 'https://usfca.instructure.com/courses/1586786/quizzes/2343373'
-          date: 2019-11-15
 
 - week: 16
   columns:
@@ -1314,59 +558,17 @@ weeks:
         - icon: *icon_exam
           text: 'Exam 2'
           type: 'has-text-danger has-text-weight-bold'
-      dates:
-        - icon: *icon_date
-          text: 'PROJECT CUTOFF 2'
-          link: '/syllabus.html#important-dates'
-          type: 'has-text-danger has-text-weight-bold'
-          date: 2019-12-04
 
     - label: 'Lecture (Afternoon)'
       start: 2020-05-08
       class: ''
       items:
         - icon: *icon_exam
-          text: 'Exam 2 Retake'
+          text: 'Exam 2'
           type: 'has-text-danger has-text-weight-bold'
       
-      dates:
-        - icon: *icon_participation
-          text: 'CS Event 2'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872070'
-          date: 2019-12-05
-
-        - icon: *icon_participation
-          text: 'Piazza Participation 2'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872088'
-          date: 2019-12-05
-
     - label: 'Labs'
       start: 2020-05-08
       class: ''
-      items:
-        - <<: *homework11
-
-        - <<: *project3
-          text: 'Project 3 (Late)'
-        - <<: *project4
-        - icon: *icon_project
-          text: 'Final Code Reviews'
-          link: 'https://usf-cs212-fall2019.github.io/guides/projects/final-code-review.html '
-      dates:
-        - <<: *homework11
-        - <<: *project4
-          text: 'Project 4 Web Crawler (Extended)'
-          type: 'has-text-usf-plum'
-          
-        - icon: *icon_website
-          text: 'Course Survey (Informal)'
-          link: 'https://forms.gle/wMr1FCMrjDFqgSLW8'
-          type: 'has-text-weight-bold'
-
-        - icon: *icon_website
-          text: 'Course Evaluations (BLUE)'
-          link: 'https://usfca.instructure.com/'
-          type: 'has-text-weight-bold'
-
 
 
