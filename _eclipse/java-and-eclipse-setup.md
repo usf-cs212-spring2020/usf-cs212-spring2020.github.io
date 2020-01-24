@@ -21,7 +21,7 @@ To install the Java SE 13 JDK, go to:
 
 <https://www.oracle.com/technetwork/java/javase/downloads/index.html>
 
-Click the "JDK Download" button for Java SE 12, accept the license agreement, and download the appropriate file for your system. Run the installer and follow the prompts.
+Click the "JDK Download" button for Java SE 13, accept the license agreement, and download the appropriate file for your system. Run the installer and follow the prompts.
 
 Once done, open a terminal window and verify the version using `java -version` and `javac -version`. The output will be similar to:
 
@@ -38,7 +38,7 @@ Note that `$` above indicates the command prompt, and the lines below that are t
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-info-circle"></i>&nbsp;Java <a href="https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#Important_Changes">removed auto-update capability</a> for Windows and MacOS systems. You will need to manually check when new versions of Java 12 are released.
+    <i class="fas fa-info-circle"></i>&nbsp;Java <a href="https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#Important_Changes">removed auto-update capability</a> for Windows and MacOS systems. You will need to manually check when new versions of Java 13 are released.
   </div>
 </article>
 
