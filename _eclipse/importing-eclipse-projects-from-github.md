@@ -97,7 +97,7 @@ To fix this, right-click your project folder and select "Build Path" and "Config
 
 Now, we have to re-add the necessary libraries. Click the "Add Library..." button and follow these steps:
 
-  - Select "JRE System Library" to re-add Java 12 (if necessary). I recommend you select "Workspace default JRE" unless the default is NOT Java 12.
+  - Select "JRE System Library" to re-add Java 13 (if necessary). I recommend you select "Workspace default JRE" unless the default is NOT Java 13.
 
   - Select "JUnit" to re-add JUnit 5 (if necessary). Make sure "JUnit 5" is selected in the dropdown, **not** JUnit 4.
 

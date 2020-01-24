@@ -7,17 +7,17 @@ key: 1
 
 This guide will walkthrough the steps necessary to install the latest versions of Java and Eclipse on your local system.
 
-{% include anchor.html level="h2" text="Install Java 12" %}
+{% include anchor.html level="h2" text="Install Java 13" %}
 
-You need to make sure you have the latest version of Java **Standard** Edition (SE) **Development** Kit **12** (JDK 12) installed on your system. When downloading, keep in mind:
+You need to make sure you have the latest version of Java **Standard** Edition (SE) **Development** Kit **13** (JDK 13) installed on your system. When downloading, keep in mind:
 
-  - Do NOT download Java 8 or Java 11. We will be using Java 12 in class. There are some differences between Java 8, Java 11, and Java 12, and the lecture code may not compile on your system.
+  - Do NOT download Java 8 or Java 11. We will be using Java 13 in class. There are some differences between Java 8, Java 11, and Java 13, and the lecture code may not compile on your system.
 
   - Do NOT download Java Enterprise Edition (EE). We will be using the Standard Edition (SE) in class. Java EE is used to create enterprise applications.
 
   - Do NOT download just the Java Runtime Environment (JRE). The Java Development Kit (JDK) includes the JRE, which is necessary to run Java code. The JDK also includes the Java compiler, which we will need in class.
 
-To install the Java SE 12 JDK, go to:
+To install the Java SE 13 JDK, go to:
 
 <https://www.oracle.com/technetwork/java/javase/downloads/index.html>
 
@@ -27,11 +27,11 @@ Once done, open a terminal window and verify the version using `java -version` a
 
 ```shell
 $ java -version
-java version "12.0.2" 2019-07-16
-Java(TM) SE Runtime Environment (build 12.0.2+10)
-Java HotSpot(TM) 64-Bit Server VM (build 12.0.2+10, mixed mode, sharing)
+java version "13.0.1" 2019-xx-xx
+Java(TM) SE Runtime Environment (build 13.0.1+1)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+1, mixed mode, sharing)
 $ javac -version
-javac 12.0.2
+javac 13.0.1
 ```
 
 Note that `$` above indicates the command prompt, and the lines below that are the output.
@@ -46,9 +46,9 @@ Note that `$` above indicates the command prompt, and the lines below that are t
 
 {% include screenshot.html image="eclipse-about-ide.png" size="is-4" %}
 
-You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse 2019-06**. The direct download link is:
+You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse 2019-12**. The direct download link is:
 
-<https://www.eclipse.org/downloads/packages/release/2019-06/r/eclipse-ide-java-developers>
+<https://www.eclipse.org/downloads/packages/release/2019-12/r/eclipse-ide-java-developers>
 
 Do NOT download the IDE for Java EE Developers, as we are using Java SE in class. There are installers available for Windows, Mac OSX, and Linux. Once downloaded, double-click the installer.
 
@@ -90,7 +90,7 @@ Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you 
 
 The official guides for Eclipse are located at:
 
-<https://help.eclipse.org/2019-06/index.jsp>
+<https://help.eclipse.org/2019-12/index.jsp>
 
 Keep in mind that Eclipse is under active development, and [bugs happen](https://bugs.eclipse.org/bugs/).
 

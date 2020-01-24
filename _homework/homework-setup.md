@@ -12,7 +12,7 @@ Before you begin, you need to make sure to go through the other setup guides fir
 
 For every homework assignment, you will need to repeat these steps:
 
-  - **Setup your Github repository.** Click the Github Classroom invitation link to automatically setup a private Github repository with the template and test code in the `usf-cs212-fall2019` organization. Only you, the TAs, and the instructor will have access to this repository.
+  - **Setup your Github repository.** Click the Github Classroom invitation link to automatically setup a private Github repository with the template and test code in the `usf-cs212-spring2020` organization. Only you, the TAs, and the instructor will have access to this repository.
 
   - **Setup your Eclipse project.** Once your repository is setup, you must import the homework as a Java Project in Eclipse. See the [Importing Eclipse Projects from Github](/guides/eclipse/importing-eclipse-projects-from-github.html) guide for detailed steps.
 
