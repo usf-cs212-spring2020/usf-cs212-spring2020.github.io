@@ -54,7 +54,7 @@ assignments:
       type: has-text-usf-terra
 
   - homework1: &homework1
-      text: ArgumentParser
+      text: TextFileStemmer
       icon: *icon_homework
       date: 2020-01-31
       link: https://usfca.instructure.com/courses/1586786/assignments/6871382
@@ -66,7 +66,7 @@ assignments:
       link: https://usfca.instructure.com/courses/1586786/assignments/6871385
 
   - homework3: &homework3
-      text: TextFileStemmer
+      text: ArgumentParser
       icon: *icon_homework
       date: 2020-02-14
       link: https://usfca.instructure.com/courses/1586786/assignments/6871389
@@ -159,19 +159,21 @@ weeks:
 
         - icon: *icon_code
           text: 'Project Euler'
-          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Project%20Euler'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Project%20Euler'
 
         - icon: *icon_quiz
           text: 'Quiz: Course Syllabus'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346783'
-          date: 2020-01-24
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
           bump: true
 
-        - icon: *icon_participation
-          text: 'Piazza Setup'
-          link: 'https://usfca.instructure.com/courses/1591964/assignments/6917847'
-          date: 2020-01-31
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/8XdBBqw55CndKpkmJAix-BTSmeZ4iiVSUvxFrRR6VLqwIumekTziMw'
           bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/ENvMeWdwTeB6D3aOBgT3pvTvts62Jx_7t17oNnKv1bSwIumekTziMw'
+
 
     - label: 'Lecture (Afternoon)'
       start: 2020-01-24
@@ -179,23 +181,24 @@ weeks:
       items:
         - icon: *icon_code
           text: 'Files and Exceptions'
-          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Files%20and%20Exceptions'
+          link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Files%20and%20Exceptions'
 
         - icon: *icon_slides
           text: 'Exceptions'
-          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66246728'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upUW5iVldFNFp4a0U'
 
-        - icon: *icon_participation
-          text: 'Piazza Participation 1'
-          link: 'https://usfca.instructure.com/courses/1591964/assignments/6918347'
-          date: 2020-03-06
+        - icon: *icon_website
+          text: 'Piazza Setup'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872089'
           bump: true
 
-        - icon: *icon_participation
-          text: 'CS Event 1'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346784'
-          date: 2020-03-06
+        - icon: *icon_video
+          text: 'CS 212-01 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/wfRL_KXYjH5xaba2dnrNsZJKsnjyJ1r7Gw7SrLkp9pmwIumekTziMw'
           bump: true
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/recording/share/h9HNfdQpQ2nPHt_6ArZOy-1Fm0AAE8bV7rUlmNo1BM2wIumekTziMw'
 
     - label: 'Labs'
       start: 2020-01-24
@@ -210,15 +213,25 @@ weeks:
         - <<: *homework1
 
       dates:
+        - icon: *icon_participation
+          text: 'Lab Requirements'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6876319'
+          date: 2019-08-23
+
         - icon: *icon_quiz
           text: 'Quiz: Course Syllabus'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346783'
-          date: 2020-01-24
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872068'
+          date: 2019-08-23
           bump: true
+
+        - icon: *icon_website
+          text: 'Piazza Setup'
+          link: 'https://usfca.instructure.com/courses/1586786/assignments/6872089'
+          date: 2019-08-23
 
         - icon: *icon_date
           text: 'Add Deadline'
-          date: 2020-01-27
+          date: 2019-08-26
           bump: true
 
 - week: 2
@@ -290,12 +303,7 @@ weeks:
         - icon: *icon_participation
           text: 'Lab Requirements'
           link: 'https://usfca.instructure.com/courses/1586786/assignments/6879476'
-          date: 2020-01-31
-
-        - icon: *icon_website
-          text: 'Piazza Setup'
-          link: 'https://usfca.instructure.com/courses/1591964/assignments/6917847'
-          date: 2020-01-31
+          date: 2019-08-30
 
         - <<: *homework1
 
