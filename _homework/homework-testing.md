@@ -33,11 +33,11 @@ Once you are passing all of the tests locally, it is time to test your homework 
 
 After you have updated your remote Github repository, [login to a CS lab computer](/guides/general/using-cs-lab-computers.html) and run the following command from a terminal:
 
-{% include commands.html id="remote1" text="/home/public/cs212/homework GitUser HomeworkName" %}
+{% include commands.html id="remote1" text="/home/public/cs212/homework --user USER --org usf-cs212-spring2020 HOMEWORK" %}
 
 Replace `GitUser` with your GitHub username and `HomeworkName` with the name of the homework you want to test. For example:
 
-{% include commands.html id="remote2" text="/home/public/cs212/homework sjengle TextFileStemmer" %}
+{% include commands.html id="remote2" text="/home/public/cs212/homework --user ryscheng --org usf-cs212-spring2020 TextFileStemmer" %}
 
 This script will clone your remote Github repository, fetch fresh test code (in case you changed anything) from the template repository, compile the Java code, and then run all of the JUnit tests and report how many tests passed or failed. This script is used for grading homework.
 
