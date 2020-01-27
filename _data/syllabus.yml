@@ -52,14 +52,15 @@ assistants:
   - label: Olivia Kumar
     image: /images/kumar.jpg
     items:
-      - text: Monday, Wednesday, Friday
+      - text: Mondays and Wednesdays 12pm-1pm
         icon: far fa-calendar-alt
 
-      - text: TBD
-        icon: fas fa-clock
+      - text: Fridays 9am-10am
+        icon: far fa-calendar-alt
 
-      - text: TBD
+      - text: Harney Science Center Room 411
         icon: far fa-map-marker-alt
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
       - text: Project/Homework Grading
         icon: far fa-clipboard-list-check
