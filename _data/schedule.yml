@@ -231,15 +231,21 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Data Structures'
-          bump: true
+          text: 'Data Structures - Types'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+
+        - icon: *icon_slides
+          text: 'Data Structures - Framework'
+          link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-01-31
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Iteration and Search'
+        - icon: *icon_code
+          text: 'Data Structures - Iteration/Search'
+          link: 'https://github.com/usf-cs212-spring2020/lectures'
+          bump: true
 
     - label: 'Labs'
       start: 2020-01-31
