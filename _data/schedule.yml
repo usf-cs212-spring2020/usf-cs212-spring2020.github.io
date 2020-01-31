@@ -63,7 +63,7 @@ assignments:
       text: SimpleJsonWriter
       icon: *icon_homework
       date: 2020-02-07
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871385
+      link: https://usfca.instructure.com/courses/1591964/assignments/6920524
 
   - homework3: &homework3
       text: TextFileStemmer
@@ -237,6 +237,12 @@ weeks:
         - icon: *icon_slides
           text: 'Data Structures - Framework'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66268844'
+          
+        - icon: *icon_quiz
+          text: 'Quiz: Data Structures'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346783'
+          date: 2020-02-07
+          bump: true
 
     - label: 'Lecture (Afternoon)'
       start: 2020-01-31
@@ -252,6 +258,8 @@ weeks:
       class: ''
       items:
         - <<: *mandatory
+        
+        - <<: *homework2
 
       dates:
         - icon: *icon_website
