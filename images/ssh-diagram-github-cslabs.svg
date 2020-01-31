@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="3025 -48 1686.5673 1042.0847" width="1686.5673" height="1042.0847">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#aaa">
+      <g>
+        <path d="M -3 0 L 0 1.75 L 0 -1.75 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#0432ff" opacity=".50497646">
+      <g>
+        <path d="M -3 0 L 0 1.75 L 0 -1.75 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 5 6" markerWidth="5" markerHeight="6" color="#aaa">
+      <g>
+        <path d="M 3 0 L 0 -1.75 L 0 1.75 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Roboto" font-size="64" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Roboto-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.12.1 
+    <dc:date>2020-01-24 06:35:03 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" fill="none" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Line_75">
+        <path d="M 3557.74 167.65442 C 3496.7314 181.3382 3402.6714 211.59436 3325 276.50405 C 3198.5524 382.1758 3175 530 3175 530" marker-start="url(#UMLInheritance_Marker)" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      </g>
+      <g id="Line_74">
+        <path d="M 3983.765 165.35916 C 4050.164 177.54679 4155.311 206.9194 4235.33 276.50045 C 4361.7413 386.42177 4366 545 4366 545" marker-start="url(#UMLInheritance_Marker_2)" stroke="#0432ff" stroke-opacity=".50497646" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      </g>
+      <g id="Line_73">
+        <line x1="3295" y1="650" x2="4151.5086" y2="663.94965" marker-end="url(#UMLInheritance_Marker_3)" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      </g>
+      <g id="Graphic_72">
+        <path d="M 3736.8125 202.43753 C 3736.8125 215.50003 3730 236.87503 3713.875 236.87503 C 3697.75 236.87503 3690.9375 215.50003 3690.9375 202.43753 C 3690.9375 189.37503 3697.75 168.00002 3713.875 168.00002 C 3730 168.00002 3736.8125 189.37503 3736.8125 202.43753 Z M 3920.5 170.87502 C 3920.5 190.81253 3918.5 211.93753 3909.5625 230.25003 C 3885.875 278.12504 3820.75 277.00004 3774.125 277.00004 C 3726.75 277.00004 3657.75 278.68754 3633.125 230.25003 C 3624 212.12503 3620.5 190.81253 3620.5 170.87502 C 3620.5 144.68752 3629.1875 119.93751 3646.4375 99.87501 C 3643.1875 90.00001 3641.625 79.62501 3641.625 69.375006 C 3641.625 55.9375 3644.6875 49.1875 3650.75 37 C 3679.0625 37 3697.1875 42.625 3718.75 59.500004 C 3736.875 55.1875 3755.5 53.25 3774.1875 53.25 C 3791.0625 53.25 3808.0625 55.0625 3824.4375 59.000004 C 3845.6875 42.3125 3863.8125 37 3891.8125 37 C 3897.9375 49.1875 3900.9375 55.9375 3900.9375 69.375006 C 3900.9375 79.62501 3899.3125 89.81251 3896.125 99.50001 C 3913.3125 119.75001 3920.5 144.68752 3920.5 170.87502 Z M 3880.3125 202.43753 C 3880.3125 175.00002 3863.625 150.81252 3834.375 150.81252 C 3822.5625 150.81252 3811.25 152.93752 3799.375 154.56252 C 3790.0625 156.00002 3780.75 156.56252 3771.1875 156.56252 C 3761.6875 156.56252 3752.375 156.00002 3743 154.56252 C 3731.3125 152.93752 3719.875 150.81252 3708 150.81252 C 3678.75 150.81252 3662.0625 175.00002 3662.0625 202.43753 C 3662.0625 257.31254 3712.3125 265.75004 3756.0625 265.75004 L 3786.1875 265.75004 C 3830.125 265.75004 3880.3125 257.37504 3880.3125 202.43753 Z M 3828.6875 168.00002 C 3812.5625 168.00002 3805.75 189.37503 3805.75 202.43753 C 3805.75 215.50003 3812.5625 236.87503 3828.6875 236.87503 C 3844.8125 236.87503 3851.625 215.50003 3851.625 202.43753 C 3851.625 189.37503 3844.8125 168.00002 3828.6875 168.00002 Z" fill="blue"/>
+      </g>
+      <g id="Graphic_71">
+        <path d="M 3144.5453 652.6484 C 3147.475 655.5781 3152.2234 655.5781 3155.153 652.6484 L 3160.4547 647.3469 C 3163.3844 644.4172 3163.3844 639.66875 3160.4547 636.7391 L 3143.711 620 L 3160.45 603.25625 C 3163.3797 600.32656 3163.3797 595.5781 3160.45 592.64844 L 3155.1484 587.3469 C 3152.2188 584.4172 3147.4703 584.4172 3144.5406 587.3469 L 3117.1938 614.69375 C 3114.264 617.62344 3114.264 622.3719 3117.1938 625.30156 L 3144.5453 652.6484 Z M 3189.55 647.3516 L 3194.8516 652.6531 C 3197.7812 655.5828 3202.5297 655.5828 3205.4594 652.6531 L 3232.8062 625.30625 C 3235.736 622.37656 3235.736 617.6281 3232.8062 614.69844 L 3205.4594 587.35156 C 3202.5297 584.4219 3197.7812 584.4219 3194.8516 587.35156 L 3189.55 592.6531 C 3186.6203 595.5828 3186.6203 600.33125 3189.55 603.26094 L 3206.289 620 L 3189.55 636.74375 C 3186.6203 639.6734 3186.6203 644.4219 3189.55 647.3516 Z M 3317.5 725 L 3203.847 725 C 3203.5 734.2859 3196.9516 740 3188.5 740 L 3160 740 C 3151.239 740 3144.522 731.8109 3144.639 725 L 3032.5 725 C 3028.375 725 3025 728.375 3025 732.5 L 3025 740 C 3025 756.5 3038.5 770 3055 770 L 3295 770 C 3311.5 770 3325 756.5 3325 740 L 3325 732.5 C 3325 728.375 3321.625 725 3317.5 725 Z M 3295 552.5 C 3295 540.125 3284.875 530 3272.5 530 L 3077.5 530 C 3065.125 530 3055 540.125 3055 552.5 L 3055 710 L 3295 710 Z M 3265 680 L 3085 680 L 3085 560 L 3265 560 Z" fill="#333"/>
+      </g>
+      <g id="Graphic_70">
+        <path d="M 4516 668.75 L 4516 661.25 C 4516 657.10625 4512.644 653.75 4508.5 653.75 L 4377.25 653.75 L 4377.25 635 L 4411 635 C 4419.283 635 4426 628.2828 4426 620 L 4426 560 C 4426 551.7172 4419.283 545 4411 545 L 4321 545 C 4312.717 545 4306 551.7172 4306 560 L 4306 620 C 4306 628.2828 4312.717 635 4321 635 L 4354.75 635 L 4354.75 653.75 L 4223.5 653.75 C 4219.356 653.75 4216 657.10625 4216 661.25 L 4216 668.75 C 4216 672.89375 4219.356 676.25 4223.5 676.25 L 4272.25 676.25 L 4272.25 695 L 4246 695 C 4237.717 695 4231 701.7172 4231 710 L 4231 770 C 4231 778.2828 4237.717 785 4246 785 L 4321 785 C 4329.283 785 4336 778.2828 4336 770 L 4336 710 C 4336 701.7172 4329.283 695 4321 695 L 4294.75 695 L 4294.75 676.25 L 4437.25 676.25 L 4437.25 695 L 4411 695 C 4402.717 695 4396 701.7172 4396 710 L 4396 770 C 4396 778.2828 4402.717 785 4411 785 L 4486 785 C 4494.283 785 4501 778.2828 4501 770 L 4501 710 C 4501 701.7172 4494.283 695 4486 695 L 4459.75 695 L 4459.75 676.25 L 4508.5 676.25 C 4512.644 676.25 4516 672.89375 4516 668.75 Z M 4336 605 L 4336 575 L 4396 575 L 4396 605 Z M 4306 755 L 4261 755 L 4261 725 L 4306 725 Z M 4471 755 L 4426 755 L 4426 725 L 4471 725 Z" fill="blue"/>
+      </g>
+      <g id="Graphic_69">
+        <text transform="translate(3677.2656 -43)" fill="#0432ff">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#0432ff" x="0" y="59">Github</tspan>
+        </text>
+      </g>
+      <g id="Graphic_68">
+        <text transform="translate(4249.1875 790)" fill="#0432ff">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#0432ff" x="0" y="59">CS Labs</tspan>
+        </text>
+      </g>
+      <g id="Graphic_67">
+        <text transform="translate(3076.078 790)" fill="#424242">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#424242" x="0" y="59">Laptop</tspan>
+        </text>
+      </g>
+      <g id="Graphic_66">
+        <text transform="translate(3314 336.0036)" fill="#aaa">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#aaa" x="0" y="59">git commit,</tspan>
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#aaa" x="45.875" y="134">git push</tspan>
+        </text>
+      </g>
+      <g id="Graphic_65">
+        <text transform="translate(3903 336.0036)" fill="#0432ff" fill-opacity=".7">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#0432ff" fill-opacity=".7" x="30.1875" y="59">homework,</tspan>
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#0432ff" fill-opacity=".7" x="0" y="134">project script</tspan>
+        </text>
+      </g>
+      <g id="Graphic_64">
+        <text transform="translate(3697 678)" fill="#aaa">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#aaa" x="0" y="59">ssh</tspan>
+        </text>
+      </g>
+      <g id="Line_63">
+        <path d="M 4579.759 674.56395 C 4700.7324 710.88176 4740.917 842.2797 4665 932 C 4585.5263 1025.9234 4414.7046 992.6121 4374.2464 870" marker-start="url(#UMLInheritance_Marker)" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      </g>
+      <g id="Graphic_62">
+        <text transform="translate(4555 839)" fill="#aaa">
+          <tspan font-family="Roboto" font-size="64" font-weight="400" fill="#aaa" x="0" y="59">ssh</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
