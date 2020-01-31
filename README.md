@@ -2,7 +2,7 @@
 <h1>
 Software Development<br/>
 <sup>
-CS 212-01, CS 212-02 &bullet; Spring 2020
+CS 212-02 &bullet; Spring 2020
 </sup>
 </h2>
 
