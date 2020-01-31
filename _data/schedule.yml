@@ -232,19 +232,19 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Data Structures - Types'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66268843'
 
         - icon: *icon_slides
           text: 'Data Structures - Framework'
-          link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66268844'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-01-31
       class: ''
       items:
         - icon: *icon_code
-          text: 'Data Structures - Iteration/Search'
-          link: 'https://github.com/usf-cs212-spring2020/lectures'
+          text: 'Data Structures'
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Data%20Structures'
           bump: true
 
     - label: 'Labs'
