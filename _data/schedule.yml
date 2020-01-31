@@ -240,7 +240,7 @@ weeks:
           
         - icon: *icon_quiz
           text: 'Quiz: Data Structures'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346783'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347080'
           date: 2020-02-07
           bump: true
 
@@ -251,6 +251,12 @@ weeks:
         - icon: *icon_code
           text: 'Data Structures'
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Data%20Structures'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Iteration'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347072'
+          date: 2020-02-07
           bump: true
 
     - label: 'Labs'
@@ -301,6 +307,18 @@ weeks:
           bump: true
 
         - <<: *homework2
+
+        - icon: *icon_quiz
+          text: 'Quiz: Data Structures'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347080'
+          date: 2020-02-07
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Iteration'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347072'
+          date: 2020-02-07
+          bump: true
 
 - week: 4
   columns:
