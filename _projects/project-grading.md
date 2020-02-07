@@ -36,11 +36,11 @@ See the [template-project](https://github.com/usf-cs212-2020/template-project/is
 
   1. Change the issue title to "Project Request `v#`" where `v#` is the release you want verified. For example, "Project Request v1.0.1" for release v1.0.1 of Project 1.
 
-  2. Replace `FULL_NAME` in the issue body with your full name. For example, "Sophie Engle". *This should happen automatically if you modified your issue templates.*
+  2. Replace `FULL_NAME` in the issue body with your full name. For example, "Raymond Cheng". *This should happen automatically if you modified your issue templates.*
 
-  2. Replace `GITHUB_USER` in the issue body with your Github username. For example, "sjengle". *This should happen automatically if you modified your issue templates.*
+  2. Replace `GITHUB_USER` in the issue body with your Github username. For example, "ryscheng". *This should happen automatically if you modified your issue templates.*
 
-  2. Replace `GITHUB_ORG` in the issue body with the Github organization for the class. For example, "usf-cs212-2020". *This should happen automatically if you modified your issue templates.*
+  2. Replace `GITHUB_ORG` in the issue body with the Github organization for the class. For example, "usf-cs212-spring2020". *This should happen automatically if you modified your issue templates.*
 
   3. Replace `ISSUE_NUMBER` in the issue body with the previous release you created. (This helps us make sure you are numbering the releases correctly.) For example, "#1" or "N/A" if this is your first release.
 
@@ -50,7 +50,7 @@ See the [template-project](https://github.com/usf-cs212-2020/template-project/is
 
   4. Select the appropriate request option and add the associated label. See below for details.
 
-  5. Assign the issue to our TA Jose (`josecorella`). *This should happen automatically if you are using the correct issue template.*
+  5. Assign the issue to our TA Jose (`oliviakumar`). *This should happen automatically if you are using the correct issue template.*
 
   8. Add the issue to the appropriate project milestone. The milestones should be either "project1", "project2", "project3", and "project4" (all lowercase with no spaces). You will have to [create the milestone](https://help.github.com/articles/creating-and-editing-milestones-for-issues-and-pull-requests/) if this is your first issue for the project.
 
@@ -70,12 +70,12 @@ The functionality deadline schedule is below (assume all deadlines are at 11:59p
 
 | Project   | 100%       | 90%            | 80%            | 70%            | 0%         |
 |:---------:|:----------:|:--------------:|:--------------:|:--------------:|:----------:|
-| Project 1 | &le; 02/25 | 02/26 -- 03/03 | 03/04 -- 03/10 | 03/11 -- 04/03 | &gt; 04/03 |
-| Project 2 | &le; 03/17 | 03/18 -- 03/24 | 03/25 -- 03/31 | 04/01 -- 04/03 | &gt; 04/03 |
-| Project 3 | &le; 04/07 | 04/08 -- 04/14 | 04/15 -- 04/21 | 04/22 -- 05/07 | &gt; 05/07 |
-| Project 4 | &le; 04/28 | 04/29 -- 05/05 | &gt; 05/05 |   |            |
+| Project 1 | &le; 02/28 | 02/28 -- 03/06 | 03/06 -- 03/13 | 03/13 -- 04/03 | &gt; 04/03 |
+| Project 2 | &le; 03/20 | 03/20 -- 03/27 | 03/27 -- 04/03 | 04/03 -- 04/03 | &gt; 04/03 |
+| Project 3 | &le; 04/10 | 04/10 -- 04/17 | 04/17 -- 04/24 | 04/24 -- 05/08 | &gt; 05/08 |
+| Project 4 | &le; 05/01 | 05/01 -- 05/05 | &gt; 05/05 |   |            |
 
-Keep in mind the [project pass requirements](/syllabus.html#pass-requirements) for projects 1 and 2. All of your grades default to 0% if you do not pass the functionality of projects 1 and 2 by the project cutoff deadline on **Friday April 03, 2020**. You must also pass the functionality of project 3 by the last day of the semester (before finals) on **Thursday May 07, 2020**.
+Keep in mind the [project pass requirements](/syllabus.html#pass-requirements) for projects 1 and 2. All of your grades default to 0% if you do not pass the functionality of projects 1 and 2 by the project cutoff deadline on **Friday April 03, 2020**. You must also pass the functionality of project 3 by the last day of the semester (before finals) on **Friday May 08, 2020**.
 
 #### Working Ahead
 
@@ -97,7 +97,7 @@ Worried about missing functionality points? You can request extra credit opportu
 
 ## Project Code Review
 
-Once you have credit for project functionality, you should start the code review process. We use one-on-one code reviews with the instructor to evaluate your project design. We will be looking for the following when reviewing your code:
+Once you have credit for project functionality, you should start the code review process. We use code reviews with the instructor to evaluate your project design. We will be looking for the following when reviewing your code:
 
   - Your code should follow proper code style and naming conventions.
   - Your code should have no warnings.
