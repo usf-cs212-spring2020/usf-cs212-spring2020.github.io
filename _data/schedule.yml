@@ -322,6 +322,10 @@ weeks:
       items:
         - <<: *mandatory
 
+        - icon: *icon_website
+          text: 'Project Setup Guides'
+          link: '/guides/projects/'
+
         - <<: *homework3
 
         - <<: *project1
