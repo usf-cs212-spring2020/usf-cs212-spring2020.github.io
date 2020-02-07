@@ -12,9 +12,9 @@ tags:
 
 Below is a quick summary of the one-time setup needed for the project:
 
-1. Visit the [Project 1 Functionality](https://usfca.instructure.com/courses/1590210/assignments/6911862) assignment in Canvas and click the Github Classroom link to setup a repository named `project-username` where `username` is your Github username.
+1. Visit the [Project 1 Functionality](https://usfca.instructure.com/courses/1591964/assignments/6921840) assignment in Canvas and click the Github Classroom link to setup a repository named `project-username` where `username` is your Github username.
 
-1. Go to the `.github/ISSUE_TEMPLATE` directory in the Github website interface, and open the issue template. Click the "Edit" button and modify `FULL_NAME` to be your full name, `GITHUB_ORG` to be the Github organization for your class (e.g. `usf-cs212-2020`), `GITHUB_USER` to be your Github username, and then delete the "First-Time Setup" text after reading it. Save your changes.
+1. Go to the `.github/ISSUE_TEMPLATE` directory in the Github website interface, and open the issue template. Click the "Edit" button and modify `FULL_NAME` to be your full name, `GITHUB_ORG` to be the Github organization for your class (e.g. `usf-cs212-spring2020`), `GITHUB_USER` to be your Github username, and then delete the "First-Time Setup" text after reading it. Save your changes.
 
 1. If needed, setup the [Apache OpenNLP](http://opennlp.apache.org/) user library in Eclipse. See the [Adding User Libraries in Eclipse](/guides/eclipse/adding-user-libraries-in-eclipse.html) guide for steps. Make sure to name the library `opennlp-tools` to avoid build path problems.
 

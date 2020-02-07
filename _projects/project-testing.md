@@ -100,9 +100,9 @@ This is a two part process: first you must create a release, and second you must
     /home/public/cs212/project --user GITHUB_USER --org GITHUB_ORG v#.#.#
     ```
 
-    Replace `GITHUB_USER` with your Github username (not your USF/CS username), `GITHUB_ORG` with the Github organization for your class (e.g. `usf-cs212-2020`), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you will get functionality credit for your project. If not, re-run the test using the `--keep` flag to save the exception output and ask for help on Piazza.
+    Replace `GITHUB_USER` with your Github username (not your USF/CS username), `GITHUB_ORG` with the Github organization for your class (e.g. `usf-cs212-spring2020`), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you will get functionality credit for your project. If not, re-run the test using the `--keep` flag to save the exception output and ask for help on Piazza.
 
-    For example, running the command `project --user sjengle --org usf-cs212-2020 v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite.
+    For example, running the command `project --user ryscheng --org usf-cs212-spring2020 v1.0.0` will fetch the `v1.0.0` release from the `project-ryscheng` repository, and run the `Project1Test.java` test suite.
 
 
 If everything passes and you want credit for passing the functionality, follow the [project grading](project-grading.html) steps to notify the teacher assistant.

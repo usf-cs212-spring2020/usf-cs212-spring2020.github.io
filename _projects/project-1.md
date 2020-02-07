@@ -11,10 +11,10 @@ tags:
 
 assignments:
   - text: 'Project 1 Functionality'
-    link: 'https://usfca.instructure.com/courses/1590210/assignments/6911862'
+    link: 'https://usfca.instructure.com/courses/1591964/assignments/6921840'
 
   - text: 'Project 1 Code Review'
-    link: 'https://usfca.instructure.com/courses/1590210/assignments/6911863'
+    link: 'https://usfca.instructure.com/courses/1591964/assignments/6921842'
 
 ---
 
