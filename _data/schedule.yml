@@ -286,13 +286,35 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Object Oriented Programming'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66287493'
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Instances'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347074'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Members'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347061'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Mutability 1'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347063'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Mutability 2'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347079'
+          date: 2020-02-14
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-07
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Mutability'
+        - icon: *icon_code
+          text: 'Object-Oriented Programming'
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/OOP%20Principles'
 
     - label: 'Labs'
       start: 2020-02-07
@@ -339,6 +361,27 @@ weeks:
     - label: 'Labs'
       start: 2020-02-14
       class: ''
+      dates:
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Instances'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347074'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Members'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347061'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Mutability 1'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347063'
+          date: 2020-02-14
+
+        - icon: *icon_quiz
+          text: 'Quiz: OOP - Mutability 2'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347079'
+          date: 2020-02-14
+
 
 - week: 5
   columns:
