@@ -316,6 +316,10 @@ weeks:
           text: 'Object-Oriented Programming'
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/OOP%20Principles'
 
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/share/7sBwIoDU72BOYoGVwmeDUag9MZi8T6a82iUeqfQEyU8QCVxutaNZaDxa9aouC2yL'
+
     - label: 'Labs'
       start: 2020-02-07
       class: ''
