@@ -2,7 +2,7 @@
 title: Project 3 Multithreading
 navbar: Guides
 layout: guides
-key: 2.2
+key: 2.3
 
 tags:
   - text: 'Pending'

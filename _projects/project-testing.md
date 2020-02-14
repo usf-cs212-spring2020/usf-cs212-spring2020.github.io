@@ -107,6 +107,10 @@ This is a two part process: first you must create a release, and second you must
 
 If everything passes and you want credit for passing the functionality, follow the [project grading](project-grading.html) steps to notify the teacher assistant.
 
+<i class="fas fa-exclamation-triangle"></i>
+Your code may not have warnings, including Javadoc warnings, when running the `project` script. If you want to have *similar* settings within Eclipse, use the settings in the [Configuring Eclipse](/guides/eclipse/configuring-eclipse.html) guide.
+{: .notification }
+
 ## Video Walkthrough
 
 This video walkthrough will illustrate an *older version* of this process on a Mac OSX system. Please note this video was recorded for a previous semester. Some aspects may have changed.

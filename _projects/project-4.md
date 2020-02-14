@@ -2,7 +2,7 @@
 title: Project 4 Search Engine
 navbar: Guides
 layout: guides
-key: 2.2
+key: 2.4
 
 tags:
   - text: 'Pending'
