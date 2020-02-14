@@ -363,15 +363,42 @@ weeks:
       start: 2020-02-14
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Inheritance'
+        - text: 'Inheritance Introduction'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310509'
+
+        - text: 'Object Class'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310510'
+
+        - text: 'Abstract Classes and Interfaces'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310511'
+
+        - text: 'Collections Revisited'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310512'
+
+        - text: 'Final Keyword'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310513'
+
+        - text: 'Nested Classes'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310514'
+
+        - text: 'Generics'
+          icon: *icon_slides
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66310515'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-14
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Nested Classes'
+        - text: 'Inheritance'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Inheritance'
+          bump: true
 
     - label: 'Labs'
       start: 2020-02-14
