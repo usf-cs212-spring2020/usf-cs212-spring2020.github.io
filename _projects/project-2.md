@@ -10,10 +10,7 @@ tags:
 
 assignments:
   - text: 'Project 2 Functionality'
-    link: 'https://usfca.instructure.com/courses/1590210/assignments/6911895'
-
-  - text: 'Project 2 Code Review'
-    link: 'https://usfca.instructure.com/courses/1590210/assignments/6911896'
+    link: 'https://usfca.instructure.com/courses/1591964/assignments/6923365'
 
 ---
 
@@ -25,7 +22,7 @@ The core functionality of your project must satisfy the following requirements:
 
   - Maintain the functionality of the [previous project](project-1.html).
 
-  - Process additional command-line parameters to determine whether to search the inverted index and whether to produce additional JSON ouput. See the [Input](#input) section for specifics.
+  - Process additional command-line parameters to determine whether to search the inverted index and whether to produce additional JSON output. See the [Input](#input) section for specifics.
 
   - Parse a query file line-by-line into a normalized and optimized multiple word query matching the processing used to build the inverted index. See the [Query Parsing](#query-parsing) section for specifics.
 
@@ -138,7 +135,7 @@ Then, when sorting the search results, compare the results as follows:
 
 You can use [Double.compare(...)](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/Double.html#compare(double,double)), [Integer.compare(...)](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/Integer.html#compare(int,int)), and [String.compareToIgnoreCase(...)](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareToIgnoreCase(java.lang.String)) for these comparisons and the built-in sort methods in Java.
 
-See the [partial search results](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json) for [`ant perf`](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L2-L13) for an example of results sorted by score, the results for [`lori`](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L42-L58) for an example of results with the same score and thus sorted by count, and finally the results for [`capybara hidden`](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L14-L25) for an example of results with the same score and same count and thus sorted alphabetically by location.
+See the [partial search results](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json) for [`ant perf`](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L2-L13) for an example of results sorted by score, the results for [`lori`](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L42-L58) for an example of results with the same score and thus sorted by count, and finally the results for [`capybara hidden`](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/expected/search-partial/search-partial-simple.json#L14-L25) for an example of results with the same score and same count and thus sorted alphabetically by location.
 
 <i class="fas fa-exclamation-triangle"></i>
 If you calculate the score using `float` instead of `double` objects, or sort using `Path` instead of `String` objects, you may not get the expected results!
@@ -200,7 +197,7 @@ The use of spaces, newline characters, and spaces are the same as before for "pr
   ],
 ```
 
-You can also find this output in the [`expected/search-exact/search-exact-simple.json`](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/expected/search-exact/search-exact-simple.json#L49-L55) file in the `project-tests` repository. See the other expected output files for more examples.
+You can also find this output in the [`expected/search-exact/search-exact-simple.json`](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/expected/search-exact/search-exact-simple.json#L49-L55) file in the `project-tests` repository. See the other expected output files for more examples.
 
 ## Examples
 
@@ -213,7 +210,7 @@ java Driver -path "../../project-tests/Project Tests/input/text/simple/"
             -exact
 ```
 
-This is functionally equivalent to the [Project2Test](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/src/Project2Test.java#L69-L77) &raquo; [SearchOutputTest](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java) &raquo; [ExactSearchTest](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L66) &raquo; [testSimpleDirectory](https://github.com/usf-cs212-2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L74-L83) test. It will create the inverted index from the `input/text/simple/` input subdirectory, perform an **exact** search of the queries in the `input/query/simple.txt` query input file, and output the search results to `search-exact-simple.json`.
+This is functionally equivalent to the [Project2Test](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/src/Project2Test.java#L69-L77) &raquo; [SearchOutputTest](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java) &raquo; [ExactSearchTest](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L66) &raquo; [testSimpleDirectory](https://github.com/usf-cs212-spring2020/project-tests/blob/master/Project%20Tests/src/SearchOutputTest.java#L74-L83) test. It will create the inverted index from the `input/text/simple/` input subdirectory, perform an **exact** search of the queries in the `input/query/simple.txt` query input file, and output the search results to `search-exact-simple.json`.
 
 ## Hints
 
