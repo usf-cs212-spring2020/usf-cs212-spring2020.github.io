@@ -54,70 +54,70 @@ assignments:
       type: has-text-usf-terra
 
   - homework1: &homework1
-      text: Homework - ArgumentParser
+      text: 'Homework: ArgumentParser'
       icon: *icon_homework
       date: 2020-01-31
-      link: https://usfca.instructure.com/courses/1591964/assignments/6918388
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6918388'
 
   - homework2: &homework2
-      text: Homework - SimpleJsonWriter
+      text: 'Homework: SimpleJsonWriter'
       icon: *icon_homework
       date: 2020-02-07
-      link: https://usfca.instructure.com/courses/1591964/assignments/6920524
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6920524'
 
   - homework3: &homework3
-      text: Homework - TextFileStemmer
+      text: 'Homework: TextFileStemmer'
       icon: *icon_homework
       date: 2020-02-14
-      link: https://usfca.instructure.com/courses/1591964/assignments/6921773
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6921773'
 
   - homework4: &homework4
-      text: Homework - WordIndex
+      text: 'Homework: WordIndex'
       icon: *icon_homework
       date: 2020-02-21
-      link: https://usfca.instructure.com/courses/1591964/assignments/6922215
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6922215'
 
   - homework5: &homework5
-      text: Homework - TextFileFinder
+      text: 'Homework: TextFileFinder'
       icon: *icon_homework
       date: 2020-02-28
-      link: https://usfca.instructure.com/courses/1591964/assignments/6923354
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6923354'
 
   - homework6: &homework6
-      text: Homework - LoggerSetup
+      text: 'Homework: LoggerSetup'
       icon: *icon_homework
       date: 2020-03-06
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871398
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871398'
 
   - homework7: &homework7
-      text: Homework - ReadWriteLock
+      text: 'Homework: ReadWriteLock'
       icon: *icon_homework
       date: 2019-10-18
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871402
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871402'
 
   - homework8: &homework8
-      text: Homework - PrimeFinder
+      text: 'Homework: PrimeFinder'
       icon: *icon_homework
       date: 2019-10-25
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871406
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871406'
 
   - homework9: &homework9
-      text: Homework - LinkParser
+      text: 'Homework: LinkParser'
       icon: *icon_homework
       date: 2019-11-01
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871409
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871409'
 
   - homework10: &homework10
-      text: Homework - HTMLCleaner
+      text: 'Homework: HTMLCleaner'
       icon: *icon_homework
       date: 2019-11-08
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871413
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871413'
 
   - homework11: &homework11
-      text: Homework - HeaderServer
+      text: 'Homework: HeaderServer'
       icon: *icon_homework
       date: 2019-11-22
-      link: https://usfca.instructure.com/courses/1586786/assignments/6890971
+      link: 'https://usfca.instructure.com/courses/1586786/assignments/6890971'
 
   - project1: &project1
       text: Project 1
