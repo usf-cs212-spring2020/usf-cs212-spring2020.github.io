@@ -81,7 +81,7 @@ assignments:
       text: TextFileFinder
       icon: *icon_homework
       date: 2020-02-28
-      link: https://usfca.instructure.com/courses/1586786/assignments/6871396
+      link: https://usfca.instructure.com/courses/1591964/assignments/6923354
 
   - homework6: &homework6
       text: LoggerSetup
@@ -400,10 +400,40 @@ weeks:
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Inheritance'
           bump: true
 
+        - icon: *icon_quiz
+          text: 'Quiz: Collections Revisited'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347069'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Final Keyword'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347087'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Inheritance Terminology'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347073'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Casting'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347084'
+          date: 2020-02-21
+
+
+
     - label: 'Labs'
       start: 2020-02-14
       class: ''
       items:
+        - text: 'Project Grading'
+          link: '/guides/projects/project-grading.html'
+          icon: *icon_website
+
+        - text: 'GitHub Workflow'
+          link: 'https://guides.github.com/introduction/flow/'
+          icon: *icon_website
+
         - <<: *homework4
 
       dates:
@@ -449,8 +479,34 @@ weeks:
     - label: 'Labs'
       start: 2020-02-21
       class: ''
+      items:
+
+        - <<: *homework5
+
       dates:
         - <<: *homework4
+
+        - icon: *icon_quiz
+          text: 'Quiz: Collections Revisited'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347069'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Final Keyword'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347087'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Inheritance Terminology'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347073'
+          date: 2020-02-21
+
+        - icon: *icon_quiz
+          text: 'Quiz: Casting'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347084'
+          date: 2020-02-21
+
+
 
 - week: 6
   columns:
@@ -476,6 +532,8 @@ weeks:
       start: 2020-02-28
       class: ''
       dates:
+        - <<: *homework5
+
         - <<: *project1
           text: Project 1 Checkpoint
           type: has-text-usf-plum
