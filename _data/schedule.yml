@@ -400,6 +400,10 @@ weeks:
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Inheritance'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/play/tcIsfr37_D03HIDBtASDU_V6W461J6usgCIZqKAJnke3ViQKNlGgbuNDa-OltTxS7J5_JwsYiwcclxir'
+
         - icon: *icon_quiz
           text: 'Quiz: Collections Revisited'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347069'
