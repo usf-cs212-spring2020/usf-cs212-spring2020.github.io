@@ -570,6 +570,9 @@ weeks:
       start: 2020-02-28
       class: ''
       items:
+        - icon: *icon_participation
+          text: Exam 1 Review
+
         - <<: *project2
           text: Project 2
           type: has-text-usf-plum
