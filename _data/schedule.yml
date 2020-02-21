@@ -128,7 +128,7 @@ assignments:
   - project2: &project2
       text: Project 2
       icon: *icon_project
-      date: 2019-10-11
+      date: 2020-03-20
       link: '/guides/projects/project-2.html'
 
   - project3: &project3
@@ -471,19 +471,56 @@ weeks:
       class: ''
       items:
         - icon: *icon_slides
+          text: 'Java Features'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66330928'
+
+        - icon: *icon_slides
           text: 'Lambda Expressions'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66330929'
+          
+        - text: 'Lambda Expressions'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Lambda%20Expressions'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Java Features'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347075'
+          date: 2020-02-28
+
+        - icon: *icon_quiz
+          text: 'Quiz: Lambda Expressions'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347062'
+          date: 2020-02-28
 
     - label: 'Lecture (Afternoon)'
       start: 2020-02-21
       class: ''
       items:
         - icon: *icon_slides
-          text: 'Streams'
+          text: 'Streams - Introduction'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66330931'
+
+        - icon: *icon_slides
+          text: 'Streams - Pipelines'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66330932'
+
+        - text: 'Stream Pipelines'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Stream%20Pipelines'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Stream Pipelines'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347066'
+          date: 2020-02-28
 
     - label: 'Labs'
       start: 2020-02-21
       class: ''
       items:
+        - icon: *icon_participation
+          text: Project/Homework Help
 
         - <<: *homework5
 
@@ -515,37 +552,6 @@ weeks:
 - week: 6
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-02-28
-      class: ''
-      items:
-        - icon: *icon_exam
-          text: 'Exam 1'
-          type: 'has-text-danger has-text-weight-bold'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6883259'
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-02-28
-      class: ''
-      items:
-        - icon: *icon_exam
-          text: 'Exam 1'
-          type: 'has-text-danger has-text-weight-bold'
-          link: 'https://usfca.instructure.com/courses/1586786/assignments/6884069'
-
-    - label: 'Labs'
-      start: 2020-02-28
-      class: ''
-      dates:
-        - <<: *homework5
-
-        - <<: *project1
-          text: Project 1 Checkpoint
-          type: has-text-usf-plum
-          bump: true
-
-- week: 7
-  columns:
-    - label: 'Lecture (Morning)'
       start: 2020-03-06
       class: ''
       items:
@@ -558,6 +564,61 @@ weeks:
       items:
         - icon: *icon_slides
           text: 'Multithreading'
+
+
+    - label: 'Labs'
+      start: 2020-02-28
+      class: ''
+      items:
+        - <<: *project2
+          text: Project 2
+          type: has-text-usf-plum
+          bump: true
+
+      dates:
+        - <<: *homework5
+
+        - <<: *project1
+          text: Project 1 Checkpoint
+          type: has-text-usf-plum
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Java Features'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347075'
+          date: 2020-02-28
+
+        - icon: *icon_quiz
+          text: 'Quiz: Lambda Expressions'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347062'
+          date: 2020-02-28
+
+        - icon: *icon_quiz
+          text: 'Quiz: Stream Pipelines'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347066'
+          date: 2020-02-28
+
+
+- week: 7
+  columns:
+    - label: 'Lecture (Morning)'
+      start: 2020-02-28
+      class: ''
+      items:
+        - icon: *icon_exam
+          text: 'Exam 1'
+          type: 'has-text-danger has-text-weight-bold'
+          link: ''
+
+    - label: 'Lecture (Afternoon)'
+      start: 2020-02-28
+      class: ''
+      items:
+        - icon: *icon_exam
+          text: 'Exam 1'
+          type: 'has-text-danger has-text-weight-bold'
+          link: ''
+
 
     - label: 'Labs'
       start: 2020-03-06
@@ -623,6 +684,11 @@ weeks:
     - label: 'Labs'
       start: 2020-03-20
       class: ''
+      dates:
+        - <<: *project2
+          text: Project 2 Checkpoint
+          type: has-text-usf-plum
+          bump: true
 
 - week: 10
   columns:
