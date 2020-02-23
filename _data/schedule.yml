@@ -510,6 +510,10 @@ weeks:
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Stream%20Pipelines'
           bump: true
 
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/play/u5QrduH7qz83S9yUtASDC6V4W9S-KKus1CMWrPcPnxqyUnNQY1CmYLQTN3tuYJRIyT2o4spqpWm5pp0?startTime=1582314496000'
+
         - icon: *icon_quiz
           text: 'Quiz: Stream Pipelines'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347066'
