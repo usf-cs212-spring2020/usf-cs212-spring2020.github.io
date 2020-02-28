@@ -559,15 +559,41 @@ weeks:
       start: 2020-03-06
       class: ''
       items:
+
         - icon: *icon_slides
-          text: 'Logging'
+          text: 'Software Testing'
+          link: ''
+
+        - icon: *icon_slides
+          text: 'Testing Approaches'
+          link: ''
+
+        - icon: *icon_slides
+          text: 'Unit Testing'
+          link: ''
+
+        - text: 'Unit Testing'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Unit%20Testing'
+          bump: true
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-06
       class: ''
       items:
+
         - icon: *icon_slides
-          text: 'Multithreading'
+          text: 'Assert Statements'
+          link: ''
+
+        - icon: *icon_slides
+          text: 'Logging'
+          link: ''
+
+        - text: 'Debugging'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Debugging'
+          bump: true
 
 
     - label: 'Labs'
@@ -576,6 +602,7 @@ weeks:
       items:
         - icon: *icon_participation
           text: Exam 1 Review
+          link: '/guides/exam-1.html'
 
         - <<: *project2
           text: Project 2

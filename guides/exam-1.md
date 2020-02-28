@@ -3,201 +3,235 @@ title: Exam 1 Review
 navbar: Guides
 layout: default
 
-weeks:
-  - week: 1
-    topics:
-    - name: 'Project Euler'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Project%20Euler'
-      drop: true
-    - name: 'Files and Exceptions'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Files%20and%20Exceptions'
+resources:
+  code:
+    - text: 'Files and Exceptions'
+      slug: 'file'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Files%20and%20Exceptions'
 
-    homework:
-    - text: 'TextFileStemmer'
-      link: 'https://github.com/usf-cs212-fall2019/template-textfilestemmer'
+    - text: 'Data Structures'
+      slug: 'data'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Data%20Structures'
 
-    videos:
-    - text: 'Tue 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/8XdBBqw55CndKpkmJAix-BTSmeZ4iiVSUvxFrRR6VLqwIumekTziMw'
-    - text: 'Tue 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/ENvMeWdwTeB6D3aOBgT3pvTvts62Jx_7t17oNnKv1bSwIumekTziMw'
-    - text: 'Thu 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/wfRL_KXYjH5xaba2dnrNsZJKsnjyJ1r7Gw7SrLkp9pmwIumekTziMw'
-    - text: 'Thu 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/h9HNfdQpQ2nPHt_6ArZOy-1Fm0AAE8bV7rUlmNo1BM2wIumekTziMw'
+    - text: 'Object Oriented Programming'
+      slug: 'object'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/OOP%20Principles'
 
-  - week: 2
-    topics:
-    - name: 'Data Structures'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Data%20Structures'
-
-    slides:
-      - name: 'Data Structures - Types'
-        link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
-      - name: 'Data Structures - Framework'
-        link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
-
-    homework:
-    - text: 'SimpleJsonWriter'
-      link: 'https://github.com/usf-cs212-fall2019/template-simplejsonwriter'
-
-    quizzes:
-    - label: &quiz_data_structures
-      text: 'Data Structures'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341139'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342330'
-
-    videos:
-    - text: 'Tue 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/DjyYzVy0WMZ1o0Ywabi3dTLY3MPZWyHkEW_1gAXChs2wIumekTziMw'
-    - text: 'Tue 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/nyk3N5RrjqPj-sjJPRommfJajD3H_LFKh80urIvIJ1qwIumekTziMw'
-    - text: 'Thu 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/Q09HAlfEeMYtr1feP3AaWHeAfngZHXaWspW2GXdLjHewIumekTziMw'
-    - text: 'Thu 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
-
-  - week: 3
-    topics:
-    - name: 'Object Oriented Programming'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/OOP%20Principles'
-
-    homework:
-    - text: 'ArgumentParser'
-      link: 'https://github.com/usf-cs212-fall2019/template-argumentparser'
-
-    quizzes:
-    - label: &quiz_oop_instances
-      text: 'OOP: Instances'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341126'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342332'
-
-    - label: &quiz_oop_members
-      text: 'OOP: Members'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341151'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342334'
-
-    - label: &quiz_oop_mutability_1
-      text: 'OOP: Mutability, Part 1'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341144'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342328'
-
-    - label: &quiz_oop_mutability_2
-      text: 'OOP: Mutability, Part 2'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341168'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342331'
-
-    slides:
-    - name: 'OOP Terminology'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
-
-    videos:
-    - text: 'Tue 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/8Pg9gRf3bqNqSF6mW90QEdwCQg4vWh_8aLja7KemHnCwIumekTziMw?startTime=1567539916000'
-    - text: 'Tue 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/M5mQ-yztAY7DU_BF9Gw7OcHnrHCPEPeqVECs9zanLWKwIumekTziMw?startTime=1567553654000'
-    - text: 'Thu 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/E7Bvh2EcdIqVRz81pS8pqqEFBeJT1at6EXe9uLwfx9ywIumekTziMw'
-    - text: 'Thu 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/j5LdOUaS8vwCCglZj_DTbbkoVesLwsDaXaT9LPB67V8'
-
-  - week: 4
-    topics:
-    - name: 'Inheritance'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Inheritance'
-
-    homework:
-    - text: 'WordIndex'
-      link: 'https://github.com/usf-cs212-fall2019/template-wordindex'
-
-    quizzes:
-    - text: 'Inheritance: Final Keyword'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341175'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342336'
-
-    - text: 'Inheritance: Collections Revisited'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341156'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342327'
-
-    - text: 'Inheritance: Casting'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341129'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342337'
-
-    - text: 'Inheritance: Terminology'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341138'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342333'
-
-    slides:
-    - name: 'Introduction'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
-    - name: 'Object Revisited'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
-    - name: 'Final Keyword'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
-    - name: 'Abstract Classes and Interfaces'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
-    - name: 'Collections Revisited'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
-    - name: 'Casting'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
-    - name: 'Nested Classes'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
-    - name: 'Generics'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
-
-    videos:
-    - text: 'Tue 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/fJS-HkSdYLF6Y_rSFdR03nvYyRW8IpxNuzkNFK_7QJ-wIumekTziMw'
-    - text: 'Tue 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/KXhBzynylQ1gGxERHrHitn-xzV3XUlELnyuVbhQ0cmqwIumekTziMw'
-    - text: 'Thu 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/1szgSDWZfxNzjO3Ov6Nun5PLHgfFJNZre6_FgmxPqwewIumekTziMw'
-    - text: 'Thu 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/i74YNn9EIbbdyYD-ZBMzKSHHxkaOrnXtJf9axhKNE2mwIumekTziMw'
-
-  - week: 5
-    topics:
-    - name: 'Lambda Expressions'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Lambda%20Expressions'
-    - name: 'Stream Pipelines'
-      link: 'https://github.com/usf-cs212-fall2019/lectures/tree/master/Stream%20Pipelines'
-
-    homework:
-    - text: 'TextFileFinder'
-      link: 'https://github.com/usf-cs212-fall2019/template-textfilefinder'
-
-    quizzes:
-    - text: 'Java Features'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2342292'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342326'
+    - text: 'Inheritance'
+      slug: 'inheritance'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Inheritance'
 
     - text: 'Lambda Expressions'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2341133'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342329'
+      slug: 'lambda'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Lambda%20Expressions'
+
+    - text: 'Stream Pipelines'
+      slug: 'stream'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Stream%20Pipelines'
+
+    - text: 'Software Testing'
+      slug: 'testing'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Unit%20Testing'
+
+    - text: 'Debugging and Logging'
+      slug: 'logging'
+      link: 'https://github.com/usf-cs212-2020/lectures/tree/master/Debugging'
+
+  # link practice quizzes here!
+  quizzes:
+    - text: 'Data Structures'
+      slug: 'data'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347783'
+
+    - text: 'Iteration'
+      slug: 'data'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347786'
+
+    - text: 'Static vs Instance'
+      slug: 'object'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347789'
+
+    - text: 'Instance vs Identifier'
+      slug: 'object'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347782'
+
+    - text: 'Mutability, Part 1'
+      slug: 'object'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347780'
+
+    - text: 'Mutability, Part 2'
+      slug: 'object'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347791'
+
+    - text: 'Collections Revisited'
+      slug: 'inheritance'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347778'
+
+    - text: 'Final Keyword'
+      slug: 'inheritance'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347781'
+
+    - text: 'Inheritance Terminology'
+      slug: 'inheritance'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347790'
+
+    - text: 'Casting'
+      slug: 'inheritance'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347792'
+
+    - text: 'Java Features'
+      slug: 'lambda'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347785'
+
+    - text: 'Lambda Expressions'
+      slug: 'lambda'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347793'
 
     - text: 'Streams'
-      original: 'https://usfca.instructure.com/courses/1586786/quizzes/2342303'
-      practice: 'https://usfca.instructure.com/courses/1586786/quizzes/2342335'
+      slug: 'stream'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347784'
 
-    slides:
-    - name: 'Java Versions'
+    - text: 'Unit Testing'
+      slug: 'testing'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347787'
+
+    - text: 'Assert Statements'
+      slug: 'logging'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347788'
+
+    - text: 'Logging'
+      slug: 'logging'
+      link: 'https://usfca.instructure.com/courses/1590210/quizzes/2347779'
+
+  videos:
+    - text: 'Thu 01/23'
+      slug: 'file'
+      link: 'https://usfca.zoom.us/rec/share/-ZZ3Cpiq2V5OQdb0y3vTGe0tHLjMeaa8gHAW_PEPn0g55kvKg_0iZdnfhko0-Ang'
+
+    - text: 'Tue 01/28'
+      slug: 'data'
+      link: 'https://usfca.zoom.us/rec/share/-ZZXJLjB8ExLH9Lsy1-BCrcfFI_Aaaa81ChIqKBbzxlL7Vd4xsXqSEgI-XaygX6-'
+
+    - text: 'Thu 01/30<sup>*</sup>'
+      slug: 'data'
+      link: 'https://usfca.zoom.us/recording/share/2bGCoayI8lgYhHwSPRI0OfMnESkiqOztInetnO_XkdSwIumekTziMw'
+
+    - text: 'Tue 02/04'
+      slug: 'object'
+      link: 'https://usfca.zoom.us/rec/share/uONwM-_h_H9If6-O2RrURP8BN6njT6a80CNP-vcInhxG9r-qrwo1H6yMsLUPcYHc'
+
+    - text: 'Thu 02/06'
+      slug: 'object'
+      link: 'https://usfca.zoom.us/rec/share/y8JrI5TV_DpJGrfAsFDNZKMGQp3sT6a80HMX-fNfnRvggmpX0LrxNKBAqoB-VHs2'
+
+    - text: 'Tue 02/11'
+      slug: 'inheritance'
+      link: 'https://usfca.zoom.us/rec/share/-4t8HrPop0FJUNLh60ryU5Q7Rr77X6a813RM-_RbyUmJgKQHSbk_2bhpSAiSYBQN'
+
+    - text: 'Thu 02/13'
+      slug: 'inheritance'
+      link: 'https://usfca.zoom.us/rec/share/u852du7-3HpLeavnzBiGA_4APKT4eaa81XNL_6YFmEe0MhHYV9q96Jr4Vgsy6qQh'
+
+    - text: 'Tue 02/18'
+      slug: 'lambda'
+      link: 'https://usfca.zoom.us/rec/share/1P1VBq232WNIY4nu-GGGfP8dBNzJT6a8gykXqaIExUfNdXMOROIXLYomHbwq3PRa'
+
+    - text: 'Thu 02/20'
+      slug: 'stream'
+      link: 'https://usfca.zoom.us/rec/share/2tU2Mp-g6n5LfdbO52H0W48ZDKT_aaa80SUZr_YKzRo_ZLes6QRjZeTQQU6uxNeO'
+
+    - text: 'Tue 02/25'
+      slug: 'testing'
+      link: 'https://usfca.zoom.us/rec/share/_-ZJcaj0yGpORoHK2R3ieKcfBpv-aaa81XRP-6FfzElVUafMz8GZyDUOB_fytiS9'
+
+    - text: 'Thu 02/27'
+      slug: 'logging'
+      link: 'https://usfca.zoom.us/rec/share/-OBEHYOsrjNJWpXLq2rbdZAeBqbEaaa81SMX_aANnx59t0CugpoVm4CRm3U_qHkU?startTime=1582836309000'
+
+  slides:
+    - text: 'Exceptions'
+      slug: 'file'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upUW5iVldFNFp4a0U'
+
+    - text: 'Basic Types'
+      slug: 'data'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+
+    - text: 'Collections Framework'
+      slug: 'data'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+
+    - text: 'Terminology'
+      slug: 'object'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+
+    - text: 'Introduction'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+
+    - text: 'Abstract Classes and Interfaces'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+
+    - text: 'Object Class'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+
+    - text: 'Final Keyword'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+
+    - text: 'Collections Revisited'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+
+    - text: 'Casting'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
+
+    - text: 'Nested Classes'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
+
+    - text: 'Generics'
+      slug: 'inheritance'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+
+    - text: 'Java Features'
+      slug: 'lambda'
       link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
-    - name: 'Lambda Expressions'
+
+    - text: 'Lambda Expressions'
+      slug: 'lambda'
       link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
-    - name: 'Streams - Introduction'
+
+    - text: 'Introduction'
+      slug: 'stream'
       link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
-    - name: 'Streams - Pipelines'
+
+    - text: 'Pipelines'
+      slug: 'stream'
       link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
 
-    videos:
-    - text: 'Tue 12:45p'
-      link: 'https://usfca.zoom.us/recording/share/i74YNn9EIbbdyYD-ZBMzKSHHxkaOrnXtJf9axhKNE2mwIumekTziMw'
-    - text: 'Tue 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/f-eF9pHBN-N5A9TdOltjMKmzVM7F21q04ZNrqrc735uwIumekTziMw'
-    - text: 'Thu 12:46p'
-      link: 'https://usfca.zoom.us/recording/share/sI3aAxbBN91FXCIGUTb8HR0B1DnMLkqAcdBjHRI2h8WwIumekTziMw'
-    - text: 'Thu 4:45p'
-      link: 'https://usfca.zoom.us/recording/share/pwR5VzdzSVr3b3RNx81xrgUv14G9359jbCS7jmTtAaqwIumekTziMw'
+    - text: 'Motivation'
+      slug: 'testing'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+
+    - text: 'Approaches'
+      slug: 'testing'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+
+    - text: 'Unit Testing'
+      slug: 'testing'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
+
+    - text: 'Assert Statements'
+      slug: 'logging'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+
+    - text: 'Logging'
+      slug: 'logging'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
 ---
 
 ## Exam Format
@@ -216,16 +250,26 @@ The exam questions may consist of:
 
   - <textarea class="textarea" rows="2" style="width: 300px; min-width: auto;" readonly>Short Answer and Code Snippets</textarea>
 
-The order you see questions and possible answers may be <i class="far fa-random"></i> randomized. Most questions will be automatically graded by Canvas, except short answer and code snippets which will be graded manually by the instructor.
+The order you see questions and possible answers may be <i class="far fa-random"></i> randomized. Most questions will be automatically graded by Canvas. Short answer and code snippet questions will be graded manually by the instructor.
 
-The exam will be conducted on Canvas **on the lab computers** and NOT on your laptops. You may access to the following official Java 12 documentation during the exam:
+The exam will be conducted on Canvas **on the lab computers** using <i class="far fa-lock"></i> **Lockdown Browser**. You may NOT take the exam on your laptop or using any other web browser. You may access to the following official Java documentation during the exam:
 
-  - [Java 12 API](https://docs.oracle.com/en/java/javase/12/docs/api/index.html)
-  - [Java SE 12 Language Specification](https://docs.oracle.com/javase/specs/jls/se12/html/index.html)
+  - [Java 13 API](https://docs.oracle.com/en/java/javase/13/docs/api/index.html)
+  - [Java SE 13 Language Specification](https://docs.oracle.com/javase/specs/jls/se13/html/index.html)
   - [Java Tutorials](https://docs.oracle.com/javase/tutorial/)
   - [Java Glossary](https://docs.oracle.com/javase/tutorial/information/glossary.html)
 
-The exam is otherwise <span class="fa-stack fa-fw"><i class="far fa-book-open fa-stack-1x"></i><i class="far fa-ban fa-stack-2x has-text-danger"></i></span> **closed-book closed-note**. You may not reference any other websites other than Canvas and the approved websites above, e.g. you may not look at the class website, Github, StackOverflow, or Google. You may not open any other program other than the the browser, e.g. you may not open Eclipse or run Java. You may not reference your cell phone or tablet during the exam (even if you take a bathroom break). You may not look at the monitors of your fellow classmates.
+You can also access the following documentation:
+
+  - Certain official Java Guides, including the [Collections Framework Overview](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/doc-files/coll-overview.html), [Creating Unmodifiable Lists, Sets, and Maps](https://docs.oracle.com/en/java/javase/13/core/creating-immutable-lists-sets-and-maps.html), [Programming with Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html), and [Java Logging Overview](https://docs.oracle.com/en/java/javase/13/core/java-logging-overview.html).
+
+  - JUnit Documentation, including the [JUnit API](https://junit.org/junit5/docs/current/api/) and [JUnit User Guide](https://junit.org/junit5/docs/current/user-guide/).
+
+  - Log4j2 Documentation, including the [Log4j2 API](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html) and [Log4j2 Core API](https://logging.apache.org/log4j/2.x/log4j-core/apidocs/index.html), and the [Log4j2 Manual](https://logging.apache.org/log4j/2.x/manual/).
+
+The exam is otherwise <span class="fa-stack fa-fw"><i class="far fa-book-open fa-stack-1x"></i><i class="far fa-ban fa-stack-2x has-text-danger"></i></span> **closed-book closed-note**.
+
+You may not reference any other websites other than Canvas and the approved websites above, e.g. you may not look at the class website, Github, StackOverflow, or Google. You may not open any other program other than the the browser, e.g. you may not open Eclipse or run Java. You may not reference your cell phone or tablet during the exam (even if you take a bathroom break). You may not look at the monitors of your fellow classmates.
 
 You may ask the instructor for one piece of blank paper during the exam to use as <i class="far fa-file-edit"></i> scratch paper, but must turn in this paper at the end of class. You may not use your own paper.
 
@@ -241,19 +285,13 @@ You may ask the instructor for clarification on a <i class="far fa-question-circ
 
 ## Exam Retake
 
-You will have an opportunity to retake the entire exam during the next class period. The retake format is the same as before (e.g. only access allowed websites).
+You will have an opportunity to retake the entire exam during the next class period. The retake is  conducted exactly the same as the original exam with a couple of exceptions.
 
-However, in addition to the allowed websites, you can also consult the instructor for hints if you do not know how to fix an answer. The instructor will also go through hints for difficult questions on the board during the retake process. You will also have access to the answers on your original attempt, but the order of questions may not be the same!
+First, the retake does NOT require using Lockdown Browser. However, you may still only access the allowed websites listed earlier. Second, in addition to the allowed websites, you can consult the instructor for hints if you do not know how to fix an answer. The instructor will also go through hints for difficult questions on the board during the retake process. You will also have access to the answers on your original attempt, but the order of questions may not be the same!
 
-You will be able to earn back a **percentage of points that you missed** on your original attempt. The exact percentage is determined by the exam average. The exact formula used is as follows:
+The final exam 1 score will be the *average* of the original and retake scores. **It is impossible to earn a lower score due to the retake process.** If your retake score is lower than your original score, your original score will be used instead of an average.
 
-  > Original Percentage + ( Retake Percentage - Original Percentage ) x Retake Percent
-
-For example, suppose you earned an 80% on your original attempt and improved that to 90% on the retake. If the retake percentage is 50%, then your final score will be:
-
-  > 80% + ( 90% - 80% ) x 50% = 80% + ( 10% ) x 50% = 80% + 5% = 85%
-
-**It is impossible to earn a lower score due to the retake process.** If your retake score is lower than your original score, we will use your original score instead.
+The exam retake is optional. If you are happy with your current exam score, you can skip the retake process. Your original exam score will be used instead.
 
 ## Exam Topics
 
@@ -262,73 +300,47 @@ The exam will cover topics on all of the lecture slides, homework assignments, q
 <table class="table is-hoverable">
 <thead>
   <tr>
-    <th nowrap class="has-text-centered">Week</th>
-    <th>Topic and Code</th>
-    <th>Slides</th>
-    <th>Quizzes</th>
-    <th>Homework</th>
-    <th>Videos</th>
+    <th width="20%">Topic and Code</th>
+    <th width="30%">Lecture Slides</th>
+    <th width="30%">Practice Quizzes</th>
+    <th width="20%">Recordings</th>
   </tr>
 </thead>
 
 <tbody>
-  {% for row in page.weeks %}
+  {% for topic in page.resources.code %}
   <tr>
-    <td nowrap class="has-text-centered">{{ row.week }}</td>
     <td>
-      {% for item in row.topics %}
-      {% if item.drop %}<del>{% endif %}<a href="{{ item.link }}">{{ item.name }}</a>{% if item.drop %}</del>{% endif %}
-      {% unless forloop.last %}&bull;{% endunless %}
+      {{ topic.text }}
+      (<a href="{{ topic.link }}">Code</a>)
+    </td>
+    <td>
+      {% assign filtered = page.resources.slides | where: "slug", topic.slug %}
+      {% for item in filtered %}
+      {% unless forloop.first %}&bullet;{% endunless %}
+      <a href="{{ item.link }}">{{ item.text }}</a>
+      {% endfor %}
+    </td>    
+    <td>
+      {% assign filtered = page.resources.quizzes | where: "slug", topic.slug %}
+      {% for item in filtered %}
+      {% unless forloop.first %}&bullet;{% endunless %}
+      <a href="{{ item.link }}">{{ item.text }}</a>
       {% endfor %}
     </td>
     <td>
-      {% if row.slides %}
-      {% for item in row.slides %}
-      {% if item.drop %}<del>{% endif %}<a href="{{ item.link }}">{{ item.name }}</a>{% if item.drop %}</del>{% endif %}
-      {% unless forloop.last %}&bull;{% endunless %}
+      {% assign filtered = page.resources.videos | where: "slug", topic.slug %}
+      {% for item in filtered %}
+      {% unless forloop.first %}&bullet;{% endunless %}
+      <a href="{{ item.link }}">{{ item.text }}</a>
       {% endfor %}
-      {% else %}
-      <span class="has-text-grey">N/A</span>
-      {% endif %}
-    </td>
-    <td>
-      {% if row.quizzes %}
-      {% for item in row.quizzes %}
-      {% if item.drop %}<del>{% endif %}{{ item.text }} (<a href="{{ item.original }}">Original</a>, <a href="{{ item.practice }}">Practice</a>){% if item.drop %}</del>{% endif %}
-      {% unless forloop.last %}&bull;{% endunless %}
-      {% endfor %}
-      {% else %}
-      <span class="has-text-grey">N/A</span>
-      {% endif %}
-    </td>
-    <td nowrap>
-      {% if row.homework %}
-      {% for item in row.homework %}
-      {% if item.drop %}<del>{% endif %}<a href="{{ item.link }}">{{ item.text }}</a>{% if item.drop %}</del>{% endif %}
-      {% unless forloop.last %}&bull;{% endunless %}
-      {% endfor %}
-      {% else %}
-      <span class="has-text-grey">N/A</span>
-      {% endif %}
-    </td>
-    <td>
-    {% if row.videos %}
-    {% for item in row.videos %}
-    <span style="display: inline-block; white-space: nowrap;">
-    <a href="{{ item.link }}">{{ item.text }}</a>
-    {% unless forloop.last %}&bull;{% endunless %}
-    </span>
-    {% endfor %}
-    {% else %}
-    <span class="has-text-grey">N/A</span>
-    {% endif %}
-    </td>
+    </td>    
   </tr>
   {% endfor %}
 </tbody>
 </table>
 
-See the [Schedule](/schedule.html) for more information. Anything listed above that is ~~crossed-out~~ will **not** be included on the exam. Where possible, the **practice quiz** (does not count towards grade, unlimited attempts, and can see correct answers) is linked instead of the original quiz.
+See the [Schedule](/schedule.html) for more information.
 
 ### Example Topics
 
@@ -390,26 +402,32 @@ The following are some example topics that you may want to make sure you underst
 
 - You should understand terminology with respect to stream operations, including **intermediate** versus **terminal** operations, **lazy** versus **eager** operations, and what it means for an operation to be **non-interfering**, **stateless**, and without **side-effects**.
 
+- You should understand how to interpret JUnit test classes, and create your own JUnit tests. This includes understanding the `@Test`, `@Nested`, `@BeforeEach`, `@AfterEach`, and `@ParameterizedTest` annotations and the methods in the `org.junit.jupiter.api.Assertions` package.
+
+- You should understand how to use assertions in Java using the `assert` keyword, and where it is (or is not) appropriate to use.
+
+- You should understand how to configure and use **Log4j2** for logging and debugging. If given a configuration file, you should be able to determine where log messages will go (file or console), which level log messages will be output (all, info, debug, etc.), and in what format.
+
 ## SDS Accommodations
 
 Students may receive [exam accommodations](https://myusf.usfca.edu/sds/exam-accommodations), such as additional testing time or a more private exam setting, through [Student Disability Services](https://myusf.usfca.edu/sds/exam-accommodations). If you are planning on using these exam accommodations, please read the following.
 
-### Requests
+### SDS Requests
 
 I must receive a notification for accommodation from [SDS](https://myusf.usfca.edu/sds) regarding this exam at least <strong>one week before the exam</strong> itself. You may have SDS proctor the exam, but you will be expected to take the exam on the same day as the rest of the class.
 
-### Exam
+### Proctored Exam
 
 For exams proctored by SDS, Canvas will be configured to automatically allow you to (1) begin the exam at your scheduled appointment time and (2) give you the additional time stipulated by your SDS alternative testing contract.
 
 You may take the exam on your own laptop or on a computer provided by SDS. The allowed websites will be linked directly from the exam; no other websites, resources, or materials may be accessed. If necessary, you can bring your own piece of scratch paper and turn it in directly to the professor when you are done.
 
-I will actively monitoring email for questions from your proctor, but there might be up to a 20 minute delay if your appointment happens when I am in class or in code reviews.
+I will actively monitoring email for questions from your proctor, but there might be a delay if your appointment happens at a time different from the rest of class.
 
-### Retake
+### Proctored Retake
 
 You may decide whether to use SDS accommodations for the exam retake. The retake generally takes less time than the original exam; most students decide *not* to use SDS accommodations for the retake process. Since you are allowed to ask for help during the retake, this allows you to receive more immediate help and feedback.
 
-If you do choose to use SDS exam accommodations for the retake, I will prepare some general hints you can use during the retake. The SDS proctor can send me your questions via email, but I may not be immediately available to answer those questions during your scheduled time.
+If you do choose to use SDS exam accommodations for the retake, I will prepare some general hints you can use during the retake. The SDS proctor can send me your questions via email, but I may have limited availability to answer those questions during your scheduled time.
 
 It may also be possible to combine SDS exam proctoring and attending class for the retake (so you get both extra time and in-class help), but this depends on both SDS and instructor availability. To inquire further, please make a private post on Piazza.
