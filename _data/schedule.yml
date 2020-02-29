@@ -87,7 +87,7 @@ assignments:
       text: 'Homework: LoggerSetup'
       icon: *icon_homework
       date: 2020-03-06
-      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871398'
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6925862'
 
   - homework7: &homework7
       text: 'Homework: ReadWriteLock'
@@ -624,6 +624,8 @@ weeks:
           type: has-text-usf-plum
           bump: true
 
+        - <<: *homework6
+
       dates:
         - <<: *homework5
 
@@ -673,6 +675,9 @@ weeks:
       start: 2020-03-06
       class: ''
       dates:
+
+        - <<: *homework6
+
         - icon: *icon_participation
           text: 'Piazza Participation 1'
           link: 'https://usfca.instructure.com/courses/1591964/assignments/6918347'
