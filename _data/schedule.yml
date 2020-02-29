@@ -556,44 +556,59 @@ weeks:
 - week: 6
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-03-06
+      start: 2020-02-28
       class: ''
       items:
 
         - icon: *icon_slides
           text: 'Software Testing'
-          link: ''
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66354105'
 
         - icon: *icon_slides
           text: 'Testing Approaches'
-          link: ''
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66354106'
 
         - icon: *icon_slides
           text: 'Unit Testing'
-          link: ''
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66354108'
 
         - text: 'Unit Testing'
           icon: *icon_code
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Unit%20Testing'
           bump: true
 
+        - icon: *icon_quiz
+          text: 'Quiz: Unit Testing'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347083'
+          date: 2020-03-06
+
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-06
+      start: 2020-02-28
       class: ''
       items:
 
         - icon: *icon_slides
           text: 'Assert Statements'
-          link: ''
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66354109'
 
         - icon: *icon_slides
           text: 'Logging'
-          link: ''
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66354111'
 
         - text: 'Debugging'
           icon: *icon_code
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Debugging'
           bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Assert Statements'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347070'
+          date: 2020-03-06
+
+        - icon: *icon_quiz
+          text: 'Quiz: Logging'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347064'
+          date: 2020-03-06
 
 
     - label: 'Labs'
@@ -636,7 +651,7 @@ weeks:
 - week: 7
   columns:
     - label: 'Lecture (Morning)'
-      start: 2020-02-28
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_exam
@@ -645,7 +660,7 @@ weeks:
           link: ''
 
     - label: 'Lecture (Afternoon)'
-      start: 2020-02-28
+      start: 2020-03-06
       class: ''
       items:
         - icon: *icon_exam
@@ -669,6 +684,21 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2346784'
           date: 2020-03-06
           bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Unit Testing'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347083'
+          date: 2020-03-06
+
+        - icon: *icon_quiz
+          text: 'Quiz: Assert Statements'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347070'
+          date: 2020-03-06
+
+        - icon: *icon_quiz
+          text: 'Quiz: Logging'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347064'
+          date: 2020-03-06
 
 
 
