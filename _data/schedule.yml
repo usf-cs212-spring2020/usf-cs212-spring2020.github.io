@@ -582,6 +582,10 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347083'
           date: 2020-03-06
 
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/share/xNwrdLji-WFIXafd1XOCVa47Ob-5X6a81HRP-_MLnhrkJXIR6Lbg89grKznIiitL?startTime=1582919396000'
+
     - label: 'Lecture (Afternoon)'
       start: 2020-02-28
       class: ''
@@ -609,6 +613,10 @@ weeks:
           text: 'Quiz: Logging'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347064'
           date: 2020-03-06
+
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/share/_PZ-Pq3-7j1JbpXtuXOGZqoEQ63PT6a8hiMWrPcExE88TJgwp-k9Nkwm8-CyVBmK?startTime=1582929222000'
 
 
     - label: 'Labs'
