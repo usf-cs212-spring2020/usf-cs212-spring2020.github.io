@@ -748,15 +748,43 @@ weeks:
       start: 2020-03-20
       class: ''
       items:
+
         - icon: *icon_slides
-          text: 'Multithreading'
+          text: 'Multithreading - Introduction'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394365'
+
+        - icon: *icon_slides
+          text: 'Multithreading - Synchronization'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394367'
+
+        - icon: *icon_slides
+          text: 'Multithreading - Liveness'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394368'
+
+        - text: 'Multithreading Basics'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Multithreading%20Basics'
+          bump: true
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-20
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Multithreading'
+
+        - text: 'Synchronization'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Multithreading%20Synchronization'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Thread Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347077'
+          date: 2020-03-27
+
+        - icon: *icon_quiz
+          text: 'Quiz: Synchronization'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347071'
+          date: 2020-03-27
 
     - label: 'Labs'
       start: 2020-03-20
@@ -773,19 +801,48 @@ weeks:
       start: 2020-03-27
       class: ''
       items:
+
         - icon: *icon_slides
-          text: 'Multithreading'
+          text: 'Custom Locks'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394369'
+
+        - icon: *icon_slides
+          text: 'Volatile Keyword'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394370'
+
+        - icon: *icon_slides
+          text: 'Work Queues'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394371'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-03-27
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Multithreading'
+
+        - text: 'Work Queues'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Multithreading%20Work%20Queues'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Work Queues'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347068'
+          date: 2020-04-03
       
     - label: 'Labs'
       start: 2020-03-27
       class: ''
+      dates:
+
+        - icon: *icon_quiz
+          text: 'Quiz: Thread Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347077'
+          date: 2020-03-27
+
+        - icon: *icon_quiz
+          text: 'Quiz: Synchronization'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347071'
+          date: 2020-03-27
 
 - week: 11
   columns:
@@ -806,6 +863,12 @@ weeks:
     - label: 'Labs'
       start: 2020-04-03
       class: ''
+      dates:
+
+        - icon: *icon_quiz
+          text: 'Quiz: Work Queues'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347068'
+          date: 2020-04-03
 
 - week: 12
   columns:
