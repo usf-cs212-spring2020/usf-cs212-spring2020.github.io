@@ -789,11 +789,6 @@ weeks:
     - label: 'Labs'
       start: 2020-03-20
       class: ''
-      dates:
-        - <<: *project2
-          text: Project 2 Checkpoint
-          type: has-text-usf-plum
-          bump: true
 
 - week: 10
   columns:
@@ -833,6 +828,11 @@ weeks:
       start: 2020-03-27
       class: ''
       dates:
+
+        - <<: *project2
+          text: Project 2 Checkpoint
+          type: has-text-usf-plum
+          bump: true
 
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
