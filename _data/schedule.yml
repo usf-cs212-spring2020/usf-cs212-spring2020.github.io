@@ -128,7 +128,7 @@ assignments:
   - project2: &project2
       text: Project 2
       icon: *icon_project
-      date: 2020-03-20
+      date: 2020-03-27
       link: '/guides/projects/project-2.html'
 
   - project3: &project3
@@ -749,6 +749,38 @@ weeks:
       class: ''
       items:
 
+        - icon: *icon_youtube
+          text: 'Regular Expressions'
+          link: 'https://www.linkedin.com/learning/learning-regular-expressions-2/'
+
+        
+    - label: 'Lecture (Afternoon)'
+      start: 2020-03-20
+      class: ''
+      items:
+
+        - text: 'Regular Expressions'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Regular%20Expressions'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Regex Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347078'
+          date: 2020-03-27
+
+        
+    - label: 'Labs'
+      start: 2020-03-20
+      class: ''
+
+- week: 10
+  columns:
+    - label: 'Lecture (Morning)'
+      start: 2020-03-27
+      class: ''
+      items:
+
         - icon: *icon_slides
           text: 'Multithreading - Introduction'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394365'
@@ -766,8 +798,9 @@ weeks:
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Multithreading%20Basics'
           bump: true
 
+
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-20
+      start: 2020-03-27
       class: ''
       items:
 
@@ -779,24 +812,36 @@ weeks:
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347077'
-          date: 2020-03-27
+          date: 2020-04-03
 
         - icon: *icon_quiz
           text: 'Quiz: Synchronization'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347071'
-          date: 2020-03-27
+          date: 2020-04-03
 
+              
     - label: 'Labs'
-      start: 2020-03-20
-      class: ''
-
-- week: 10
-  columns:
-    - label: 'Lecture (Morning)'
       start: 2020-03-27
       class: ''
-      items:
+      dates:
 
+        - <<: *project2
+          text: Project 2 Checkpoint
+          type: has-text-usf-plum
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: Regex Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347078'
+          date: 2020-03-27
+
+
+- week: 11
+  columns:
+    - label: 'Lecture (Morning)'
+      start: 2020-04-03
+      class: ''
+      items:
         - icon: *icon_slides
           text: 'Custom Locks'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394369'
@@ -809,8 +854,9 @@ weeks:
           text: 'Work Queues'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394371'
 
+
     - label: 'Lecture (Afternoon)'
-      start: 2020-03-27
+      start: 2020-04-03
       class: ''
       items:
 
@@ -823,52 +869,24 @@ weeks:
           text: 'Quiz: Work Queues'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347068'
           date: 2020-04-03
-      
+
+
     - label: 'Labs'
-      start: 2020-03-27
+      start: 2020-04-03
       class: ''
       dates:
-
-        - <<: *project2
-          text: Project 2 Checkpoint
-          type: has-text-usf-plum
-          bump: true
 
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347077'
-          date: 2020-03-27
+          date: 2020-04-03
 
         - icon: *icon_quiz
           text: 'Quiz: Synchronization'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347071'
-          date: 2020-03-27
-
-- week: 11
-  columns:
-    - label: 'Lecture (Morning)'
-      start: 2020-04-03
-      class: ''
-      items:
-        - icon: *icon_youtube
-          text: 'Regular Expressions'
-
-    - label: 'Lecture (Afternoon)'
-      start: 2020-04-03
-      class: ''
-      items:
-        - icon: *icon_slides
-          text: 'Sockets'
-
-    - label: 'Labs'
-      start: 2020-04-03
-      class: ''
-      dates:
-
-        - icon: *icon_quiz
-          text: 'Quiz: Work Queues'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347068'
           date: 2020-04-03
+
+
 
 - week: 12
   columns:
@@ -897,14 +915,26 @@ weeks:
           text: 'Easter Holiday (No Class)'
           type: 'has-text-grey'
 
+      dates:
+            
+        - icon: *icon_quiz
+          text: 'Quiz: Work Queues'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347068'
+          date: 2020-04-10
+
 - week: 13
   columns:
     - label: 'Lecture (Morning)'
       start: 2020-04-17
       class: ''
       items:
+
+        - icon: *icon_slides
+          text: 'Sockets'
+
         - icon: *icon_slides
           text: 'Servlets'
+
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-17
