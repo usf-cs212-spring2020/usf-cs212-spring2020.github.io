@@ -828,7 +828,7 @@ weeks:
       start: 2020-03-27
       class: ''
       items:
-        - <<: *homework6
+        - <<: *homework7
 
         - <<: *project3
           text: Project 3
@@ -889,7 +889,7 @@ weeks:
       class: ''
       dates:
 
-        - <<: *homework6
+        - <<: *homework7
 
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
