@@ -92,8 +92,8 @@ assignments:
   - homework7: &homework7
       text: 'Homework: ReadWriteLock'
       icon: *icon_homework
-      date: 2019-10-18
-      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871402'
+      date: 2020-04-03
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6932313'
 
   - homework8: &homework8
       text: 'Homework: PrimeFinder'
@@ -134,8 +134,8 @@ assignments:
   - project3: &project3
       text: Project 3
       icon: *icon_project
-      date: 2019-11-08
-      link: '/guides/projects/project-3.html'
+      date: 2020-04-17
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6932314'
 
   - project4: &project4
       text: Project 4
@@ -827,7 +827,16 @@ weeks:
     - label: 'Labs'
       start: 2020-03-27
       class: ''
+      items:
+        - <<: *homework6
+
+        - <<: *project3
+          text: Project 3
+          type: has-text-usf-plum
+          bump: true
+
       dates:
+
 
         - <<: *project2
           text: Project 2 Checkpoint
@@ -879,6 +888,8 @@ weeks:
       start: 2020-04-03
       class: ''
       dates:
+
+        - <<: *homework6
 
         - icon: *icon_quiz
           text: 'Quiz: Thread Basics'
@@ -950,6 +961,12 @@ weeks:
     - label: 'Labs'
       start: 2020-04-17
       class: ''
+      dates:
+        
+        - <<: *project3
+          text: Project 3 Functionality
+          type: has-text-usf-plum
+          bump: true
 
 - week: 14
   columns:
