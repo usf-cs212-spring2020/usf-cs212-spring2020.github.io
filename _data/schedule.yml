@@ -785,6 +785,10 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/rec/share/5vIlIovK9URLRInV1WvEc_YcGI36X6a8gHMc__JfzxtSKGy-g_2u9N3arP3O9NiQ?startTime=1584490990000'
 
+        - icon: *icon_video
+          text: 'CS 212-02 Class (Live)'
+          link: 'https://usfca.zoom.us/rec/share/vMp7cenc6WVORZWO6lniY6twQIPrT6a8gScb_vFfmkbbo2qzUCxSOVaKjnP9gWH6?startTime=1585334938000'
+
         - icon: *icon_slides
           text: 'Multithreading - Introduction'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394365'
