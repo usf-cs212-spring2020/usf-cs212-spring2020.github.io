@@ -859,6 +859,10 @@ weeks:
       start: 2020-04-03
       class: ''
       items:
+        - icon: *icon_video
+          text: 'CS 212-02 Lecture'
+          link: 'https://usfca.zoom.us/rec/share/ptBPCLz_9lhLTavM0FH2Af56H4rFeaa8gHAZq_UF0-VQynXatrtMkB4DdKHwXw?startTime=1585428403000'
+
         - icon: *icon_slides
           text: 'Custom Locks'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394369'
