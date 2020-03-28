@@ -861,7 +861,7 @@ weeks:
       items:
         - icon: *icon_video
           text: 'CS 212-02 Lecture'
-          link: 'https://usfca.zoom.us/rec/share/ptBPCLz_9lhLTavM0FH2Af56H4rFeaa8gHAZq_UF0-VQynXatrtMkB4DdKHwXw?startTime=1585428403000'
+          link: 'https://usfca.zoom.us/rec/share/6PJscK36r29LeoWOslP6YIchAZXcT6a8hnIY_qBbn0gc0p5nkEQ9IFh9frl0iIVi?startTime=1585430303000'
 
         - icon: *icon_slides
           text: 'Custom Locks'
