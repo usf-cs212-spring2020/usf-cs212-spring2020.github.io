@@ -98,8 +98,8 @@ assignments:
   - homework8: &homework8
       text: 'Homework: PrimeFinder'
       icon: *icon_homework
-      date: 2019-10-25
-      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871406'
+      date: 2020-04-17
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6934576'
 
   - homework9: &homework9
       text: 'Homework: LinkParser'
@@ -895,6 +895,10 @@ weeks:
     - label: 'Labs'
       start: 2020-04-03
       class: ''
+      items:
+
+        - <<: *homework8
+
       dates:
 
         - <<: *homework7
@@ -970,6 +974,8 @@ weeks:
       start: 2020-04-17
       class: ''
       dates:
+        
+        - <<: *homework8
         
         - <<: *project3
           text: Project 3 Functionality
