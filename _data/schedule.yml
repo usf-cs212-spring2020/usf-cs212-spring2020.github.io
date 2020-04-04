@@ -863,6 +863,14 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/rec/share/6PJscK36r29LeoWOslP6YIchAZXcT6a8hnIY_qBbn0gc0p5nkEQ9IFh9frl0iIVi?startTime=1585430303000'
 
+        - icon: *icon_video
+          text: 'CS 212-02 Class (Live)'
+          link: 'https://usfca.zoom.us/rec/share/5eFfKfL5rmRLaIHc4mrSQZA5JKrJT6a8hiYX__UKyBtXDcDZpLVbHbxHKwwlO1NA?startTime=1585939787000'
+
+        - icon: *icon_video
+          text: 'CS 212 Fall 2019 Class (Backup)'
+          link: 'https://usfca.zoom.us/recording/share/kjo29grUuVCyh3h6SoTpduFRrUCeMKGfJQWkwePQ8KmwIumekTziMw'
+
         - icon: *icon_slides
           text: 'Custom Locks'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66394369'
