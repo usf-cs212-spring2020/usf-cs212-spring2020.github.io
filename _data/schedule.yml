@@ -104,14 +104,14 @@ assignments:
   - homework9: &homework9
       text: 'Homework: LinkParser'
       icon: *icon_homework
-      date: 2019-11-01
-      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871409'
+      date: 2020-04-24
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6936685'
 
   - homework10: &homework10
       text: 'Homework: HTMLCleaner'
       icon: *icon_homework
-      date: 2019-11-08
-      link: 'https://usfca.instructure.com/courses/1586786/assignments/6871413'
+      date: 2020-05-01
+      link: 'https://usfca.instructure.com/courses/1591964/assignments/6936686'
 
   - homework11: &homework11
       text: 'Homework: HeaderServer'
@@ -965,22 +965,63 @@ weeks:
       items:
 
         - icon: *icon_slides
-          text: 'Sockets'
+          text: 'Web Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503487'
+
+        - icon: *icon_slides
+          text: 'URLs'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503488'
+          
+        - icon: *icon_slides
+          text: 'HTTP'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503489'
+
+        - icon: *icon_slides
+          text: 'HTML'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503494'
+
+        - icon: *icon_slides
+          text: 'Dynamic Webpages'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503495'
 
         - icon: *icon_slides
           text: 'Servlets'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503496'
+          
+        - icon: *icon_quiz
+          text: 'Quiz: Web Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347085'
+          date: 2020-04-24
+          
+        - icon: *icon_quiz
+          text: 'Quiz: Web HTTP'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347081'
+          date: 2020-04-24
 
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-17
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Servlets'
+
+        - text: 'Sockets'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Sockets'
+          bump: true
+
+        - text: 'Servlets'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
+          bump: true
+
 
     - label: 'Labs'
       start: 2020-04-17
       class: ''
+      items:
+
+        - <<: *homework9
+
       dates:
         
         - <<: *homework8
@@ -996,19 +1037,47 @@ weeks:
       start: 2020-04-24
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Sessions'
+
+        - icon: *icon_quiz
+          text: 'Quiz: Jetty'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347067'
+          date: 2020-05-01
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-24
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Relational Databases'
+
+        - text: 'Servlets'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
+          bump: true
+
+        - text: 'Sessions'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Sessions'
+          bump: true
 
     - label: 'Labs'
       start: 2020-04-24
       class: ''
+      items:
+
+        - <<: *homework10
+
+      dates:
+
+        - <<: *homework9
+
+        - icon: *icon_quiz
+          text: 'Quiz: Web Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347085'
+          date: 2020-04-24
+          
+        - icon: *icon_quiz
+          text: 'Quiz: Web HTTP'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347081'
+          date: 2020-04-24
 
 - week: 15
   columns:
@@ -1016,6 +1085,10 @@ weeks:
       start: 2020-05-01
       class: ''
       items:
+
+        - icon: *icon_slides
+          text: 'Relational Databases'
+
         - icon: *icon_slides
           text: 'SQL'
           link: '/guides/sql/'
@@ -1030,6 +1103,14 @@ weeks:
     - label: 'Labs'
       start: 2020-05-01
       class: ''
+      dates:
+        
+        - <<: *homework10
+
+        - icon: *icon_quiz
+          text: 'Quiz: Jetty'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347067'
+          date: 2020-05-01
 
 - week: 16
   columns:
