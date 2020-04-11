@@ -987,17 +987,7 @@ weeks:
         - icon: *icon_slides
           text: 'Servlets'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503496'
-          
-        - icon: *icon_quiz
-          text: 'Quiz: Web Basics'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347085'
-          date: 2020-04-24
-          
-        - icon: *icon_quiz
-          text: 'Quiz: Web HTTP'
-          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347081'
-          date: 2020-04-24
-
+ 
 
     - label: 'Lecture (Afternoon)'
       start: 2020-04-17
@@ -1014,6 +1004,15 @@ weeks:
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
           bump: true
 
+        - icon: *icon_quiz
+          text: 'Quiz: Web Basics'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347085'
+          date: 2020-04-24
+          
+        - icon: *icon_quiz
+          text: 'Quiz: Web HTTP'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347081'
+          date: 2020-04-24
 
     - label: 'Labs'
       start: 2020-04-17
@@ -1038,6 +1037,11 @@ weeks:
       class: ''
       items:
 
+        - text: 'Servlets'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
+          bump: true
+
         - icon: *icon_quiz
           text: 'Quiz: Jetty'
           link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347067'
@@ -1047,11 +1051,6 @@ weeks:
       start: 2020-04-24
       class: ''
       items:
-
-        - text: 'Servlets'
-          icon: *icon_code
-          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
-          bump: true
 
         - text: 'Sessions'
           icon: *icon_code
@@ -1088,17 +1087,40 @@ weeks:
 
         - icon: *icon_slides
           text: 'Relational Databases'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503703'
 
         - icon: *icon_slides
-          text: 'SQL'
+          text: 'Structured Query Language (SQL)'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503704'
+
+        - icon: *icon_slides
+          text: 'JDBC'
+          link: 'https://usfca.instructure.com/courses/1591964/files?preview=66503705'
+
+        - icon: *icon_slides
+          text: 'SQL Demonstration'
           link: '/guides/sql/'
 
     - label: 'Lecture (Afternoon)'
       start: 2020-05-01
       class: ''
       items:
-        - icon: *icon_slides
-          text: 'Testing'
+
+        - text: 'Jetty and JDBC'
+          icon: *icon_code
+          link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Jetty%20and%20JDBC'
+          bump: true
+
+        - icon: *icon_quiz
+          text: 'Quiz: SQL Grouping'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347059'
+          date: 2020-05-08
+          
+        - icon: *icon_quiz
+          text: 'Quiz: SQL Joins'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347086'
+          date: 2020-05-08
+
 
     - label: 'Labs'
       start: 2020-05-01
@@ -1133,5 +1155,18 @@ weeks:
     - label: 'Labs'
       start: 2020-05-08
       class: ''
+      dates:
+
+        - icon: *icon_quiz
+          text: 'Quiz: SQL Grouping'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347059'
+          date: 2020-05-08
+          
+        - icon: *icon_quiz
+          text: 'Quiz: SQL Joins'
+          link: 'https://usfca.instructure.com/courses/1591964/quizzes/2347086'
+          date: 2020-05-08
+
+
 
 
