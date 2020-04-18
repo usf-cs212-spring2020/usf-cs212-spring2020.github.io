@@ -972,6 +972,10 @@ weeks:
           text: 'CS 212-02 Lecture Part 2/2'
           link: 'https://usfca.zoom.us/rec/share/_sw2Nqyg5zxIeZXQ9Gr8cId6GY_6T6a80ykbqKcKxE4u9AGz1fLf66sM7FroTdcO?startTime=1586737461000'
 
+        - icon: *icon_video
+          text: 'CS 212-02 Class (Livestream)'
+          link: 'https://usfca.zoom.us/rec/share/2e5eDaGo1ThLGa_0uVPBRqUCQor9eaa8hiEcqfcEnUmzKvYF5wcjXWaGSPNQxyiC?startTime=1587149264000'
+
         - icon: *icon_slides
           text: 'Web Basics'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66504296'
