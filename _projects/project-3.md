@@ -2,7 +2,7 @@
 title: Project 3 Multithreading
 navbar: Guides
 layout: guides
-key: 1.3
+key: 2.3
 
 assignments:
   - text: 'Project 3 Functionality'
