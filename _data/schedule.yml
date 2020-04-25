@@ -135,7 +135,7 @@ assignments:
       text: Project 3
       icon: *icon_project
       date: 2020-04-17
-      link: 'https://usfca.instructure.com/courses/1591964/assignments/6932314'
+      link: '/guides/projects/project-3.html'
 
   - project4: &project4
       text: Project 4
@@ -1076,6 +1076,10 @@ weeks:
 
         - <<: *homework10
 
+        - <<: *project4
+          text: Project 4
+          type: has-text-usf-plum
+
       dates:
 
         - <<: *homework9
@@ -1172,6 +1176,11 @@ weeks:
       start: 2020-05-08
       class: ''
       dates:
+
+        - <<: *project4
+          text: Project 4 Functionality
+          type: has-text-usf-plum
+          bump: true
 
         - icon: *icon_quiz
           text: 'Quiz: SQL Grouping'
