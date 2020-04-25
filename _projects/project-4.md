@@ -34,7 +34,7 @@ This is the **last project** for this course. There will be no code review/desig
 <tr>
   <td nowrap class="has-text-centered">100</td>
   <td nowrap class="has-text-centered"><a href="project-4a.html">Web Crawler<br/> Functionality</a></td>
-  <td width="100%">You fully must pass the functionality of <a href="project-3.html">project 3</a> to be eligible for these points. See the <a href="project-verification.html">project verification</a> guide for details.</td>
+  <td width="100%">You fully must pass the functionality of <a href="project-3.html">project 3</a> to be eligible for these points.</td>
 </tr>
 
 <tr>
