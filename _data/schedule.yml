@@ -1049,6 +1049,14 @@ weeks:
       class: ''
       items:
 
+        - icon: *icon_video
+          text: 'CS 212-02 Class Part 1 (Livestream)'
+          link: 'https://usfca.zoom.us/rec/share/95QyKo_O52xLTpHtw0PVYrQdIqniT6a80yVN_qUOxEYIiT2L4gBxsoQtXwegehNe?startTime=1587754152000'
+
+        - icon: *icon_video
+          text: 'CS 212-02 Class Part 2 (Livestream)'
+          link: 'https://usfca.zoom.us/rec/share/95QyKo_O52xLTpHtw0PVYrQdIqniT6a80yVN_qUOxEYIiT2L4gBxsoQtXwegehNe?startTime=1587757507000'
+
         - text: 'Servlets'
           icon: *icon_code
           link: 'https://github.com/usf-cs212-spring2020/lectures/tree/master/Servlets'
