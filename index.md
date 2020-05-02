@@ -43,7 +43,7 @@ ul.icons > li > i {
 }
 </style>
 
-{% for week in site.data.schedule.weeks offset:12 limit:3 %}
+{% for week in site.data.schedule.weeks offset:14 limit:2 %}
 {% include week.html week = week %}
 {% endfor %}
 
