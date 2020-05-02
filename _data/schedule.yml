@@ -1113,6 +1113,10 @@ weeks:
           text: 'CS 212-02 Lecture'
           link: 'https://usfca.zoom.us/rec/share/_sw2Nqyg5zxIeZXQ9Gr8cId6GY_6T6a80ykbqKcKxE4u9AGz1fLf66sM7FroTdcO?startTime=1586738735000'
 
+        - icon: *icon_video
+          text: 'CS 212-02 Class (Livestream)'
+          link: 'https://usfca.zoom.us/rec/share/59ZrDr7SsV9Jc9KRr2vZB4cbJ5nIeaa82ydMqKcOnxnBmai2kWsDNVF9fMLX8lqh?startTime=1588358860000'
+
         - icon: *icon_slides
           text: 'Relational Databases'
           link: 'https://usfca.instructure.com/courses/1591964/files?preview=66504309'
