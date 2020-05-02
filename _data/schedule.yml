@@ -140,7 +140,7 @@ assignments:
   - project4: &project4
       text: Project 4
       icon: *icon_project
-      date: 2019-11-29
+      date: 2020-05-08
       link: '/guides/projects/project-4.html'
 
 weeks:
